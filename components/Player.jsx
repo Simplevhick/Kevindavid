@@ -6,7 +6,6 @@ import {
   BsFillPlayCircleFill,
   BsFillPauseCircleFill,
   BsFillSkipStartCircleFill,
-  BsSkipEndCircleFill,
   BsFillSkipEndCircleFill,
 } from "react-icons/bs";
 
@@ -109,39 +108,3 @@ const Player = ({
 
 export default Player;
 
-// <div className="absolute top-[50%] lg:top-[81%] left-20 bottom-12 lg:flex ">
-// <div className="">
-//   <div>
-//     <Image src={currentSong.img} alt="pix" width={60} height={30} />
-//   </div>
-//   <div>
-//     <p>{currentSong.title}</p>
-//   </div>
-//   <div className="flex">
-//     <BsFillSkipStartCircleFill className="" />
-//     {isplaying ? (
-//       <BsFillPauseCircleFill className="base" onClick={PlayPause} />
-//     ) : (
-//       <BsFillPlayCircleFill className="base" onClick={PlayPause} />
-//     )}
-//     <BsFillSkipEndCircleFill className="" />
-//   </div>
-// </div>
-// </div>
-
-// <div className="text-white flex flex-col items-center gap-6 absolute top-[50%] lg:top-[81%] left-20 bottom-12 lg:flex">
-//         <div className="">
-//           <Image src={currentSong.img} alt="pix" width={60} height={30} />
-//           <p>{currentSong.title}</p>
-//         </div>
-//         <div style={{width: '50%'}} height={20}></div>
-//         <div className="flex">
-//           <BsFillSkipStartCircleFill className="" />
-//           {isplaying ? (
-//             <BsFillPauseCircleFill className="base" onClick={PlayPause} />
-//           ) : (
-//             <BsFillPlayCircleFill className="base" onClick={PlayPause} />
-//           )}
-//           <BsFillSkipEndCircleFill className="" />
-//         </div>
-//       </div>

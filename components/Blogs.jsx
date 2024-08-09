@@ -15,7 +15,7 @@ const Blogs = () => {
           <Image
             src="/assets/img3.jpeg"
             alt="pix"
-            width={320}
+            width={300}
             height={300}
             className="rounded-[3px] lg:h-280 lg:w-300"
           />
@@ -28,7 +28,7 @@ const Blogs = () => {
           <Image
             src="/assets/img6.jpeg"
             alt="pix"
-            width={320}
+            width={300}
             height={300}
             className="rounded-[3px]"
           />
@@ -41,7 +41,7 @@ const Blogs = () => {
           <Image
             src="/assets/img5.jpeg"
             alt="pix"
-            width={320}
+            width={300}
             height={300}
             className="rounded-[3px]"
           />
@@ -54,7 +54,7 @@ const Blogs = () => {
           <Image
             src="/assets/img3.jpeg"
             alt="pix"
-            width={320}
+            width={300}
             height={300}
             className="rounded-[3px]"
           />
@@ -67,7 +67,7 @@ const Blogs = () => {
           <Image
             src="/assets/img5.jpeg"
             alt="pix"
-            width={320}
+            width={300}
             height={300}
             className="rounded-[3px]"
           />
@@ -80,7 +80,7 @@ const Blogs = () => {
           <Image
             src="/assets/img6.jpeg"
             alt="pix"
-            width={320}
+            width={300}
             height={300}
             className="rounded-[3px]"
           />
