@@ -21,9 +21,9 @@ const Contact = () => {
             <li className="">
               <Link href="/#blog">Blog</Link>
             </li>
-            <li className="">
+            {/* <li className="">
               <Link href="/#discography">Discography</Link>
-            </li>
+            </li> */}
             <li className="">
               <Link href="/#tours">Tours</Link>
             </li>

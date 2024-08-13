@@ -44,9 +44,9 @@ const Navbar = () => {
           <li className="p-4">
             <Link href="/#blog">Blog</Link>
           </li>
-          <li className="p-4">
+          {/* <li className="p-4">
             <Link href="/#carousel">Carousel</Link>
-          </li>
+          </li> */}
           <li className="p-4">
             <Link href="/#tours">Tours</Link>
           </li>
@@ -71,8 +71,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
-              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
+              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-gray-200 text-center ease-in duration-300"
+              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-gray-200 text-center ease-in duration-300"
           }
         >
           <ul>
@@ -82,9 +82,9 @@ const Navbar = () => {
             <li className="p-4 text-4xl hover:text-gray-500">
               <Link href="/#blog">Blog</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-gray-500">
+            {/* <li className="p-4 text-4xl hover:text-gray-500">
               <Link href="/#carousel">Carousel</Link>
-            </li>
+            </li> */}
             <li className="p-4 text-4xl hover:text-gray-500">
               <Link href="/#tours">Tours</Link>
             </li>
