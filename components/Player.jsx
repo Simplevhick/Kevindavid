@@ -56,12 +56,13 @@ const Player = ({
   return (
     <div className="absolute w-[90%] max-w-[400px] lg:max-w-[900px] md:max-w-[600px] text-white top-[38rem] left-15 lg:top-[36rem] lg:left-38 md:top-[37rem] md:left-15">
       <div className="flex bg-red-500 p-4 rounded-xl items-center lg:flex lg:bg-red-500 lg:p-6 lg:items-center md:flex md:bg-red-500 md:p-4 md:items-center">
-        <div className="flex items-center text-grey-200 ml-[15px] lg:flex lg:items-center lg:text-grey-200 md:flex md:items-center md:text-grey-200 ">
+        <div className="flex items-center text-grey-200 ml-[7px] lg:flex lg:items-center lg:text-grey-200 md:flex md:items-center md:text-grey-200 ">
           <Image
             src={currentSong.img}
             alt="pix"
-            width={85}
-            height={35}
+            layout="responsive"
+            width={80}
+            height={40}
             className=""
           />
           <div className="flex flex-col text-gray-200 opacity-55 w-2 ml-[5px] leading-none lg:flex lg:flex-col lg:text-gray-100 lg:w-2 lg:ml-[5px] lg:opacity-55 lg:leading-none md:flex md:flex-col md:text-gray-100 md:w-2 md:ml-[5px] md:opacity-55 md:leading-none">
