@@ -31,7 +31,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
-      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
+      {/*  w-full  */}
+      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white lg:max-w-[1240px] lg:m-auto lg:flex lg:justify-between lg:items-center lg:p-4 lg:text-white md:max-w-[1240px] md:m-auto md:flex md:justify-between md:items-center md:p-4 md:text-white">
         <Link href="/">
           <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
             Capture
@@ -59,7 +60,7 @@ const Navbar = () => {
         </ul>
 
         {/* mobile button */}
-        <div onClick={handleNav} className="block sm:hidden z-10">
+        <div onClick={handleNav} className="block sm:hidden z-10 text-white">
           {nav ? (
             <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
           ) : (

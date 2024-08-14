@@ -33,9 +33,9 @@ const Hero = ({ heading, message }) => {
     <>
       <div className="relative bg-[url('/assets/dj.jpg')] flex items-center h-screen justify-center mb-[4.3rem] bg-fixed bg-center bg-cover">
         {/* <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/30 z-[2]"/> */}
-        <div className="absolute top-[11rem]">
-            <Image src="/assets/standbg.png" alt="" width={444} height={444}/>
-        </div>
+        {/* <div className="absolute top-[11rem]">
+            <Image src="/assets/standbg.png" alt="pix" width={444} height={444}  className=""/>
+        </div> */}
         <div className="p-5 text-white mt-[-10rem]">
           <h2 className="text-7xl font-bold text-cs sm:text-9xl">{heading}</h2>
           <div className="absolute ml-[2rem] lg:ml-[3rem] md:ml-[3rem] ">  
