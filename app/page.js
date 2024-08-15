@@ -4,7 +4,8 @@ import Hero from "@/components/Hero";
 import Tour from "@/components/Tour";
 // import Carousel from "@/components/Carousel";
 import About from "@/components/About"
-import Contact from "@/components/Contact"
+// import Contact from "@/components/Contact"
+import Footer from "@/components/Footer"
 
 
 
@@ -16,7 +17,8 @@ export default function Home() {
       <Tour />
       {/* <Carousel /> */}
       <About />
-      <Contact />
+      {/* <Contact /> */}
+      <Footer />
     </main>
   );
 }

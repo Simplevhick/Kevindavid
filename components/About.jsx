@@ -61,7 +61,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="md:flex md:justify-between lg:flex lg:justify-between lg:max-w-[100%] bg-gradient-to-r  from-purple-700 to-red-500 p-6 sm:p-8 mt-12 md:p-10 lg:p-12 xl:p-16 rounded-lg shadow-lg">
+      <div className="mb-10 md:flex md:justify-between lg:mb-14 lg:flex lg:justify-between lg:max-w-[100%] bg-gradient-to-r  from-purple-700 to-red-500 p-6 sm:p-8 mt-12 md:p-10 lg:p-12 xl:p-16 rounded-lg shadow-lg">
             <div>
                 <h3 className="text-[2rem] font-bold lg:text-[2.2rem] lg:font-bold md:text-[2.8rem] md:font-bold text-white">NEWSLETTER SUBSCRIBE</h3>
                 <p className="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
