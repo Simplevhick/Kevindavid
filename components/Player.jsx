@@ -62,7 +62,7 @@ const Player = ({
             alt="pix"
             layout="responsive"
             width={80}
-            height={40}
+            height={30}
             className=""
           />
           <div className="flex flex-col text-gray-200 opacity-55 w-2 ml-[5px] leading-none lg:flex lg:flex-col lg:text-gray-100 lg:w-2 lg:ml-[5px] lg:opacity-55 lg:leading-none md:flex md:flex-col md:text-gray-100 md:w-2 md:ml-[5px] md:opacity-55 md:leading-none">
