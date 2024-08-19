@@ -84,7 +84,7 @@ const Tour = () => {
 
   return (
     <div className="relative mb-[4.3rem]" id="tours">
-      <div className=" text-white bg-[url('/assets/kev5.jpg')] rounded-2xl flex h-[60vh] justify-center w-[100vw] mt-[4.3rem] lg:rounded-3xl lg:flex lg:h-[70vh] lg:justify-center lg:w-[100vw] lg:mt-[4.3rem] md:rounded-3xl md:flex md:h-[70vh] md:justify-center md:w-[100vw] md:mt-[4.3rem] bg-fixed bg-center bg-cover bg-no-repeat">
+      <div className=" text-white bg-[url('/assets/kev5.jpg')] rounded-2xl flex h-[60vh] justify-center w-[100vw] mt-[4.3rem] mb-[15rem] lg:rounded-3xl lg:flex lg:h-[70vh] lg:justify-center lg:w-[100vw] lg:mt-[4.3rem] md:rounded-3xl md:flex md:h-[70vh] md:justify-center md:w-[100vw] md:mt-[4.3rem] bg-fixed bg-center bg-cover bg-no-repeat">
         <div>
           <div className="mt-5">
             <h3 className="text-7xl font-bold text-cs sm:text-9xl">TOUR</h3>

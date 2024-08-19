@@ -46,11 +46,13 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="max-w-[1240px] flex flex-col-reverse items-center justify-center mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:m-3 lg:mt-[12%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[12%] md:ml-[0.5rem]">
+      <div className="max-w-[1240px] flex flex-col-reverse items-center justify-center mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:p-8 lg:mt-[8%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[12%] md:ml-[0.5rem]">
         <div className="p-2 lg:p-2 md:p-[0.5rem] lg:flex-1 md:flex-1">
-          <h3 className="ml-12 text-[2.5rem] font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
-            LETS TALK
-          </h3>
+          <Link href="">
+            <h3 className="ml-12 text-[2.5rem] font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
+              LETS TALK
+            </h3>
+          </Link>
           <h3 className="text-[2rem] text-gray-700 p-[0.5px] font-bold text-cs lg:text-7xl lg:text-gray-700 lg:ml-1 lg:font-bold lg:text-cs md:text-5xl md:ml-1 md:text-gray-700 md:font-bold md:text-cs">
             KAYDEE@HUB.COM
           </h3>
