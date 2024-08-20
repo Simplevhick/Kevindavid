@@ -9,13 +9,18 @@
   font-weight: 400;
 }
 
+html{
+  scroll-behavior: smooth;
+  /* font-family: ; */
+}
+
 body {
   background-color: #080803;
 }
 
-/* .custom-img {
-  background-image: url("/assets/dj.jpg");
-} */
+.custom-img {
+  background-image: url("/assets/kev5.jpg");
+}
 
 
 .text-cs {
