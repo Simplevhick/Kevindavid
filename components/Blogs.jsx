@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 const Blogs = () => {
   return (
     <div id="blog">
@@ -12,7 +13,7 @@ const Blogs = () => {
       </div>
 
       <div className="relative grid grid-cols-2 gap-1 place-items-center ml-1 mt-3 lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:-3 lg:place-items-center lg:mt-3 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-3 md:place-items-center md:mt-3">
-        <Link href="">
+        <a href="">
           <div className="rounded-[20px]">
             <img
               src="/assets/kev4.jpg"
@@ -24,9 +25,9 @@ const Blogs = () => {
               <p className="opacity-45"> Eclipse of the sun </p>
             </div>
           </div>
-        </Link>
+        </a>
 
-        <Link href="">
+        <a href="">
           <div className="rounded-[20px] lg:rounded-[20px] lg:mt-[5rem] md:rounded-[20px] md:mt-[5rem]">
             <img
               src="/assets/kev3.jpg"
@@ -38,9 +39,9 @@ const Blogs = () => {
               <p className="opacity-45"> Eclipse of the sun </p>
             </div>
           </div>
-        </Link>
+        </a>
 
-        <Link href="">
+        <a href="">
           <div className="rounded-[20px]">
             <img
               src="/assets/kev9.jpg"
@@ -52,9 +53,9 @@ const Blogs = () => {
               <p className="opacity-45"> Eclipse of the sun </p>
             </div>
           </div>
-        </Link>
+        </a>
 
-        <Link href="">
+        <a href="">
           <div className="rounded-[20px]">
             <img
               src="/assets/kev2.jpg"
@@ -66,9 +67,9 @@ const Blogs = () => {
               <p className="opacity-45"> Eclipse of the sun</p>
             </div>
           </div>
-        </Link>
+        </a>
 
-        <Link href="">
+        <a href="">
           <div className="rounded-[20px] lg:rounded-[20px] lg:mt-[5rem] md:rounded-[20px] md:mt-[5rem]">
             <img
               src="/assets/kev1.jpg"
@@ -80,9 +81,9 @@ const Blogs = () => {
               <p className="opacity-45"> Eclipse of the sun </p>
             </div>
           </div>
-        </Link>
-
-        <Link href="">
+        </a>
+        
+        <a href="">
           <div className="rounded-[20px]">
             <img
               src="/assets/kev8.jpg"
@@ -94,7 +95,7 @@ const Blogs = () => {
               <p className="opacity-45"> Eclipse of the sun </p>
             </div>
           </div>
-        </Link>
+        </a>
       </div>
     </div>
   );
