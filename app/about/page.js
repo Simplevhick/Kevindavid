@@ -35,7 +35,7 @@ const About = () => {
                 <div className="hidden w-auto flex-col rounded-lg text-red-300 py-1 shadow-md transition-all group-hover:flex lg:hidden lg:w-auto lg:flex-col lg:rounded-lg lg:text-red-300 lg:py-1 lg:shadow-md lg:transition-all lg:group-hover:flex md:hidden md:w-auto md:flex-col md:rounded-lg md:text-red-300 md:py-1 md:shadow-md md:transition-all md:group-hover:flex">
                   <p className="flex  items-center py-1 pl-1 pr-1 text-neutral-500 hover:text-black lg:flex  lg:items-center lg:py-1 lg:pl-1 lg:pr-1 lg:text-neutral-500 lg:hover:text-black md:flex md:items-center md:py-1 md:pl-1  md:pr-1 md:text-neutral-500 md:hover:text-black">
                     <span className="whitespace-nowrap">
-                      He's an expert in this field
+                      Hes an expert in this field
                     </span>
                   </p>
                 </div>
@@ -50,7 +50,7 @@ const About = () => {
                 <div className="hidden w-auto flex-col rounded-lg  text-red-300 py-1 shadow-md transition-all group-hover:flex lg:hidden lg:w-auto lg:flex-col lg:rounded-lg  lg:text-red-300 lg:py-1 lg:shadow-md lg:transition-all lg:group-hover:flex md:hidden md:w-auto md:flex-col md:rounded-lg  md:text-red-300 md:py-1 md:shadow-md md:transition-all md:group-hover:flex">
                   <p className="flex items-center py-1 pl-1 pr-1 text-neutral-500 hover:text-black lg:flex lg:items-center lg:py-1 lg:pl-1 lg:pr-1 lg:text-neutral-500 lg:hover:text-black md:flex md:items-center md:py-1 md:pl-1 md:pr-1 md:text-neutral-500 md:hover:text-black">
                     <span className="whitespace-nowrap">
-                      He's broad on all angles
+                      Hes broad on all angles
                     </span>
                   </p>
                 </div>
