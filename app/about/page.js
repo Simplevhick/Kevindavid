@@ -7,7 +7,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 const About = () => {
   return (
     <>
-      <div className="">
+      <div className="" id="about">
         <Hero heading="KAYDEE" message="ABOUT" />
       </div>
 
@@ -59,7 +59,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="text-white m-5 max-w-[1240px] lg:text-white lg:m-24 lg:gap-[54%] lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[54%] mdflex md:max-w-[1240px]">
+        <div className="text-white m-5 max-w-[1240px] lg:text-white lg:m-24 lg:gap-[52.5%] lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[28%] md:flex md:max-w-[1240px]">
           <div className="">
             <h3>Experience</h3>
           </div>
@@ -119,7 +119,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:gap-[54%] lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[54%] mdflex md:max-w-[1240px]">
+        <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:gap-[56%] lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[34%] md:flex md:max-w-[1240px]">
           <div className="">
             <h3>Skills</h3>
           </div>
@@ -164,7 +164,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:gap-[54%] lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[54%] mdflex md:max-w-[1240px]">
+        <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:gap-[56%] lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[31%] md:flex md:max-w-[1240px]">
           <div className="">
             <h3>Awards</h3>
           </div>
