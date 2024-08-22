@@ -2,7 +2,7 @@ import { HiCursorArrowRipple } from "react-icons/hi2";
 
 const Details = () => {
   return (
-    <div id="details">
+    <div id="">
       <div className="text-white m-3 lg:flex lg:justify-between lg:text-white lg:mt-64 lg:m-7 lg:items-center md:flex md:justify-between md:text-white md:m-5 md:mt-80">
         <div className="">
           <p className="text-[2rem] font-bold lg:text-[2.2rem] lg:font-bold md:text-[2.8rem] md:font-bold">

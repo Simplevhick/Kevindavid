@@ -102,7 +102,7 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <a href="/about">About</a>
+              <Link href="/about">About</Link>
             </li>
             <li
               onClick={handleNav}
