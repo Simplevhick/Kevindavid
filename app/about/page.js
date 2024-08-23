@@ -119,8 +119,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[34%] md:flex md:max-w-[1240px]">
-          <div className="gap-[80%] lg:flex lg:gap-[203%] md:flex md:gap-[203%]">
+        <div className="">
+          <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:max-w-[1240px] md:text-white md:m-24 md:max-w-[1240px] gap-[80%] lg:flex lg:gap-[56.5%] md:flex md:gap-[35%]">
             <div className="flex ">
               <h3>Skills</h3>
             </div>
@@ -166,7 +166,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:gap-[56%] lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[31%] md:flex md:max-w-[1240px]">
+        <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:gap-[56.5%] lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[31%] md:flex md:max-w-[1240px]">
           <div className="">
             <h3>Awards</h3>
           </div>

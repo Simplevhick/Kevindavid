@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
-      <div className="text-white max-w-[1240px]">
+      <div className="text-white max-w-[1240px]" id="footer">
         <div className="">
           <div className="ml-3 lg:flex lg:justify-around lg:ml-3 md:flex md:justify-around md:ml-3">
             <div className="p-3 lg:p-3 md:p-3">
