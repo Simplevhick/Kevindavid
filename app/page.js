@@ -1,7 +1,7 @@
 import Blogs from "@/components/Blogs";
 import Hero from "@/components/Hero";
 import Tour from "@/components/Tour";
-import Details from "@/components/Details";
+// import Details from "@/components/Details";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero heading="SAMSON" message="ADEGBO" />
       <Blogs />
       <Tour />
-      <Details />
+      {/* <Details /> */}
     </main>
   );
 }

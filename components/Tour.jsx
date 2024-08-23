@@ -1,5 +1,10 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
+import {
+  BsFillPlayCircleFill,
+  BsFillPauseCircleFill,
+} from "react-icons/bs";
+
 
 const Tour = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -104,7 +109,7 @@ const Tour = () => {
             <p className="text-[1rem] text-base lg:text-[1rem] lg:text-gray-400 lg:text-base md:text-[1rem] md:text-base">listening to our song</p>
           </div>
 
-          <div className="ml-10 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md: md:ml-8 md:gap-6 md:text-center">
+          <div className="ml-10 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md:ml-8 md:gap-6 md:text-center">
             <div className="text-[18px] font-bold lg:text-base lg:font-bold md:text-base md:font-bold">
               <h3>How i am feeling</h3>
             </div>
@@ -121,15 +126,15 @@ const Tour = () => {
 
               <button
                 onClick={togglePlay}
-                className="text-white px-8 mt-2 py-[4px] text-[13px] rounded-[55px] bg-transparent border border-blue-50 lg:text-white lg:px-10 lg:py-1 lg:rounded-[55px] lg:bg-transparent lg:border lg:border-blue-50 md:text-white md:px-8 md:py-1 md:rounded-[55px] md:bg-transparent md:border md:border-blue-50"
+                className="text-[3rem]"
               >
-                {isPlaying ? "Pause" : "Play"}
+                {isPlaying ? <BsFillPauseCircleFill /> : <BsFillPlayCircleFill />}
               </button>
             </div>
           </div>
-          <hr className="w-[56vw] ml-14 mt-5 lg:w-[61rem] lg:ml-32 lg:mt-10 md:w-[41rem] md:ml-16 md:mt-10" />
+          <hr className="w-[56vw] ml-14 mt-5 lg:w-[61rem] lg:bg-gray-500 lg:ml-32 lg:mt-5 md:w-[41rem] md:ml-16 md:mt-10" />
 
-          <div className="ml-10 mt-5 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md: md:ml-8 md:gap-6 md:text-center">
+          <div className="ml-10 mt-5 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md:ml-8 md:gap-6 md:text-center">
             <div className="text-[18px] font-bold lg:text-base lg:font-bold md:text-base md:font-bold">
               <h3>Coming to town</h3>
             </div>
@@ -146,13 +151,13 @@ const Tour = () => {
 
               <button
                 onClick={play}
-                className="text-white px-8 mt-2 py-[4px] text-[13px] rounded-[55px] bg-transparent border border-blue-50 lg:text-white lg:px-10 lg:py-1 lg:rounded-[55px] lg:bg-transparent lg:border lg:border-blue-50 md:text-white md:px-8 md:py-1 md:rounded-[55px] md:bg-transparent md:border md:border-blue-50"
+                className="text-[3rem]"
               >
-                {isPlay ? "Pause" : "Play"}
+                {isPlay ? <BsFillPauseCircleFill /> : <BsFillPlayCircleFill />}
               </button>
             </div>
           </div>
-          <hr className="w-[56vw] ml-14 mt-5 lg:w-[61rem] lg:ml-32 lg:mt-10 md:w-[41rem] md:ml-16 md:mt-10" />
+          <hr className="w-[56vw] ml-14 mt-5 lg:w-[61rem] lg:bg-gray-500 lg:ml-32 lg:mt-5 md:w-[41rem] md:ml-16 md:mt-10" />
 
           <div className="ml-10 mt-5 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md: md:ml-8 md:gap-6 md:text-center">
             <div className="text-[18px] font-bold lg:text-base lg:font-bold md:text-base md:font-bold">
@@ -171,13 +176,13 @@ const Tour = () => {
 
               <button
                 onClick={Beingplay}
-                className="text-white px-8 mt-2 py-[4px] text-[13px] rounded-[55px] bg-transparent border border-blue-50 lg:text-white lg:px-10 lg:py-1 lg:rounded-[55px] lg:bg-transparent lg:border lg:border-blue-50 md:text-white md:px-8 md:py-1 md:rounded-[55px] md:bg-transparent md:border md:border-blue-50"
+                className="text-[3rem]"
               >
-                {isBeingPlayed ? "Pause" : "Play"}
+                {isBeingPlayed ? <BsFillPauseCircleFill /> : <BsFillPlayCircleFill />}
               </button>
             </div>
           </div>
-          <hr className="w-[56vw] ml-14 mt-5 lg:w-[61rem] lg:ml-32 lg:mt-10 md:w-[41rem] md:ml-16 md:mt-10" />
+          <hr className="w-[56vw] ml-14 mt-5 lg:w-[61rem] lg:bg-gray-500 lg:ml-32 lg:mt-5 md:w-[41rem] md:ml-16 md:mt-10" />
         </div>
       </div>
     </div>
