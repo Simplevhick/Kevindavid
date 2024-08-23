@@ -119,47 +119,49 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:gap-[56%] lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[34%] md:flex md:max-w-[1240px]">
-          <div className="">
-            <h3>Skills</h3>
-          </div>
+        <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[34%] md:flex md:max-w-[1240px]">
+          <div className="gap-[80%] lg:flex lg:gap-[203%] md:flex md:gap-[203%]">
+            <div className="flex ">
+              <h3>Skills</h3>
+            </div>
 
-          <div className="">
-            <div className="p-1 lg:p-1 md:p-1">
-              <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
-                Art & Culture
-                <span className="text-[1rem] font-semibold pl-32">
-                  Brand guide
-                </span>
-              </p>
-            </div>
-            <div className="p-1 lg:p-1 md:p-1">
-              <p className="text-[1.1rem] ">
-                Brand strategy
-                <span className="text-[1rem] font-semibold pl-[7.1rem]">
-                  Flayer design
-                </span>
-              </p>
-            </div>
-            <div className="p-1 lg:p-1 md:p-1">
-              <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
-                {" "}
-                Communication{" "}
-                <span className="text-[1rem] font-semibold pl-[6.5rem]">
-                  {" "}
-                  Video-production{" "}
-                </span>{" "}
-              </p>
-            </div>
-            <div className="p-1 lg:p-1 md:p-1">
-              <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
-                {" "}
-                Motion graphics{" "}
-                <span className="text-[1rem] font-semibold pl-[6.5rem]">
-                  {" "}
-                  Content creation{" "}
-                </span>{" "}
-              </p>
+            <div className=" lg:flex lg:gap-[13%] md:flex md:gap-[13%]">
+              <div className="">
+                <div className="p-1 lg:p-1 md:p-1 md:flex md:items-center">
+                  <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
+                    Art & Culture
+                  </p>
+                </div>
+                <div className="p-1 lg:p-1 md:p-1 md:flex md:items-center">
+                  <p className="text-[1.1rem] ">Brand strategy</p>
+                </div>
+                <div className="p-1 lg:p-1 md:p-1 md:flex md:items-center">
+                  <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
+                    Communication
+                  </p>
+                </div>
+
+                <div className="p-1 lg:p-1 md:p-1 md:flex md:items-center">
+                  <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem] whitespace-nowrap">
+                    Motion graphics
+                  </p>
+                </div>
+              </div>
+
+              <div className="whitespace-nowrap">
+                <div className="p-1 lg:p-1 md:p-1 md:flex md:items-center">
+                  <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">Content creation</p>
+                </div>
+                <div className="p-1 lg:p-1 md:p-1 md:flex md:items-center">
+                  <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">Flayresign</p>
+                </div>
+                <div className="p-1 lg:p-1 md:p-1 md:flex md:items-center">
+                  <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">Brand strategy</p>
+                </div>
+                <div className="p-1 lg:p-1 md:p-1 md:flex md:items-center">
+                  <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">Content creation</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
