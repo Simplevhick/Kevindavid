@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <div
-        className="ml-auto mr-auto mt-72 text-white max-w-[1240px] lg:mt-64 lg:mr-auto lg:ml-auto md:mr-auto md:ml-auto"
+        className="ml-auto mr-auto mt-10 text-white max-w-[1240px] lg:mr-auto lg:ml-auto md:mr-auto md:ml-auto"
         id="footer"
       >
         <div className="">
@@ -45,7 +45,7 @@ const Footer = () => {
                   Send your resume
                 </p>
               </div>
-              <h3 className="text-[1rem] font-bold">info@KAYDEE.com</h3>
+              <h3 className="text-[1rem] font-bold">info@kevindavidkaydee.com</h3>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ const Footer = () => {
             </h3>
           </div>
 
-          <Link href="">
+          <Link href="" mailto="">
             <div className="w-[10rem] flex justify-center items-center h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[9rem] lg:flex lg:justify-center lg:items-center lg:h-[9rem] lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[11rem] md:flex md:justify-center md:items-center md:h-[11rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
               <p className="text-sm w-20 lg:text-sm lg:w-20 md:text-md md:w-20 font-normal">
                 SEND ME A MESSAGE

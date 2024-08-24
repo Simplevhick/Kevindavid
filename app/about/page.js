@@ -1,19 +1,156 @@
 "use client";
 
-import Hero from "@/components/Hero";
-import Link from "next/link";
-import { AiOutlinePlus } from "react-icons/ai";
-
 const About = () => {
   return (
     <>
-      <div className="" id="about">
-        <Hero heading="KAYDEE" message="ABOUT" />
+      <div
+        className="relative w-full flex items-end h-screen mb-[7rem] lg:w-full lg:flex lg:items-end lg:h-screen lg:mb-[7rem] md:w-full md:flex md:items-end md:h-screen md:mb-[7rem] bg-fixed bg-center bg-cover custom-img2"
+        id="about"
+      >
+        <div className="text-[7rem] pl-[1rem] min-w-screen lg:text-[9rem] lg:pl-[3rem] lg:flex lg:min-w-screen md:text-[6rem] md:pl-[1.7rem] md:flex md:min-w-screen">
+          <div className="">
+            <h3 className="text-white leading-[3rem] font-extrabold">KEVIN</h3>
+            <h3 className="text-white font-extrabold">DAVID</h3>
+          </div>
+          <div className="flex-none items-center lg:flex lg:items-center md:flex md:items-center">
+            <div className="bg-white hidden w-[16rem] rounded-xl h-2 lg:bg-white lg:block lg:w-[16rem] lg:rounded-xl lg:h-2 md:bg-white md:block md:w-[16rem] md:rounded-xl md:h-2"></div>
+            <h3 className="text-white text-cs font-extrabold">About</h3>
+          </div>
+        </div>
       </div>
 
-      <div className="text-white">
-        <div className="text-white m-4 max-w-[1240px] lg:text-white lg:m-24 lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:flex md:max-w-[1240px]">
-          <div className="flex-none lg:flex lg:flex-1 md:flex md:flex-1">
+      <div className="text-white max-w-[1240px] m-auto">
+        <div className="m-4 lg:flex lg:justify-around lg:m-4 md:flex md:justify-around md:m-4">
+          <div>
+            <h3 className="text-lg font-bold">About Me</h3>
+          </div>
+          <div className="text-md leading-[1.5rem] w-[23rem] p-4 lg:text-md lg:w-[20rem] md:text-md md:w-[20rem]">
+            <p>
+              My name is Kevin Kaydee Ichekor, Im a freelance Branding & Digital
+              Designer based by the volley in New york. I currently work at the
+              Liquid . I create brand identities, digital experiences, and print
+              materials that communicate clearly acheive marketing goals, and
+              look fantastic, beauty and technicsal experiences. Our design
+              starts and ends best-in-class experience strategy that builds
+              brands.
+            </p>
+          </div>
+        </div>
+
+        <div className="m-4 lg:flex lg:justify-around lg:m-7 md:flex md:justify-around md:m-7">
+          <div>
+            <h3 className="text-lg font-bold">Experience</h3>
+          </div>
+          <div className="text-md w-[20rem] p-4 lg:text-md lg:w-[20rem] lg:p-4 md:text-md md:w-[20rem] md:p-4">
+            <div className="text-lg p-1 ">2020 · CEO - LiquidThemes</div>
+            <div className="text-lg p-1">2020 · CEO - Action Ray</div>
+            <div className="text-lg p-1">2020 · CEO - The mix</div>
+            <div className="text-lg p-1">2020 · CEO - SquidGame</div>
+          </div>
+        </div>
+
+        <div className="m-4 lg:flex lg:justify-around md:flex md:justify-around md:m-4">
+          <div>
+            <h3 className="text-lg font-bold">My Skills</h3>
+          </div>
+          <div className="text-md w-[20rem] p-4 lg:flex lg:text-md lg:w-[20rem] lg:p-4 md:text-md md:p-4">
+            <div className="">
+              <div className="p-1 lg:p-1">
+                <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
+                  Art & Culture
+                </p>
+              </div>
+              <div className="p-1 lg:p-1 md:flex md:items-center">
+                <p className="text-[1.1rem] ">Brand strategy</p>
+              </div>
+              <div className="p-1 lg:p-1 md:flex md:items-center">
+                <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
+                  Communication
+                </p>
+              </div>
+
+              <div className="p-1 lg:p-1 md:flex md:items-center">
+                <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem] whitespace-nowrap">
+                  Motion graphics
+                </p>
+              </div>
+            </div>
+            <div className="whitespace-nowrap">
+              <div className="p-1 lg:p-1 md:flex md:items-center">
+                <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
+                  Content creation
+                </p>
+              </div>
+              <div className="p-1 lg:p-1 md:flex md:items-center">
+                <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
+                  Flayresign
+                </p>
+              </div>
+              <div className="p-1 lg:p-1 md:flex md:items-center">
+                <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
+                  Brand strategy
+                </p>
+              </div>
+              <div className="p-1 lg:p-1 md:flex md:items-center">
+                <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
+                  Content creation
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="m-4 lg:flex lg:justify-around lg:m-7 md:flex md:justify-around md:m-4">
+          <div>
+            <h3 className="text-lg font-bold">Awards</h3>
+          </div>
+          <div className="text-md w-[20rem] p-4 whitespace-nowrap md:p-4">
+            <div className="">
+              <div className="p-1 lg:p-3">
+                <p className="text-[0.90rem] lg:text-[0.90rem] md:text-[0.90rem]">
+                  3x
+                  <span className="text-[1rem] font-semibold pl-8 lg:pl-8 md:pl-5">
+                    AW Site of the Day
+                  </span>
+                </p>
+              </div>
+              <div className="p-1 lg:p-3">
+                <p className="text-[0.90rem] lg:text-[0.90rem] md:text-[0.90rem]">
+                  1x
+                  <span className="text-[1rem] font-semibold pl-8 lg:pl-8 md:pl-5">
+                    FTA Best interactive
+                  </span>
+                </p>
+              </div>
+              <div className="p-1 lg:p-3 ">
+                <p className="text-[0.90rem] lg:text-[0.90rem] md:text-[0.90rem]">
+                  2x
+                  <span className="text-[1rem] font-semibold pl-8 lg:pl-8 md:pl-5">
+                    AW Honourable
+                  </span>
+                </p>
+              </div>
+              <div className="p-1 lg:p-3 ">
+                <p className="text-[0.90rem] lg:text-[0.90rem] md:text-[0.90rem]">
+                  2x
+                  <span className="text-[1rem] font-semibold pl-8 lg:pl-8 md:pl-5">
+                    Red Dot Graphic Design Awards
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default About;
+
+{
+  /* <div className="flex justify-around">
+          <div className="">
             <h3 className="text-lg font-bold">About Me</h3>
           </div>
           <div className="text-md w-[22rem] mt-5 lg:text-md lg:w-[27rem] md:text-md md:w-[27rem]">
@@ -57,11 +194,13 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */
+}
 
-        <div className="text-white m-5 max-w-[1240px] lg:text-white lg:m-24 lg:gap-[52.5%] lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[28%] md:flex md:max-w-[1240px]">
+{
+  /* <div className="flex justify-around">
           <div className="">
-            <h3>Experience</h3>
+            <h3 className="text-lg font-bold">Experience</h3>
           </div>
 
           <div className="">
@@ -118,16 +257,18 @@ const About = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div className="">
-          <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:max-w-[1240px] md:text-white md:m-24 md:max-w-[1240px] gap-[80%] lg:flex lg:gap-[56.5%] md:flex md:gap-[35%]">
-            <div className="flex ">
-              <h3>Skills</h3>
+        </div> */
+}
+{
+  /* <div className="">
+          <div className="flex justify-around">
+            <div className="">
+              <h3 className="text-lg font-bold">Skills</h3>
             </div>
 
             <div className=" lg:flex lg:gap-[13%] md:flex md:gap-[13%]">
               <div className="">
-                <div className="p-1 lg:p-1 md:p-1 md:flex md:items-center">
+                <div className="p-1">
                   <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem]">
                     Art & Culture
                   </p>
@@ -141,7 +282,7 @@ const About = () => {
                   </p>
                 </div>
 
-                <div className="p-1 lg:p-1 md:p-1 md:flex md:items-center">
+                <div className="p-1 md:p-1 md:flex md:items-center">
                   <p className="text-[1.1rem] lg:text-[1.1rem] md:text-[1.1rem] whitespace-nowrap">
                     Motion graphics
                   </p>
@@ -166,9 +307,9 @@ const About = () => {
           </div>
         </div>
 
-        <div className="text-white m-6 max-w-[1240px] lg:text-white lg:m-24 lg:gap-[56.5%] lg:flex lg:max-w-[1240px] md:text-white md:m-24 md:gap-[31%] md:flex md:max-w-[1240px]">
+        <div className="flex justify-around">
           <div className="">
-            <h3>Awards</h3>
+            <h3 className="text-lg font-bold">Awards</h3>
           </div>
 
           <div className="">
@@ -205,10 +346,5 @@ const About = () => {
               </p>
             </div>
           </div>
-        </div>
-      </div>
-    </>
-  );
-};
-
-export default About;
+        </div> */
+}
