@@ -109,7 +109,7 @@ const Tour = () => {
             <p className="text-[1rem] text-base lg:text-[1rem] lg:text-gray-400 lg:text-base md:text-[1rem] md:text-base">listening to our song</p>
           </div>
 
-          <div className="ml-10 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md:ml-8 md:gap-6 md:text-center">
+          <div className="ml-10 gap-28 lg:m-auto lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md:ml-8 md:m-auto  md:gap-6 md:text-center">
             <div className="text-[18px] font-bold lg:text-base lg:font-bold md:text-base md:font-bold">
               <h3>How i am feeling</h3>
             </div>
@@ -134,7 +134,7 @@ const Tour = () => {
           </div>
           <hr className="w-[56vw] ml-14 mt-5 lg:w-[61rem] lg:bg-gray-500 lg:ml-32 lg:mt-5 md:w-[41rem] md:ml-16 md:mt-10" />
 
-          <div className="ml-10 mt-5 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md:ml-8 md:gap-6 md:text-center">
+          <div className="ml-10  mt-5 gap-28 lg:flex lg:items-center lg:text-center lg:m-auto lg:ml-40 lg:gap-18 md:flex md:ml-8 md:gap-6 md:m-auto md:text-center">
             <div className="text-[18px] font-bold lg:text-base lg:font-bold md:text-base md:font-bold">
               <h3>Coming to town</h3>
             </div>
