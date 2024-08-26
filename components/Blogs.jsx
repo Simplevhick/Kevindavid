@@ -1,36 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
-const productData = [
-  {
-    id: 1,
-    src: "/assets/kev9.jpg",
-    alt: "pix",
-    artist: "Producer Edition",
-    about: "Eclipse of the sun",
-  },
-  {
-    id: 2,
-    src: "/assets/kev2.jpg",
-    alt: "pix",
-    artist: "Producer Edition",
-    about: "Eclipse of the sun",
-  },
-  {
-    id: 3,
-    src: "/assets/kev1.jpg",
-    alt: "pix",
-    artist: "Producer Edition",
-    about: "Eclipse of the sun",
-  },
-  {
-    id: 4,
-    src: "/assets/kev8.jpg",
-    alt: "pix",
-    artist: "Producer Edition",
-    about: "Eclipse of the sun",
-  },
-];
+import productData from "./data"
 
 const Blogs = () => {
   return (
