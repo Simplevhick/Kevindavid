@@ -101,7 +101,7 @@ const Tour = () => {
       </div>
 
       <div className="absolute rounded-md w-[83vw] m-auto top-[13rem] ml-8 lg:w-[93vw] lg:m-auto lg:top-[20rem] lg:ml-11 md:w-[90vw] md:top-[20rem] md:ml-11">
-        <div className="rounded-md h-[100%] text-white bg-gradient-to-r  from-purple-700 to-red-500 ">
+        <div className="rounded-md m-auto h-[100%] text-white bg-gradient-to-r  from-purple-700 to-red-500 lg:m-auto md:m-auto ">
           <div className="p-7 lg:p-7 md:p-7">
             <h3 className="text-[1.4rem] text-md font-bold lg:text-[1.6rem] lg:text-xl lg:font-bold md:text-[1.2rem] md:text-sm md:font-bold">
               List of tracks recorded
