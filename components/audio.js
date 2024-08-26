@@ -6,7 +6,7 @@ exports.songsdata=[
     },
     {
         "title": "Jefferson Jimmy",
-        "song" : "/assets/elon.mp3",
+        "song" : "https://open.spotify.com/track/5aX9CJyCqA1LrXH8XnPL2x?si=11b64602c52642bb",
         "img" : "/assets/kev3.jpg"
     },
     {

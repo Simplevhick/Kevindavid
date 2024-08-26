@@ -71,7 +71,7 @@ const Player = ({
         </div>
 
         <div
-          className="navigation_wrapper min-w-[70%] h-[5px] rounded-[30px] cursor-pointer ml-[20px] hidden lg:block lg:min-w-[60%] lg:h-[5px] lg:rounded-[30px] lg:cursor-pointer lg:ml-[70px] md:block md:min-w-[50%] md:h-[5px] md:rounded-[30px] md:cursor-pointer md:ml-[70px]"
+          className="navigation_wrapper min-w-[70%] h-[5px] rounded-[30px] cursor-pointer ml-[20px] hidden lg:block lg:min-w-[60%] lg:h-[5px] lg:rounded-[30px] lg:cursor-pointer lg:ml-[83px] md:block md:min-w-[50%] md:h-[5px] md:rounded-[30px] md:cursor-pointer md:ml-[70px]"
           onClick={checkWidth}
           ref={clickRef}
         >

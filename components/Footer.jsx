@@ -87,7 +87,7 @@ const Footer = () => {
           <div className="">
             <div className="flex items-center">
               <p className="text-3xl">✌️</p>
-              <div>
+              <div className="p-2">
                 <span>
                   info@liquid.com Looking for collabration for your next post?
                 </span>
