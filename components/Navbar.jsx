@@ -34,30 +34,30 @@ const Navbar = () => {
       {/*  w-full  */}
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white lg:max-w-[1240px] lg:m-auto lg:flex lg:justify-between lg:items-center lg:p-4 lg:text-white md:max-w-[1240px] md:m-auto md:flex md:justify-between md:items-center md:p-4 md:text-white">
         <Link href="/">
-          <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
+          <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl outfit">
             Capture
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4">
+          <li className="p-4 outfit">
             <Link href="/">Home</Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 outfit">
             <Link href="/#blog">Blog</Link>
           </li>
           {/* <li className="p-4">
             <Link href="/#carousel">Carousel</Link>
           </li> */}
-          <li className="p-4">
+          <li className="p-4 outfit">
             <Link href="/#tours">Tours</Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 outfit">
             <a href="/about">About</a>
           </li>
-          <li className="p-4">
+          <li className="p-4 outfit">
             <a href="/music">Music</a>
           </li>
-          <li className="p-4">
+          <li className="p-4 outfit">
             <Link href="/#contact">Contact</Link>
           </li>
         </ul>
@@ -82,13 +82,13 @@ const Navbar = () => {
           <ul>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl outfit hover:text-gray-500"
             >
               <Link href="/">Home</Link>
             </li>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl outfit hover:text-gray-500"
             >
               <Link href="/#blog" to="/#blog">
                 Blog
@@ -97,25 +97,25 @@ const Navbar = () => {
   
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl outfit hover:text-gray-500"
             >
               <Link href="/#tours">Tours</Link>
             </li>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl outfit hover:text-gray-500"
             >
               <Link href="/about">About</Link>
             </li>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl outfit hover:text-gray-500"
             >
               <Link href="/music">Music</Link>
             </li>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl outfit hover:text-gray-500"
             >
               <Link href="/#contact">Contact</Link>
             </li>

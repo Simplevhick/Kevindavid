@@ -39,9 +39,9 @@ const Hero = ({ heading, message }) => {
             <Image src="/assets/standbg.png" alt="pix" width={444} height={444}  className=""/>
         </div> */}
         <div className="p-5 text-white mt-[-10rem]">
-          <h2 className="text-7xl font-bold text-cs sm:text-9xl">{heading}</h2>
+          <h2 className="text-7xl font-bold text-cs sm:text-9xl outfit">{heading}</h2>
           <div className="absolute ml-[2rem] lg:ml-[3rem] md:ml-[3rem]">  
-            <h2 className="text-6xl font-bold lg:text-[7rem] md:text-[7rem]">{message}</h2>
+            <h2 className="text-6xl font-bold lg:text-[7rem] md:text-[7rem] outfit">{message}</h2>
           </div>
           <h2 className="px-8 py-2"></h2>
         </div>

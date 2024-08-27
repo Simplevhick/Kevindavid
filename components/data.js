@@ -12,6 +12,8 @@ const productData = [
     People: "Kevin Kaydee",
     history:
       "A song that reminds me of my wife and my daughter in the US. I wrote this song because, i was a broke man then and then told my self when i get that special son=meone i'll get married to her as soon as possible",
+      song: "/assets/central.mp3",
+    title: "kevin kaydee"
   },
   {
     id: 2,
@@ -26,6 +28,8 @@ const productData = [
     People: "Kevin Kaydee",
     history:
       "A song that reminds me of my wife and my daughter in the US. I wrote this song because, i was a broke man then and then told my self when i get that special son=meone i'll get married to her as soon as possible",
+      song: "/assets/central.mp3",
+      title: "kevin kaydee"
   },
   {
     id: 3,
@@ -40,6 +44,8 @@ const productData = [
     People: "Kevin Kaydee",
     history:
       "A song that reminds me of my wife and my daughter in the US. I wrote this song because, i was a broke man then and then told my self when i get that special son=meone i'll get married to her as soon as possible",
+      song: "/assets/central.mp3",
+      title: "kevin kaydee"
   },
   {
     id: 4,
@@ -54,6 +60,8 @@ const productData = [
     People: "Kevin Kaydee",
     history:
       "A song that reminds me of my wife and my daughter in the US. I wrote this song because, i was a broke man then and then told my self when i get that special son=meone i'll get married to her as soon as possible",
+      song: "/assets/asa.mp3",
+      title: "kevin kaydee"
   },
 ];
 

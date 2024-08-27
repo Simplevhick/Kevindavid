@@ -94,17 +94,17 @@ const Music = () => {
         <div className=" rounded-md w-[83vw] top-[14rem] ml-8 lg:w-[93vw] lg:top-[20rem] lg:ml-11 md:w-[90vw] md:top-[20rem] md:ml-11">
           <div className="rounded-md h-[100%] text-white bg-gradient-to-r  from-purple-700 to-red-500 ">
             <div className="p-7 lg:p-7 md:p-7">
-              <h3 className="text-[1.4rem] text-md font-bold lg:text-[1.6rem] lg:text-xl lg:font-bold md:text-[1.2rem] md:text-sm md:font-bold">
+              <h3 className="text-[1.4rem] outfit text-md font-bold lg:text-[1.6rem] lg:text-xl lg:font-bold md:text-[1.2rem] md:text-sm md:font-bold">
                 List of tracks recorded
               </h3>
-              <p className="text-[1rem] text-base lg:text-[1rem] lg:text-gray-400 lg:text-base md:text-[1rem] md:text-base">
+              <p className="text-[1rem] outfit text-base lg:text-[1rem] lg:text-gray-400 lg:text-base md:text-[1rem] md:text-base">
                 listening to our song
               </p>
             </div>
 
             <div className="ml-10 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md: md:ml-8 md:gap-6 md:text-center">
               <div className="text-[18px] font-bold lg:text-base lg:font-bold md:text-base md:font-bold">
-                <h3>How i am feeling</h3>
+                <h3 className="outfit">How i am feeling</h3>
               </div>
 
               <div className="flex items-center gap-18 lg:flex lg:items-center lg:gap-18 md:flex md:items-center md:gap-16">
@@ -130,7 +130,7 @@ const Music = () => {
 
             <div className="ml-10 mt-5 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md: md:ml-8 md:gap-6 md:text-center">
               <div className="text-[18px] font-bold lg:text-base lg:font-bold md:text-base md:font-bold">
-                <h3>Coming to town</h3>
+                <h3 className="outfit">Coming to town</h3>
               </div>
 
               <div className="flex items-center gap-18 lg:flex lg:items-center lg:gap-18 md:flex md:items-center md:gap-16">
@@ -156,7 +156,7 @@ const Music = () => {
 
             <div className="ml-10 mt-5 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md: md:ml-8 md:gap-6 md:text-center">
               <div className="text-[18px] font-bold lg:text-base lg:font-bold md:text-base md:font-bold">
-                <h3>Moving Train Up</h3>
+                <h3 className="outfit">Moving Train Up</h3>
               </div>
 
               <div className="flex items-center gap-18 lg:flex lg:items-center lg:gap-18 md:flex md:items-center md:gap-16">
