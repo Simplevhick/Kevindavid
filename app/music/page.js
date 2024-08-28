@@ -1,6 +1,11 @@
 "use client";
 
 import Hero from "@/components/Hero";
+import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
+import { FiDribbble } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 import { useState, useRef, useEffect } from "react";
 import { BsFillPlayCircleFill, BsFillPauseCircleFill } from "react-icons/bs";
 
@@ -91,59 +96,63 @@ const Music = () => {
       </div>
 
       <div className=" mb-[4.3rem] m-auto" id="">
-        <div className=" rounded-md w-[83vw] top-[14rem] ml-8 lg:w-[93vw] lg:top-[20rem] lg:ml-11 md:w-[90vw] md:top-[20rem] md:ml-11">
-          <div className="rounded-md h-[100%] text-white bg-gradient-to-r  from-purple-700 to-red-500 ">
-            <div className="p-7 lg:p-7 md:p-7">
-              <h3 className="text-[1.4rem] outfit text-md font-bold lg:text-[1.6rem] lg:text-xl lg:font-bold md:text-[1.2rem] md:text-sm md:font-bold">
-                List of tracks recorded
-              </h3>
-              <p className="text-[1rem] outfit text-base lg:text-[1rem] lg:text-gray-400 lg:text-base md:text-[1rem] md:text-base">
-                listening to our song
-              </p>
-            </div>
+      <div className="w-auto h-auto rounded-md lg:w-auto lg:h-auto  lg:rounded-md md:w-auto md:h-auto md:rounded-md bg-gradient-to-r  from-purple-700 to-red-500">
+          <div className="p-7 lg:p-7 md:p-7">
+            <h3 className="text-[1.4rem] outfit text-white text-md font-bold lg:text-[1.6rem] lg:text-xl lg:font-bold md:text-[1.2rem] md:text-sm md:font-bold">
+              List of tracks recorded
+            </h3>
+            <p className="text-[1rem] outfit text-base lg:text-[1rem] lg:text-gray-400 lg:text-base md:text-[1rem] md:text-base">
+              listening to our song
+            </p>
+          </div>
 
-            <div className="ml-10 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md: md:ml-8 md:gap-6 md:text-center">
-              <div className="text-[18px] font-bold lg:text-base lg:font-bold md:text-base md:font-bold">
+          <div className="m-5 lg:m-5 md:m-5">
+            <div className="lg:flex lg:items-center lg:justify-center lg:gap-20 md:flex md:items-center md:gap-20">
+              <div className="text-white">
                 <h3 className="outfit">How i am feeling</h3>
               </div>
 
-              <div className="flex items-center gap-18 lg:flex lg:items-center lg:gap-18 md:flex md:items-center md:gap-16">
+              <div className="gap-5 lg:flex lg:items-center lg:gap-20 md:flex md:items-center md:gap-20">
                 <audio ref={audioRef} src="/assets/asa.mp3" />
                 <div className="">
                   <div
                     className=" h-2 rounded"
                     style={{ width: `${progress}%` }}
                   />
-                  <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:w-[43vw] lg:flex lg:h-2 lg:bg-gray-200 lg:rounded md:w-[43vw] md:h-2 md:bg-gray-200 md:flex md:rounded md:ml-8" />
+                  <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:block lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:block md:w-[43vw] md:h-2 md:bg-gray-200 md:rounded" />
                 </div>
 
-                <button onClick={togglePlay} className="text-[3rem]">
-                  {isPlaying ? (
-                    <BsFillPauseCircleFill />
-                  ) : (
-                    <BsFillPlayCircleFill />
-                  )}
-                </button>
+                <div>
+                  <button onClick={togglePlay} className="text-[2.5rem] text-white">
+                    {isPlaying ? (
+                      <BsFillPauseCircleFill />
+                    ) : (
+                      <BsFillPlayCircleFill />
+                    )}
+                  </button>
+                </div>
               </div>
             </div>
-            <hr className="w-[56vw] ml-14 mt-5 lg:w-[61rem] lg:bg-gray-500 lg:ml-32 lg:mt-5 md:w-[41rem] md:ml-16 md:mt-10" />
+            <div className="flex justify-center">
+              <hr className="mt-6 w-[90%]" />
+            </div>
 
-            <div className="ml-10 mt-5 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md: md:ml-8 md:gap-6 md:text-center">
-              <div className="text-[18px] font-bold lg:text-base lg:font-bold md:text-base md:font-bold">
+            <div className="mt-6 lg:flex lg:items-center lg:justify-center lg:gap-20 md:flex md:items-center md:gap-20">
+              <div className="text-white">
                 <h3 className="outfit">Coming to town</h3>
               </div>
 
-              <div className="flex items-center gap-18 lg:flex lg:items-center lg:gap-18 md:flex md:items-center md:gap-16">
+              <div className="gap-5 lg:flex lg:items-center lg:gap-20 md:flex md:items-center md:gap-20">
                 <audio ref={audRef} src="/assets/central.mp3" />
                 <div className="">
                   <div
                     className=" h-2 rounded"
                     style={{ width: `${progression}%` }}
                   />
-                  <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:flex lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:w-[43vw] md:h-2 md:bg-gray-200 md:flex md:rounded md:ml-8" />
+                  <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:block lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:block md:w-[43vw] md:h-2 md:bg-gray-200 md:rounded" />
                 </div>
 
-                <button onClick={play} className="text-[3rem]">
+                <button onClick={play} className="text-[2.5rem] text-white">
                   {isPlay ? (
                     <BsFillPauseCircleFill />
                   ) : (
@@ -152,24 +161,26 @@ const Music = () => {
                 </button>
               </div>
             </div>
-            <hr className="w-[56vw] ml-14 mt-5 lg:w-[61rem] lg:bg-gray-500 lg:ml-32 lg:mt-5 md:w-[41rem] md:ml-16 md:mt-10" />
+            <div className="flex justify-center">
+              <hr className="mt-6 w-[90%]" />
+            </div>
 
-            <div className="ml-10 mt-5 gap-28 lg:flex lg:items-center lg:text-center lg:ml-40 lg:gap-18 md:flex md: md:ml-8 md:gap-6 md:text-center">
-              <div className="text-[18px] font-bold lg:text-base lg:font-bold md:text-base md:font-bold">
+            <div className="mt-6 lg:flex lg:items-center lg:justify-center lg:gap-20 md:flex md:items-center md:gap-20">
+              <div className="text-white">
                 <h3 className="outfit">Moving Train Up</h3>
               </div>
 
-              <div className="flex items-center gap-18 lg:flex lg:items-center lg:gap-18 md:flex md:items-center md:gap-16">
+              <div className="gap-5 lg:flex lg:items-center lg:gap-20 md:flex md:items-center md:gap-20">
                 <audio ref={auditRef} src="/assets/elon.mp3" />
                 <div className="">
                   <div
                     className=" h-2 rounded"
                     style={{ width: `${progressional}%` }}
                   />
-                  <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:flex lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:w-[43vw] md:h-2 md:bg-gray-200 md:flex md:rounded md:ml-8" />
+                  <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:block lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:block md:w-[43vw] md:h-2 md:bg-gray-200 md:rounded" />
                 </div>
 
-                <button onClick={Beingplay} className="text-[3rem]">
+                <button onClick={Beingplay} className="text-[2.5rem] text-white">
                   {isBeingPlayed ? (
                     <BsFillPauseCircleFill />
                   ) : (
@@ -178,7 +189,112 @@ const Music = () => {
                 </button>
               </div>
             </div>
-            <hr className="w-[56vw] ml-14 mt-5 lg:w-[61rem] lg:bg-gray-500 lg:ml-32 lg:mt-5 md:w-[41rem] md:ml-16 md:mt-10" />
+            <div className="flex justify-center">
+              <hr className="mt-6 w-[90%]" />
+            </div>
+          </div>
+        </div>
+
+
+
+        <div
+          className="ml-auto mr-auto mt-[22rem] text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:mt-[3rem] md:mr-auto md:ml-auto md:mt-[18rem]"
+          id="footer"
+        >
+          <div className="">
+            <div className="ml-3 lg:flex lg:justify-around lg:ml-3 md:flex md:justify-around md:ml-3">
+              <div className="p-3 lg:p-3 md:p-3">
+                <div>
+                  <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
+                    Looking for collabration?
+                  </p>
+                </div>
+                <h3 className="text-[1rem] outfit font-bold">KAYDEE</h3>
+              </div>
+              <div className="hidden lg:w-[13rem] lg:block lg:h-[0.15rem] lg:bg-white lg:rounded lg:mt-[1.5rem] md:w-[9rem] md:block md:h-[0.15rem] md:bg-white md:rounded md:mt-[1.5rem]" />
+
+              <div className="p-3 lg:p-3 md:p-3">
+                <div className="">
+                  <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
+                    3, ogunshina ogundele way,
+                  </p>
+                  <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
+                    Anthony, Lagos Nigeria
+                  </p>
+                </div>
+                <h3 className="text-[1rem] font-bold outfit">
+                  +234 9023 2032 54
+                </h3>
+              </div>
+              <div className="hidden lg:w-[13rem] lg:block lg:h-[0.15rem] lg:bg-white lg:rounded lg:mt-[1.5rem] md:w-[9rem] md:block md:h-[0.15rem] md:bg-white md:rounded md:mt-[1.5rem]" />
+
+              <div className="p-3 lg:p-3 md:p-3">
+                <div>
+                  <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
+                    Looking for a job?
+                  </p>
+                  <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
+                    Send your resume
+                  </p>
+                </div>
+                <h3 className="text-[1rem] outfit font-bold">
+                  info@kevindavidkaydee.com
+                </h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="max-w-[1240px] flex flex-col-reverse items-center justify-center mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:p-8 lg:mt-[8%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[12%] md:ml-[0.5rem]">
+            <div className="p-2 lg:p-2 md:p-[0.5rem] lg:flex-1 md:flex-1">
+              <Link href="">
+                <h3 className="ml-12 text-[2.5rem] outfit font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
+                  LETS TALK
+                </h3>
+              </Link>
+              <h3 className="text-[2rem] text-gray-700 outfit p-[0.5px] font-bold text-cs lg:text-7xl lg:text-gray-700 lg:ml-1 lg:font-bold lg:text-cs md:text-5xl md:ml-1 md:text-gray-700 md:font-bold md:text-cs">
+                KAYDEE@HUB.COM
+              </h3>
+            </div>
+
+            <Link href="" mailto="">
+              <div className="w-[10rem] flex justify-center items-center h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[9rem] lg:flex lg:justify-center lg:items-center lg:h-[9rem] lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[11rem] md:flex md:justify-center md:items-center md:h-[11rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
+                <p className="text-sm w-20 outfit lg:text-sm lg:w-20 md:text-md md:w-20 font-normal">
+                  SEND ME A MESSAGE
+                </p>
+              </div>
+            </Link>
+          </div>
+
+          <div className="m-4 justify-around items-center lg:flex lg:m-4 lg:justify-around lg:items-center md:flex md:m-4 md:justify-around md:items-center">
+            <div className="flex justify-evenly lg:flex lg:gap-5 md:flex md:gap-5">
+              <Link href="https://github.com">
+                <FaGithub className="text-2xl" />
+              </Link>
+              <Link href="https://instagram.com">
+                <FaInstagram className="text-2xl" />
+              </Link>
+              <Link href="https://twitter.com">
+                <FaXTwitter className="text-2xl" />
+              </Link>
+            </div>
+
+            <div className="">
+              <div className="flex items-center">
+                <p className="text-3xl">✌️</p>
+                <div className="p-2">
+                  <span className="outfit">
+                    info@liquid.com Looking for collabration for your next post?
+                  </span>
+                  <p className="outfit">Do not hesitate to contact us</p>
+                </div>
+              </div>
+              <div className="">
+                {/* <span>
+                info@liquid.com Looking for collabration for your next post?
+              </span>
+              <p>Do not hesitate to contact us</p> */}
+              </div>
+            </div>
           </div>
         </div>
       </div>

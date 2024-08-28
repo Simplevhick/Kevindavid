@@ -2,6 +2,11 @@
 
 import { useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
+import { FaGithub } from "react-icons/fa";
+import { FiDribbble } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import Link from "next/link";
 
 const About = () => {
   const [openFile, setOpenFile] = useState(false);
@@ -19,12 +24,14 @@ const About = () => {
   return (
     <>
       <div
-        className="relative w-full flex items-end  h-screen mb-[7rem] lg:w-full lg:flex lg:items-end lg:justify-center lg:h-screen lg:mb-[7rem] md:w-full md:flex md:items-end md:h-screen md:justify-center md:mb-[7rem] bg-fixed bg-center bg-cover custom-img2"
+        className="relative w-full flex items-end  h-screen mb-[7rem] lg:w-full lg:flex lg:items-end lg:justify-center lg:h-screen md:w-full md:flex md:items-end md:h-screen md:justify-center md:mb-[7rem] bg-fixed bg-center bg-cover custom-img2"
         id="about"
       >
         <div className="text-[7rem] pl-[1rem] min-w-screen lg:text-[9rem] lg:pl-[3rem] lg:flex lg:min-w-screen md:text-[6rem] md:pl-[1.7rem] md:flex md:min-w-screen">
           <div className="">
-            <h3 className="text-white leading-[3rem] font-extrabold outfit">KEVIN</h3>
+            <h3 className="text-white leading-[3rem] font-extrabold outfit">
+              KEVIN
+            </h3>
             <h3 className="text-white font-extrabold outfit">DAVID</h3>
           </div>
           <div className="flex-none items-center lg:flex lg:items-center md:flex md:items-center">
@@ -208,6 +215,107 @@ const About = () => {
                     Red Dot Graphic Design Awards
                   </span>
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="ml-auto mr-auto mt-[22rem] text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:mt-[3rem] md:mr-auto md:ml-auto md:mt-[18rem]"
+          id="footer"
+        >
+          <div className="">
+            <div className="ml-3 lg:flex lg:justify-around lg:ml-3 md:flex md:justify-around md:ml-3">
+              <div className="p-3 lg:p-3 md:p-3">
+                <div>
+                  <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
+                    Looking for collabration?
+                  </p>
+                </div>
+                <h3 className="text-[1rem] outfit font-bold">KAYDEE</h3>
+              </div>
+              <div className="hidden lg:w-[13rem] lg:block lg:h-[0.15rem] lg:bg-white lg:rounded lg:mt-[1.5rem] md:w-[9rem] md:block md:h-[0.15rem] md:bg-white md:rounded md:mt-[1.5rem]" />
+
+              <div className="p-3 lg:p-3 md:p-3">
+                <div className="">
+                  <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
+                    3, ogunshina ogundele way,
+                  </p>
+                  <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
+                    Anthony, Lagos Nigeria
+                  </p>
+                </div>
+                <h3 className="text-[1rem] font-bold outfit">
+                  +234 9023 2032 54
+                </h3>
+              </div>
+              <div className="hidden lg:w-[13rem] lg:block lg:h-[0.15rem] lg:bg-white lg:rounded lg:mt-[1.5rem] md:w-[9rem] md:block md:h-[0.15rem] md:bg-white md:rounded md:mt-[1.5rem]" />
+
+              <div className="p-3 lg:p-3 md:p-3">
+                <div>
+                  <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
+                    Looking for a job?
+                  </p>
+                  <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
+                    Send your resume
+                  </p>
+                </div>
+                <h3 className="text-[1rem] outfit font-bold">
+                  info@kevindavidkaydee.com
+                </h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="max-w-[1240px] flex flex-col-reverse items-center justify-center mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:p-8 lg:mt-[8%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[12%] md:ml-[0.5rem]">
+            <div className="p-2 lg:p-2 md:p-[0.5rem] lg:flex-1 md:flex-1">
+              <Link href="">
+                <h3 className="ml-12 text-[2.5rem] outfit font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
+                  LETS TALK
+                </h3>
+              </Link>
+              <h3 className="text-[2rem] text-gray-700 outfit p-[0.5px] font-bold text-cs lg:text-7xl lg:text-gray-700 lg:ml-1 lg:font-bold lg:text-cs md:text-5xl md:ml-1 md:text-gray-700 md:font-bold md:text-cs">
+                KAYDEE@HUB.COM
+              </h3>
+            </div>
+
+            <Link href="" mailto="">
+              <div className="w-[10rem] flex justify-center items-center h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[9rem] lg:flex lg:justify-center lg:items-center lg:h-[9rem] lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[11rem] md:flex md:justify-center md:items-center md:h-[11rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
+                <p className="text-sm w-20 outfit lg:text-sm lg:w-20 md:text-md md:w-20 font-normal">
+                  SEND ME A MESSAGE
+                </p>
+              </div>
+            </Link>
+          </div>
+
+          <div className="m-4 justify-around items-center lg:flex lg:m-4 lg:justify-around lg:items-center md:flex md:m-4 md:justify-around md:items-center">
+            <div className="flex justify-evenly lg:flex lg:gap-5 md:flex md:gap-5">
+              <Link href="https://github.com">
+                <FaGithub className="text-2xl" />
+              </Link>
+              <Link href="https://instagram.com">
+                <FaInstagram className="text-2xl" />
+              </Link>
+              <Link href="https://twitter.com">
+                <FaXTwitter className="text-2xl" />
+              </Link>
+            </div>
+
+            <div className="">
+              <div className="flex items-center">
+                <p className="text-3xl">✌️</p>
+                <div className="p-2">
+                  <span className="outfit">
+                    info@liquid.com Looking for collabration for your next post?
+                  </span>
+                  <p className="outfit">Do not hesitate to contact us</p>
+                </div>
+              </div>
+              <div className="">
+                {/* <span>
+                info@liquid.com Looking for collabration for your next post?
+              </span>
+              <p>Do not hesitate to contact us</p> */}
               </div>
             </div>
           </div>

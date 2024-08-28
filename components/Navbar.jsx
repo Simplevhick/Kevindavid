@@ -58,7 +58,7 @@ const Navbar = () => {
             <a href="/music">Music</a>
           </li>
           <li className="p-4 outfit">
-            <Link href="/#contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
 
@@ -117,7 +117,7 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-4xl outfit hover:text-gray-500"
             >
-              <Link href="/#contact">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>
@@ -127,8 +127,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-// to="contact"
-//               spy={true}
-//               smooth={true}
-//               offset={-100}
-//               duration={500}

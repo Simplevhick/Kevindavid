@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <div
-        className="ml-auto mr-auto mt-10 text-white max-w-[1240px] lg:mr-auto lg:ml-auto md:mr-auto md:ml-auto"
+        className="ml-auto mr-auto mt-[22rem] text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:mt-[18rem] md:mr-auto md:ml-auto md:mt-[18rem]"
         id="footer"
       >
         <div className="">
