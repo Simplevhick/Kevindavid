@@ -82,13 +82,13 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-4xl outfit hover:text-gray-500"
             >
-              <Link href="/" className="hover:text-red-400 hover:ease-in-out hover:text-lg">Home</Link>
+              <Link href="/" className="">Home</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl outfit hover:text-gray-500"
             >
-              <Link href="/#blog" to="/#blog" className="hover:text-red-400 hover:ease-in-out hover:text-lg">
+              <Link href="/#blog" to="/#blog" className="">
                 Blog
               </Link>
             </li>
@@ -97,25 +97,25 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-4xl outfit hover:text-gray-500"
             >
-              <Link href="/#tours" className="hover:text-red-400 hover:ease-in-out hover:text-lg">Tours</Link>
+              <Link href="/#tours" className="">Tours</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl outfit hover:text-gray-500"
             >
-              <Link href="/about" className="hover:text-red-400 hover:ease-in-out hover:text-lg">About</Link>
+              <Link href="/about" className="">About</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl outfit hover:text-gray-500"
             >
-              <Link href="/songfolio" className="hover:text-red-400 hover:ease-in-out hover:text-lg">SongFolio</Link>
+              <Link href="/songfolio" className="">SongFolio</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl outfit hover:text-gray-500"
             >
-              <Link href="/contact" className="hover:text-red-400 hover:ease-in-out hover:text-lg">Contact</Link>
+              <Link href="/contact" className="">Contact</Link>
             </li>
           </ul>
         </div>

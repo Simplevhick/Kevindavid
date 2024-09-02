@@ -214,7 +214,7 @@ const Songfolio = () => {
         </div>
 
         <div
-          className="ml-auto mr-auto mt-[22rem] text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:mt-[3rem] md:mr-auto md:ml-auto md:mt-[18rem]"
+          className="ml-auto mr-auto mt-[3rem] text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:mt-[3rem] md:mr-auto md:ml-auto md:mt-[18rem]"
           id="footer"
         >
           <div className="">
