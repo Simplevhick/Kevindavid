@@ -9,7 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { useState, useRef, useEffect } from "react";
 import { BsFillPlayCircleFill, BsFillPauseCircleFill } from "react-icons/bs";
 
-const Music = () => {
+const Songfolio = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
   const [isPlay, setIsPlay] = useState(false);
@@ -91,12 +91,24 @@ const Music = () => {
   }, []);
   return (
     <>
-      <div className="text-white">
-        <Hero heading="KAYDEE" message=" MUSIC" />
+      <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-fixed bg-center bg-cover custom-img2">
+        <div className="text-[5rem] lg:text-[7rem] lg:m-auto lg:min-w-screen md:text-[5rem] md:flex md:min-w-screen">
+          <div className="flex-none lg:flex md:flex">
+            <div className="text-white leading-[4.5rem] lg:leading-[6rem] md:leading-[6rem]">
+              <h3 className="outfit text-cs">KEVIN</h3>
+              <h3 className="outfit">DAVID</h3>
+              <h3 className="outfit text-cs">KAYDEE</h3>
+            </div>
+            <div className="lg:flex lg:items-center md:flex md:items-center">
+              <div className="bg-white hidden w-[16rem] rounded-xl h-2 lg:bg-white lg:w-[16rem] lg:rounded-xl lg:flex lg:items-end lg:justify-end lg:h-2 md:bg-white md:block md:w-[16rem] md:rounded-xl md:h-2"></div>
+              <div className="outfit  text-white">Music</div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className=" mb-[4.3rem] m-auto" id="">
-      <div className="w-auto h-auto rounded-md lg:w-auto lg:h-auto  lg:rounded-md md:w-auto md:h-auto md:rounded-md bg-gradient-to-r  from-purple-700 to-red-500">
+      <div className="mb-[3rem] m-auto" id="">
+        <div className="w-auto h-auto rounded-md lg:w-auto lg:h-auto  lg:rounded-md md:w-auto md:h-auto md:rounded-md bg-gradient-to-r  from-purple-700 to-red-500">
           <div className="p-7 lg:p-7 md:p-7">
             <h3 className="text-[1.4rem] outfit text-white text-md font-bold lg:text-[1.6rem] lg:text-xl lg:font-bold md:text-[1.2rem] md:text-sm md:font-bold">
               List of tracks recorded
@@ -123,7 +135,10 @@ const Music = () => {
                 </div>
 
                 <div>
-                  <button onClick={togglePlay} className="text-[2.5rem] text-white">
+                  <button
+                    onClick={togglePlay}
+                    className="text-[2.5rem] text-white"
+                  >
                     {isPlaying ? (
                       <BsFillPauseCircleFill />
                     ) : (
@@ -180,7 +195,10 @@ const Music = () => {
                   <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:block lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:block md:w-[43vw] md:h-2 md:bg-gray-200 md:rounded" />
                 </div>
 
-                <button onClick={Beingplay} className="text-[2.5rem] text-white">
+                <button
+                  onClick={Beingplay}
+                  className="text-[2.5rem] text-white"
+                >
                   {isBeingPlayed ? (
                     <BsFillPauseCircleFill />
                   ) : (
@@ -194,8 +212,6 @@ const Music = () => {
             </div>
           </div>
         </div>
-
-
 
         <div
           className="ml-auto mr-auto mt-[22rem] text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:mt-[3rem] md:mr-auto md:ml-auto md:mt-[18rem]"
@@ -244,7 +260,7 @@ const Music = () => {
             </div>
           </div>
 
-          <div className="max-w-[1240px] flex flex-col-reverse items-center justify-center mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:p-8 lg:mt-[8%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[12%] md:ml-[0.5rem]">
+          <div className="max-w-[1240px] flex flex-col-reverse items-center justify-center mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:p-8 lg:mt-[4%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[12%] md:ml-[0.5rem]">
             <div className="p-2 lg:p-2 md:p-[0.5rem] lg:flex-1 md:flex-1">
               <Link href="">
                 <h3 className="ml-12 text-[2.5rem] outfit font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
@@ -302,4 +318,4 @@ const Music = () => {
   );
 };
 
-export default Music;
+export default Songfolio;

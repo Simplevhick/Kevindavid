@@ -7,7 +7,7 @@ import Tour from "@/components/Tour";
 export default function Home() {
   return (
     <main>
-      <Hero heading="KEVIN" message="KAYDEE" />
+      <Hero heading="KEVIN" message="DAVID" sub="KAYDEE" />
       <Blogs />
       <Tour />
       {/* <Details /> */}

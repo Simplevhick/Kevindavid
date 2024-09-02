@@ -11,6 +11,9 @@ module.exports = {
       colors:{
         'audio': 'rgba(119, 119, 119, 0.781)'
       },
+      spacing: {
+        '5ch': '4ch'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

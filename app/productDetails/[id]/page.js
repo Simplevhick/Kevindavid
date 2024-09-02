@@ -87,62 +87,62 @@ const ProductDetails = () => {
 
         <div className="m-3 lg:m-10 md:m-5">
           <div className="">
-            <h1 className="text-2xl font-bold mt-[3.4rem] lg:text-2xl lg:font-bold md:text-2xl md:font-bold">
+            <h1 className="text-2xl font-bold mt-[3.4rem] lg:text-2xl lg:font-bold md:text-2xl outfit md:font-bold">
               About Album
             </h1>
-            <p className="text-sm w-full opacity-30 mt-3 lg:text-sm lg:w-[32rem] lg:opacity-30 lg:mt-3 md:text-sm md:w-[21rem] md:opacity-30 md:mt-1">
+            <p className="text-sm w-full opacity-30 mt-3 lg:text-sm lg:w-[32rem] lg:opacity-45 lg:mt-3 outfit md:text-sm md:w-[21rem] md:opacity-30 md:mt-1">
               {singleProduct.history}
             </p>
           </div>
           <div className="mt-2 flex">
             <div>
-              <div className=" ">
+              <div className="outfit">
                 {" "}
-                Artist: <span className="ml-2">
+                Artist: <span className="ml-2 outfit">
                   {singleProduct.artistMan}
                 </span>{" "}
               </div>
-              <div className="mt-1">
+              <div className="mt-1 outfit">
                 {" "}
-                Label: <span className="ml-2">{singleProduct.label}</span>{" "}
+                Label: <span className="ml-2 outfit">{singleProduct.label}</span>{" "}
               </div>
-              <div className="mt-1">
+              <div className="mt-1 outfit">
                 Release Date:{" "}
-                <span className="ml-2">{singleProduct.releaseDate}</span>{" "}
+                <span className="ml-2 outfit">{singleProduct.releaseDate}</span>{" "}
               </div>
-              <div className="mt-1">
-                Genres: <span className="ml-2">{singleProduct.genres}</span>
+              <div className="mt-1 outfit">
+                Genres: <span className="ml-2 outfit">{singleProduct.genres}</span>
               </div>
-              <div className="mt-1">
-                People: <span className="ml-2"> {singleProduct.People} </span>
+              <div className="mt-1 outfit">
+                People: <span className="ml-2 outfit"> {singleProduct.People} </span>
               </div>
             </div>
           </div>
 
-          <div className="mt-2">
-            <p className="text-xl font-bold">Share it</p>
+          <div className="mt-2 ">
+            <p className="text-xl font-bold outfit">Share it</p>
             <div className="text-white flex gap-3 lg:flex lg:gap-6 md:flex md:gap-3">
-              <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white ">
+              <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white hover:bg-gradient-to-r  from-purple-700 to-red-500 hover:text-sm hover:ease-in-out">
                 <a href="https://linkdin.com">
                   <BsLinkedin className="mt-2 ml-[0.43rem]" />
                 </a>
               </div>
-              <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white ">
+              <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white hover:bg-gradient-to-r  from-purple-700 to-red-500 hover:text-sm hover:ease-in-out">
                 <a href="https://github.com">
                   <FaGithub className="mt-2 ml-[0.43rem]" />
                 </a>
               </div>
-              <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white">
+              <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white hover:bg-gradient-to-r  from-purple-700 to-red-500 hover:text-sm hover:ease-in-out">
                 <a href="https://dribble.com">
                   <FiDribbble className="mt-2 ml-[0.43rem]" />
                 </a>
               </div>
-              <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white ">
+              <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white hover:bg-gradient-to-r  from-purple-700 to-red-500 hover:text-sm hover:ease-in-out">
                 <a href="https://instagram.com">
                   <FaInstagram className="mt-2 ml-[0.43rem]" />
                 </a>
               </div>
-              <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white ">
+              <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white hover:bg-gradient-to-r  from-purple-700 to-red-500 hover:text-sm hover:ease-in-out">
                 <a href="https://twitter.com">
                   <FaXTwitter className="mt-2 ml-[0.43rem]" />
                 </a>
@@ -151,7 +151,7 @@ const ProductDetails = () => {
 
             <div className="mt-3">
               <div className="">
-                <p className="text-xl font-bold">Available on</p>
+                <p className="text-xl font-bold outfit">Available on</p>
               </div>
 
               <div className="flex">

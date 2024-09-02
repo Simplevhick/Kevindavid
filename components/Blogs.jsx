@@ -16,7 +16,7 @@ const Blogs = () => {
         {productData.map((productData) => (
           <div
             key={productData.id}
-            className="rounded-[20px] lg:rounded-[20px] md:rounded-[20px] md:mt-[5rem]"
+            className="rounded-[20px] mt-[4rem] lg:rounded-[20px] lg:mt-[3rem] md:rounded-[20px] md:mt-[5rem]"
           >
             <Link href={`/productDetails/${productData.id}`}>
               <img
