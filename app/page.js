@@ -11,7 +11,7 @@ export default function Home() {
       <Blogs />
       <Tour />
       {/* <Details /> */}
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

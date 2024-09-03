@@ -7,9 +7,9 @@ import { BsLinkedin } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <>
+    <div className="">
       <div className="">
-        <div className="relative text-white mt-[5rem] p-4 lg:m-32 lg:flex lg:justify-center lg:gap-[12rem] md:m-32 md:flex md:justify-center md:items-center md:gap-[4rem]">
+        <div className="relative text-white mt-[5rem] p-4 lg:m-10 lg:mt-[7rem] lg:flex lg:justify-center lg:gap-[12rem] md:m-32 md:flex md:justify-center md:items-center md:gap-[4rem]">
           <div className="">
             <div className="text-[1.7rem] w-[12rem] lg:text-[1.7rem] lg:w-[13rem] md:text-[1.7rem] md:w-[13rem]">
               <p className="outfit">Got An idea Or A Partnership In Mind?</p>
@@ -92,7 +92,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div
+        {/* <div
           className="ml-auto mr-auto mt-[1rem] text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:mt-[-6rem] md:mr-auto md:ml-auto md:mt-[18rem]"
           id="footer"
         >
@@ -184,16 +184,13 @@ const Contact = () => {
                 </div>
               </div>
               <div className="">
-                {/* <span>
-                info@liquid.com Looking for collabration for your next post?
-              </span>
-              <p>Do not hesitate to contact us</p> */}
+                
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
-    </>
+    </div>
   );
 };
 

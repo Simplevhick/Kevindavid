@@ -107,7 +107,7 @@ const Songfolio = () => {
         </div>
       </div>
 
-      <div className="mb-[3rem] m-auto" id="">
+      <div className="mb-[3rem] lg:mb-[3rem] md:mb-[3rem] m-auto" id="">
         <div className="w-auto h-auto rounded-md lg:w-auto lg:h-auto  lg:rounded-md md:w-auto md:h-auto md:rounded-md bg-gradient-to-r  from-purple-700 to-red-500">
           <div className="p-7 lg:p-7 md:p-7">
             <h3 className="text-[1.4rem] outfit text-white text-md font-bold lg:text-[1.6rem] lg:text-xl lg:font-bold md:text-[1.2rem] md:text-sm md:font-bold">
@@ -213,8 +213,8 @@ const Songfolio = () => {
           </div>
         </div>
 
-        <div
-          className="ml-auto mr-auto mt-[3rem] text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:mt-[3rem] md:mr-auto md:ml-auto md:mt-[18rem]"
+        {/* <div
+          className="ml-auto mr-auto mt-[3rem] text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:mt-[3rem] md:mr-auto md:ml-auto md:mt-[3rem]"
           id="footer"
         >
           <div className="">
@@ -305,14 +305,11 @@ const Songfolio = () => {
                 </div>
               </div>
               <div className="">
-                {/* <span>
-                info@liquid.com Looking for collabration for your next post?
-              </span>
-              <p>Do not hesitate to contact us</p> */}
+                
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

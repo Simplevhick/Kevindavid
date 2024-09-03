@@ -13,8 +13,8 @@ const About = () => {
 
 
   return (
-    <div className="">
-      <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] bg-fixed bg-center bg-cover custom-img2">
+    <div className="mb-[2rem] lg:mb-[5rem] md:mb-[7rem]">
+      <div className="relative flex items-center justify-center w-full h-screen bg-fixed bg-center bg-cover custom-img2 ">
         <div className="text-[5rem] lg:text-[7rem] lg:m-auto lg:min-w-screen md:text-[5rem] md:flex md:min-w-screen">
           <div className="flex-none lg:flex md:flex">
             <div className="text-white leading-[4.5rem] lg:leading-[6rem] md:leading-[6rem]">
@@ -260,7 +260,7 @@ const About = () => {
         </div>
       </div>
 
-      <div
+      {/* <div
         className="ml-auto mr-auto mt-[2rem] text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:mt-[5rem] md:mr-auto md:ml-auto md:mt-[4rem]"
         id="footer"
       >
@@ -352,58 +352,14 @@ const About = () => {
               </div>
             </div>
             <div className="">
-              {/* <span>
-                info@liquid.com Looking for collabration for your next post?
-              </span>
-              <p>Do not hesitate to contact us</p> */}
+             
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
 
 export default About;
 
-// <div className="wrapper text-white w-5/6">
-//                 <div className="tab mb-3 bg-red-500 px-3 shadow-lg rounded-md relative">
-//                     <input type="radio" name="faq" id="faq1" className="appearance-none peer"/>
-//                     <label htmlFor="faq1" className="flex items-center text-lg outfit font-semibold cursor-pointer
-//                     after:absolute after:content-['+']
-//                     after:right-5 after:text-2xl
-//                     after:text-gray-400 hover:after:text-gray-100 peer-checked:after:transform peer-checked:after:rotate-45">
-//                       {/* <h2 className="mr-2 h-8 w-8 bg-fuchsia-400 grid place-items-center text-white rounded-full">01</h2> */}
-//                       <h3 className="outfit">What is TailwindCss?</h3>
-//                     </label>
-//                     <div className="answer mt-3 h-0 overflow-hidden transition ease-in-out duration-500 peer-checked:h-full">
-//                         <p className="outfit">TailwindCss is good for you and everybody. I love tailwindcss. Good for you if you do also</p>
-//                     </div>
-//                 </div>
-//                 <div className="tab mb-3 bg-red-500 text-white px-3 shadow-lg rounded-md relative">
-//                     <input type="radio" name="faq" id="faq2" className="appearance-none peer"/>
-//                     <label htmlFor="faq2" className="flex items-center text-lg outfit font-semibold cursor-pointer
-//                     after:absolute after:content-['+']
-//                     after:right-5 after:text-2xl
-//                     after:text-gray-400 hover:after:text-gray-100 peer-checked:after:transform peer-checked:after:rotate-45">
-//                       {/* <h2 className="mr-2 h-8 w-8 bg-fuchsia-400 grid place-items-center text-white rounded-full">01</h2> */}
-//                       <h3 className="outfit">How do i use Tailwindcss in my project?</h3>
-//                     </label>
-//                     <div className="answer mt-5 h-0 overflow-hidden transition ease-in-out duration-500 peer-checked:h-full">
-//                         <p className="outfit">After installing tailwindcss, you can include it in your projects by importing the pre built Css</p>
-//                     </div>
-//                 </div>
-//                 <div className="tab mb-3 bg-red-500 text-white px-3 shadow-lg rounded-md relative">
-//                     <input type="radio" name="faq" id="faq3" className="appearance-none peer"/>
-//                     <label htmlFor="faq3" className="flex items-center text-lg outfit font-semibold cursor-pointer
-//                     after:absolute after:content-['+']
-//                     after:right-5 after:text-2xl
-//                     after:text-gray-400 hover:after:text-gray-100 peer-checked:after:transform peer-checked:after:rotate-45">
-//                       {/* <h2 className="mr-2 h-8 w-8 bg-fuchsia-400 grid place-items-center text-white rounded-full">01</h2> */}
-//                       <h3 className="outfit">How do install TailwindCss</h3>
-//                     </label>
-//                     <div className="answer mt-5 h-0 overflow-hidden transition ease-in-out duration-500 peer-checked:h-full">
-//                         <p className="outfit">Just do the npx create react </p>
-//                     </div>
-//                 </div>
-//             </div>

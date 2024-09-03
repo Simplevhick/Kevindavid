@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
-import { FiDribbble } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -8,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div
-        className="ml-auto mr-auto mt-[22rem] text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:mt-[18rem] md:mr-auto md:ml-auto md:mt-[18rem]"
+        className="ml-auto mr-auto text-white max-w-[1240px] lg:mr-auto lg:ml-auto md:mr-auto md:ml-auto"
         id="footer"
       >
         <div className="">
@@ -50,10 +49,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="max-w-[1240px] flex flex-col-reverse items-center justify-center mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:p-8 lg:mt-[4%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[12%] md:ml-[0.5rem]">
+        <div className="max-w-[1240px] flex flex-col-reverse mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:p-8 lg:mt-[4%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[8%] md:ml-[0.5rem]">
           <div className="p-2 lg:p-2 md:p-[0.5rem] lg:flex-1 md:flex-1">
             <Link href="">
-              <h3 className="ml-12 text-[2.5rem] outfit font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
+              <h3 className="ml-2s text-[2.5rem] outfit font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
                 LETS TALK
               </h3>
             </Link>
@@ -63,7 +62,7 @@ const Footer = () => {
           </div>
 
           <Link href="" mailto="">
-            <div className="w-[10rem] flex justify-center items-center h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[9rem] lg:flex lg:justify-center lg:items-center lg:h-[9rem] lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[11rem] md:flex md:justify-center md:items-center md:h-[11rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
+            <div className="w-[10rem] flex justify-center items-center h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[9rem] lg:flex lg:justify-center lg:items-center lg:h-[9rem] lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[10rem] md:flex md:justify-center md:items-center md:h-[10rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
               <p className="text-sm w-20 outfit lg:text-sm lg:w-20 md:text-md md:w-20 font-normal">
                 SEND ME A MESSAGE
               </p>
@@ -72,7 +71,7 @@ const Footer = () => {
         </div>
 
         <div className="m-4 justify-around items-center lg:flex lg:m-4 lg:justify-around lg:items-center md:flex md:m-4 md:justify-around md:items-center">
-          <div className="flex justify-evenly lg:flex lg:gap-5 md:flex md:gap-5">
+          <div className="flex justify-start ml-3 gap-3 lg:flex lg:gap-5 md:flex md:gap-5">
             <Link href="https://github.com">
               <FaGithub className="text-2xl" />
             </Link>
@@ -95,10 +94,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="">
-              {/* <span>
-                info@liquid.com Looking for collabration for your next post?
-              </span>
-              <p>Do not hesitate to contact us</p> */}
+              
             </div>
           </div>
         </div>
