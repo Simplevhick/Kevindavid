@@ -35,7 +35,7 @@ const Hero = ({ heading, message, sub }) => {
     <>
       {/* <div className="relative bg-[url('/assets/kev5.jpg')] flex items-center h-[95vh] justify-center mb-[7rem] bg-fixed bg-center bg-contain lg:relative lg:bg-[url('/assets/kev5.jpg')] lg:flex lg:items-center lg:h-[95vh] lg:justify-center lg:mb-[7rem] lg:bg-fixed lg:bg-center lg:bg-cover md:relative md:bg-[url('/assets/kev5.jpg')] md:flex md:items-center md:h-[95vh] md:justify-center md:mb-[7rem] md:bg-fixed md:bg-center md:bg-cover" id="hero"> */}
       <div
-        className="relative flex items-center justify-center w-full h-screen mb-[7rem] bg-fixed bg-center bg-cover custom-img"
+        className="relative flex items-center justify-center w-full h-[100vh] mb-[7rem] bg-fixed bg-center bg-cover custom-img lg:relative lg:flex lg:items-center lg:justify-center lg:w-full lg:h-screen lg:mb-[7rem] lg:bg-fixed lg:bg-center lg:bg-cover lg:custom-img md:relative md:flex md:items-center md:justify-center md:w-full md:h-screen md:mb-[7rem] md:bg-fixed md:bg-center md:bg-cover md:custom-img"
         id="hero"
       >
         {/* <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/30 z-[2]"/> */}
