@@ -30,7 +30,6 @@ body {
 
 .custom-img {
   background-image: url("/assets/kev5.jpg");
-  object-position: center;
 }
 .custom-img2 {
   background-image: url("/assets/kev5.jpg");
@@ -123,4 +122,13 @@ body {
   padding: 8px 15px;
   display: inline-block;
   font-size: 12px;
+}
+
+
+
+@media screen and (max-width: 640px) {
+  .custom-img{
+    max-width: 100%;
+
+  }
 }
