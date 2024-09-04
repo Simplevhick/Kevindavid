@@ -63,8 +63,8 @@ const Footer = () => {
           </div>
 
           <Link href="" mailto="">
-            <div className="w-[10rem] flex p-3 items-center h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[9rem] lg:p-1 lg:h-[9rem] lg:flex lg:items-center lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[10rem] md:flex md:p-3 md:items-center md:h-[10rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
-              <p className="text-[0.85rem] w-full outfit lg:text-[0.85rem] lg:w-full md:text-[0.85rem] md:w-full font-normal">
+            <div className="w-[10rem] flex items-center h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[9rem] lg:p-1 lg:h-[9rem] lg:flex lg:items-center lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[10rem] md:flex md:p-3 md:items-center md:h-[10rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
+              <p className="text-[0.85rem] ml-3 w-full outfit lg:text-[0.85rem] lg:w-full md:text-[0.85rem] md:w-full font-normal">
                 SEND ME A MESSAGE
               </p>
             </div>
