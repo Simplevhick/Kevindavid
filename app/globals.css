@@ -126,9 +126,3 @@ body {
 
 
 
-@media screen and (max-width: 640px) {
-  .custom-img{
-    max-width: 100%;
-
-  }
-}

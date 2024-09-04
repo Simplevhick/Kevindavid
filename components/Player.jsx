@@ -8,6 +8,7 @@ import {
   BsFillSkipStartCircleFill,
   BsFillSkipEndCircleFill,
 } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 const Player = ({
   audioElem,
@@ -54,7 +55,15 @@ const Player = ({
   };
 
   return (
-    <div className="absolute w-[90%] max-w-[400px] lg:max-w-[900px] md:max-w-[600px] text-white top-[38rem] left-15 lg:top-[36rem] lg:left-38 md:top-[37rem] md:left-15">
+    <motion.div
+      initial={{ opacity: 0, bottom: "-100%" }}
+      animate={{
+        opacity: 1,
+        bottom: 0,
+        transition: { delay: 1.5, duration: 1.2, ease: "easeInOut" },
+      }}
+      className="absolute w-[90%] max-w-[400px] lg:max-w-[900px] md:max-w-[600px] text-white top-[38rem] left-15 lg:top-[36rem] lg:left-38 md:top-[37rem] md:left-15"
+    >
       <div className="flex bg-red-500 p-4 rounded-xl items-center lg:flex lg:bg-red-500 lg:p-6 lg:items-center md:flex md:bg-red-500 md:p-4 md:items-center">
         <div className="flex items-center text-grey-200 ml-[7px] lg:flex lg:items-center lg:text-grey-200 md:flex md:items-center md:text-grey-200 ">
           <Image
@@ -103,9 +112,8 @@ const Player = ({
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
 export default Player;
-

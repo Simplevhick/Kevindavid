@@ -6,16 +6,24 @@ import { FaGithub } from "react-icons/fa";
 import { FiDribbble } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const About = () => {
   const [accordionOpen, setAccordionOpen] = useState(false);
   const [accordionOpenTwo, setAccordionOpenTwo] = useState(false);
 
-
   return (
     <div className="mb-[2rem] lg:mb-[5rem] md:mb-[7rem]">
       <div className="relative flex items-center justify-center w-full h-screen bg-fixed bg-center bg-cover custom-img2 ">
-        <div className="text-[5rem] lg:text-[7rem] lg:m-auto lg:min-w-screen md:text-[5rem] md:flex md:min-w-screen">
+        <motion.div
+          initial={{ opacity: 0, y: -100 }}
+          animate={{
+            opacity: 1,
+            y: 0,
+            transition: { delay: 1, duration: 1, ease: "easeInOut" },
+          }}
+          className="text-[5rem] lg:text-[7rem] lg:m-auto lg:min-w-screen md:text-[5rem] md:flex md:min-w-screen"
+        >
           <div className="flex-none lg:flex md:flex">
             <div className="text-white leading-[4.5rem] lg:leading-[6rem] md:leading-[6rem]">
               <h3 className="outfit text-cs">KEVIN</h3>
@@ -27,7 +35,7 @@ const About = () => {
               <div className="outfit flex text-white">About</div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div className="px-[1rem] text-white lg:px-[7rem] lg:text-white md:px-[7rem] md:text-white">
         <div className="flex flex-col space-y-10 lg:flex lg:flex-col lg:space-y-10 md:flex md:flex-col md:space-y-10">
@@ -362,4 +370,3 @@ const About = () => {
 };
 
 export default About;
-

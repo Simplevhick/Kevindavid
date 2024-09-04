@@ -56,14 +56,15 @@ const Footer = () => {
                 LETS TALK
               </h3>
             </Link>
-            <h3 className="text-[2rem] text-gray-700 outfit p-[0.5px] font-bold text-cs lg:text-7xl lg:text-gray-700 lg:ml-1 lg:font-bold lg:text-cs md:text-5xl md:ml-1 md:text-gray-700 md:font-bold md:text-cs">
-              KAYDEE@HUB.COM
+            <h3 className="text-[1.5rem] text-gray-700 outfit p-[0.5px] font-bold text-cs lg:text-7xl lg:text-gray-700 lg:ml-1 lg:font-bold lg:text-cs md:text-5xl md:ml-1 md:text-gray-700 md:font-bold md:text-cs">
+              {/* KAYDEE@HUB.COM */}
+              info@kevindavidkaydee.com
             </h3>
           </div>
 
           <Link href="" mailto="">
-            <div className="w-[10rem] flex justify-center items-center h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[9rem] lg:flex lg:justify-center lg:items-center lg:h-[9rem] lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[10rem] md:flex md:justify-center md:items-center md:h-[10rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
-              <p className="text-sm w-20 outfit lg:text-sm lg:w-20 md:text-md md:w-20 font-normal">
+            <div className="w-[10rem] flex p-3 items-center h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[9rem] lg:p-1 lg:h-[9rem] lg:flex lg:items-center lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[10rem] md:flex md:p-3 md:items-center md:h-[10rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
+              <p className="text-[0.85rem] w-full outfit lg:text-[0.85rem] lg:w-full md:text-[0.85rem] md:w-full font-normal">
                 SEND ME A MESSAGE
               </p>
             </div>
@@ -88,7 +89,7 @@ const Footer = () => {
               <p className="text-3xl">✌️</p>
               <div className="p-2">
                 <span className="outfit">
-                  info@liquid.com Looking for collabration for your next post?
+                info@kevindavidkaydee.com Looking for collabration for your next post?
                 </span>
                 <p className="outfit">Do not hesitate to contact us</p>
               </div>

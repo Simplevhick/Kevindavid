@@ -8,6 +8,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { useState, useRef, useEffect } from "react";
 import { BsFillPlayCircleFill, BsFillPauseCircleFill } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 const Songfolio = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -92,7 +93,15 @@ const Songfolio = () => {
   return (
     <>
       <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-fixed bg-center bg-cover custom-img2">
-        <div className="text-[5rem] lg:text-[7rem] lg:m-auto lg:min-w-screen md:text-[5rem] md:flex md:min-w-screen">
+        <motion.div
+         initial={{ opacity: 0, y: -100 }}
+         animate={{
+           opacity: 1,
+           y: 0,
+           transition: { delay: 1, duration: 1, ease: "easeInOut" },
+         }}
+          className="text-[5rem] lg:text-[7rem] lg:m-auto lg:min-w-screen md:text-[5rem] md:flex md:min-w-screen"
+        >
           <div className="flex-none lg:flex md:flex">
             <div className="text-white leading-[4.5rem] lg:leading-[6rem] md:leading-[6rem]">
               <h3 className="outfit text-cs">KEVIN</h3>
@@ -104,7 +113,7 @@ const Songfolio = () => {
               <div className="outfit  text-white">Music</div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       <div className="mb-[3rem] lg:mb-[3rem] md:mb-[3rem] m-auto" id="">

@@ -57,7 +57,7 @@ const Tour = () => {
   };
 
   return (
-    <div className="mb-[18rem] lg:mb-[15rem] md:mb-[5rem]">
+    <div className="mb-[18rem] lg:mb-[15rem] md:mb-[15rem]">
       <div
         className="relative lg:relative lg:m-auto md:relative md:m-auto"
         id="tours"
