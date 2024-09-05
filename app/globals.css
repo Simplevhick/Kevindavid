@@ -14,19 +14,17 @@
   src: url(../public/assets/Outfit-Medium.ttf);
 }
 
-
-.outfit{
+.outfit {
   font-family: Outfit;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
   background-color: #080803;
 }
-
 
 .custom-img {
   background-image: url("/assets/kev5.jpg");
@@ -35,7 +33,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   display: flex;
-  margin-bottom: 7rem; 
+  margin-bottom: 7rem;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -44,12 +42,11 @@ body {
 }
 .custom-img2 {
   background-image: url("/assets/kev5.jpg");
-  -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0));
-  mask-image: linear-gradient(#000, rgba(0,0,0,0));
+  -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
 }
 
-
-.moot{
+.moot {
   display: grid;
   justify-self: self-end;
 }
@@ -72,7 +69,7 @@ body {
   background-color: rgb(21, 28, 235);
 }
 
-.carousel{
+.carousel {
   padding: 5rem;
   background-color: #000;
   color: #fff;
@@ -80,53 +77,51 @@ body {
   width: 100vw;
 }
 
-.box{
+.box {
   height: 300px;
 }
 
-.box h3{
-   text-align: center;
+.box h3 {
+  text-align: center;
 }
 
-.slick-slide div{
+.slick-slide div {
   margin: 0 1rem;
 }
 
 .slick-next {
-    right: -40px !important;
+  right: -40px !important;
 }
 
- .slick-dots li.slick-active button:before{
+.slick-dots li.slick-active button:before {
   color: lightgreen !important;
-} 
+}
 
-.slick-dots li button:before{
+.slick-dots li button:before {
   color: #fff !important;
   font-size: 1rem !important;
   top: 2rem !important;
 }
 
-
-
-#waveform{
+#waveform {
   width: 100%;
   max-width: 100%;
 }
 
-.controls{
+.controls {
   margin-top: 10px;
 }
 
-.controls button{
+.controls button {
   margin: 1px;
   border: 1px solid #ccc !important;
 }
 
-.controls button:hover{
+.controls button:hover {
   background-color: #ececec;
 }
 
-.audio-info{
+.audio-info {
   margin-top: 15px;
   color: #fff;
   border-radius: 4px;
@@ -135,5 +130,19 @@ body {
   font-size: 12px;
 }
 
-
-
+@media screen and (max-width: 600px) {
+  .custom-img {
+    background-image: url("/assets/kev5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    margin-bottom: 7rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: full;
+    height: 100vh;
+  }
+}
