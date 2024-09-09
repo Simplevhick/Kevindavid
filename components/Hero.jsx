@@ -70,10 +70,10 @@ const Hero = ({ heading, message, sub }) => {
         </motion.div>
         <HeaderSocials />
         <audio
-          src="https://audiomack.com/kevindavidkaydee/song/when-god-remembers-you"
-          /* // src={currentSong.song} */
+          // src="https://audiomack.com/kevindavidkaydee/song/when-god-remembers-you"
+          src={currentSong.song}
           ref={audioElem}
-          /* // onTimeUpdate={onPlaying} */
+          onTimeUpdate={onPlaying}
         />
         <Player
           songs={songs}

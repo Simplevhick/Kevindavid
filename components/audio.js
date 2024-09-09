@@ -6,17 +6,17 @@ exports.songsdata=[
     // },
     {
         "title": "Frank oscar",
-        "song" : "https://audiomack.com/kevindavidkaydee/song/when-god-remembers-you",
+        "song" : "/assets/central",
         "img" : "/assets/kev2.jpg"
     },
     {
         "title": "Jefferson Jimmy",
-        "song" : "https://audiomack.com/kevindavidkaydee/song/when-god-remembers-you",
+        "song" : "/assets/When.mp3",
         "img" : "/assets/kev3.jpg"
     },
     {
         "title": "Central-Cee",
-        "song" : "https://audiomack.com/kevindavidkaydee/song/when-god-remembers-you",
+        "song" : "/assets/asa.mp3",
         "img" : "/assets/kev5.jpg"
     }
     // {
