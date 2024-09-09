@@ -5,6 +5,7 @@ import HeaderSocials from "./HeaderSocials";
 import Player from "./Player";
 import { songsdata } from "./audio";
 import { motion } from "framer-motion";
+import ModalVideo from "./modalVideo";
 
 const Hero = ({ heading, message, sub }) => {
   const [songs, setSongs] = useState(songsdata);
@@ -34,7 +35,7 @@ const Hero = ({ heading, message, sub }) => {
 
   return (
     <>
-    {/* relative flex items-center justify-center max-w-[100%] h-[100vh] mb-[7rem] bg-fixed bg-center bg-cover custom-img lg:relative lg:flex lg:items-center lg:justify-center lg:w-full lg:h-screen lg:mb-[7rem] lg:bg-fixed lg:bg-center lg:bg-cover lg:custom-img md:relative md:flex md:items-center md:justify-center md:w-full md:h-screen md:mb-[7rem] md:bg-fixed md:bg-center md:bg-cover md: */}
+      {/* relative flex items-center justify-center max-w-[100%] h-[100vh] mb-[7rem] bg-fixed bg-center bg-cover custom-img lg:relative lg:flex lg:items-center lg:justify-center lg:w-full lg:h-screen lg:mb-[7rem] lg:bg-fixed lg:bg-center lg:bg-cover lg:custom-img md:relative md:flex md:items-center md:justify-center md:w-full md:h-screen md:mb-[7rem] md:bg-fixed md:bg-center md:bg-cover md: */}
       <motion.section
         initial={{ opacity: 20 }}
         animate={{ opacity: 1, transition: { delay: 1 } }}
@@ -53,22 +54,26 @@ const Hero = ({ heading, message, sub }) => {
           <h2 className="text-7xl font-bold text-cs sm:text-9xl outfit">
             {heading}
           </h2>
-          <div className="absolute ml-[1rem] lg:ml-[1rem] md:ml-[1rem]">
+          <div className="absolute ml-[1rem] lg:ml-[1rem] lg:mt-[-1em] md:ml-[1rem]">
             <h2 className="text-6xl font-bold lg:text-[7rem] md:text-[7rem] outfit">
               {message}
             </h2>
           </div>
-          <div className="absolute ml-[-0.50rem] mt-[4rem] lg:ml-[-1.5rem] lg:mt-[7rem] md:ml-[-2rem] md:mt-[6.5rem]">
+          <div className="absolute ml-[-0.50rem] mt-[4rem] lg:ml-[-1.5rem] lg:mt-[5rem] md:ml-[-2rem] md:mt-[6.5rem]">
             <h2 className="text-6xl font-bold text-cs lg:text-[7rem] md:text-[7rem] outfit">
               {sub}
             </h2>
+            <div>
+              <ModalVideo />
+            </div>
           </div>
         </motion.div>
         <HeaderSocials />
         <audio
-          src={currentSong.song}
+          src="https://audiomack.com/kevindavidkaydee/song/when-god-remembers-you"
+          /* // src={currentSong.song} */
           ref={audioElem}
-          onTimeUpdate={onPlaying}
+          /* // onTimeUpdate={onPlaying} */
         />
         <Player
           songs={songs}
