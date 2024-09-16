@@ -51,7 +51,7 @@ const Footer = () => {
 
         <div className="max-w-[1240px] flex flex-col-reverse mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:p-8 lg:mt-[4%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[8%] md:ml-[0.5rem]">
           <div className="p-2 lg:p-2 md:p-[0.5rem] lg:flex-1 md:flex-1">
-            <Link href="">
+            <Link href="mailto:info@kevindavidkaydee.com">
               <h3 className="ml-2s text-[2.5rem] outfit font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
                 LETS TALK
               </h3>
@@ -62,10 +62,11 @@ const Footer = () => {
           </div>
 
           <Link href="mailto:info@kevindavidkaydee.com">
-            <div className="w-[10rem] flex justify-center items-center h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[8rem] lg:h-[8rem] lg:flex lg:items-center lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[10rem] md:flex md:p-3 md:items-center md:h-[10rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
-              <p className="text-[1rem] whitespace-nowrap outfit lg:text-[0.62rem] lg:w-full lg:ml-1 md:text-[0.85rem] md:w-full font-normal">
-                SEND ME A MESSAGE
-              </p>
+            <div className="grid place-items-center w-[10rem] h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[8rem] lg:h-[8rem] lg:m-auto lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[10rem]  md:p-3 md:h-[10rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
+              <div className="mt-[2rem] text-[1rem] outfit lg:text-[1rem] lg:mt-[1rem] md:text-[0.85rem] md:mt-[1rem] font-normal">
+                SEND ME A 
+              </div>
+              <div className="mt-[-5rem] lg:mt-[-3rem] md:mt-[-3rem]">MESSAGE</div>
             </div>
           </Link>
         </div>
