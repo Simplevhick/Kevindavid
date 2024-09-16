@@ -92,7 +92,7 @@ const Player = ({
           </div>
         
 
-        <div className="flex ml-[8rem] items-center lg:flex lg:ml-5 lg:items-center md:flex md:ml-5 md:items-center">
+        <div className="flex ml-[8rem]  items-center lg:flex lg:ml-5 lg:items-center md:flex md:ml-5 md:items-center">
           <BsFillSkipStartCircleFill
             className="text-[2rem] lg:text-[2rem] md:text-[2rem]"
             onClick={skipBack}
@@ -104,12 +104,12 @@ const Player = ({
             />
           ) : (
             <BsFillPlayCircleFill
-              className="text-[4rem] lg:text-[4rem] md:text-[4rem]"
+              className="text-[4rem] ml-[0.30rem] lg:text-[4rem] lg:ml-[0.30rem] md:ml-[0.30rem] md:text-[4rem]"
               onClick={PlayPause}
             />
           )}
           <BsFillSkipEndCircleFill
-            className="text-[2rem] lg:text-[2rem] md:text-[2rem]"
+            className="text-[2rem] ml-[0.30rem] lg:text-[2rem] lg:ml-[0.30rem] md:text-[2rem] md:ml-[0.30rem]"
             onClick={skiptoNext}
           />
         </div>

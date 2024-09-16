@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const HeaderSocials = () => {
   return (
-    <div className='text-white flex flex-col items-center gap-6 absolute top-80 left-20 bottom-12 hidden lg:flex'>
+    <div className='text-white flex-col items-center gap-6 absolute top-80 left-20 bottom-12 hidden lg:flex'>
         <a href="https://linkdin.com"><BsLinkedin /></a>
         <a href="https://github.com"><FaGithub /></a>
         <a href="https://dribble.com"><FiDribbble /></a>

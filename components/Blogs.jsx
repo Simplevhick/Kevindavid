@@ -6,7 +6,7 @@ const Blogs = () => {
   return (
     <div className="mb-[5rem]" id="blog">
       <div className="flex items-center justify-center flex-col text-white">
-        <h1 className="text-[1.5rem] outfit">Hope You Like It</h1>
+        <h1 className="text-[1.5rem] outfit">Hope you like it</h1>
         <h1 className="text-[2rem] outfit font-bold lg:text-[2.8rem] lg:font-bold md:text-[2.8rem] md:font-bold">
           LATEST RELEASES
         </h1>

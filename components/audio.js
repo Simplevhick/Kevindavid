@@ -6,17 +6,17 @@ exports.songsdata=[
     // },
     {
         "title": "Frank oscar",
-        "song" : "/assets/central",
+        "url" : "/assets/central",
         "img" : "/assets/kev2.jpg"
     },
     {
         "title": "Jefferson Jimmy",
-        "song" : "/assets/When.mp3",
+        "url" : "/assets/When.mp3",
         "img" : "/assets/kev3.jpg"
     },
     {
         "title": "Central-Cee",
-        "song" : "/assets/asa.mp3",
+        "url" : "/assets/asa.mp3",
         "img" : "/assets/kev5.jpg"
     }
     // {

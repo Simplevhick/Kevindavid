@@ -51,7 +51,7 @@ const Hero = ({ heading, message, sub }) => {
           }}
           className="p-5 text-white mt-[-10rem]"
         >
-          <h2 className="text-7xl font-bold text-cs sm:text-9xl outfit">
+          <h2 className="text-7xl font-bold text-cs sm:text-9xl outfit lg:mt-[-6rem]">
             {heading}
           </h2>
           <div className="absolute ml-[1rem] lg:ml-[1rem] lg:mt-[-1em] md:ml-[1rem]">
@@ -63,7 +63,7 @@ const Hero = ({ heading, message, sub }) => {
             <h2 className="text-6xl font-bold text-cs lg:text-[7rem] md:text-[7rem] outfit">
               {sub}
             </h2>
-            <div>
+            <div className="mt-[1.5rem]">
               <ModalVideo />
             </div>
           </div>
@@ -71,7 +71,7 @@ const Hero = ({ heading, message, sub }) => {
         <HeaderSocials />
         <audio
           // src="https://audiomack.com/kevindavidkaydee/song/when-god-remembers-you"
-          src={currentSong.song}
+          src={currentSong.url} 
           ref={audioElem}
           onTimeUpdate={onPlaying}
         />
