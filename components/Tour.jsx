@@ -59,7 +59,7 @@ const Tour = () => {
   return (
     // <div className="mb-[18rem] lg:mb-[15rem] md:mb-[15rem]">
     <div className="">
-      <div className="mb-[12rem] lg:mb-[12rem] md:mb-[10rem]" id="tours">
+      <div className="mb-[15rem] lg:mb-[12rem] md:mb-[10rem]" id="tours">
         <div className="relative text-white bg-[url('/assets/kev5.jpg')] rounded-2xl flex h-[40rem] justify-center w-[100vw]  lg:rounded-3xl lg:flex lg:h-[70vh] lg:justify-center lg:w-[100vw] md:rounded-3xl md:flex md:h-[70vh] md:justify-center md:w-[100vw] bg-fixed bg-center bg-cover bg-no-repeat">
           <div>
             <div className="mt-5 lg:mt-5 md:mt-5">
@@ -72,8 +72,8 @@ const Tour = () => {
             </div>
           </div>
 
-          <div className="absolute p-7 top-[19rem] w-auto rounded-md lg:absolute lg:top-[20rem] lg:w-auto lg:mt-0 lg:p-6 lg:rounded-md md:rounded-md md:absolute md:top-[10rem] md:mt-32 md:w-auto md:m-5 bg-gradient-to-r  from-purple-700 to-red-500">
-            <div className="text-2xl">
+          <div className="absolute p-12 top-[19rem] w-auto rounded-md lg:absolute lg:top-[20rem] lg:w-auto lg:mt-0 lg:p-6 lg:rounded-md md:rounded-md md:absolute md:top-[10rem] md:mt-32 md:w-auto md:m-5 bg-gradient-to-r  from-purple-700 to-red-500">
+            <div className="text-[1.7rem] whitespace-nowrap lg:px-[2rem] lg:text-2xl md:text-2xl md:px-[2rem]">
               <div>
                 <h3 className="outfit"> List of tracks recorded </h3>
               </div>
@@ -84,10 +84,11 @@ const Tour = () => {
                 </p>
               </div>
             </div>
-            <div className="px-[1rem] text-white lg:px-[8rem] lg:text-white md:px-[3rem] md:text-white">
+            <div className="px-[-1rem] text-white lg:px-[8rem] lg:text-white md:px-[3rem] md:text-white">
+            {/* <div className="px-[1rem] text-white lg:px-[8rem] lg:text-white md:px-[3rem] md:text-white"> */}
               <div className="flex flex-col space-y-10 lg:flex lg:flex-col lg:space-y-10 md:flex md:flex-col md:space-y-10">
                 <div className="mt-5 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
-                  <div className="text-[1rem]">
+                  <div className="text-[1.1rem]">
                     <h3 className="outfit"> List of tracks recorded</h3>
                   </div>
 
@@ -117,7 +118,7 @@ const Tour = () => {
                 </div>
 
                 <div className="mt-2 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
-                  <div className="text-[1rem]">
+                  <div className="text-[1.1rem]">
                     <h3 className="outfit">Love no be scam</h3>
                   </div>
 
@@ -147,7 +148,7 @@ const Tour = () => {
                 </div>
 
                 <div className="mt-2 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
-                  <div className="text-[1rem]">
+                  <div className="text-[1.1rem]">
                     <h3 className="outfit"> Recorded</h3>
                   </div>
 

@@ -56,7 +56,7 @@ const Footer = () => {
                 LETS TALK
               </h3>
             </Link>
-            <h3 className="text-[1.5rem] text-gray-700 outfit p-[0.5px] font-bold text-cs lg:text-7xl lg:text-gray-700 lg:ml-1 lg:font-bold lg:text-cs md:text-5xl md:ml-1 md:text-gray-700 md:font-bold md:text-cs">
+            <h3 className="text-[1.5rem] text-gray-700 outfit p-[0.5px] font-bold text-cs lg:text-7xl lg:text-gray-500 lg:ml-1 lg:font-bold lg:text-cs md:text-5xl md:ml-1 md:text-gray-700 md:font-bold md:text-cs">
               info@kevindavidkaydee.com
             </h3>
           </div>
