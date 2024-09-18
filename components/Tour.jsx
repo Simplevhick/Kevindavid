@@ -57,7 +57,6 @@ const Tour = () => {
   };
 
   return (
-    // <div className="mb-[18rem] lg:mb-[15rem] md:mb-[15rem]">
     <div className="">
       <div className="mb-[15rem] lg:mb-[12rem] md:mb-[10rem]" id="tours">
         <div className="relative text-white bg-[url('/assets/kev5.jpg')] rounded-2xl flex h-[40rem] justify-center w-[100vw]  lg:rounded-3xl lg:flex lg:h-[70vh] lg:justify-center lg:w-[100vw] md:rounded-3xl md:flex md:h-[70vh] md:justify-center md:w-[100vw] bg-fixed bg-center bg-cover bg-no-repeat">
@@ -93,7 +92,7 @@ const Tour = () => {
                   </div>
 
                   <div className="lg:flex lg:justify-center lg:gap-5 md:flex md:justify-center md:gap-5">
-                    <audio ref={audioRef} src="/assets/asa.mp3" />
+                    <audio ref={audioRef} src="/assets/central.mp3" />
                     <div className="">
                       <div
                         className=" h-2 rounded"
@@ -123,7 +122,7 @@ const Tour = () => {
                   </div>
 
                   <div className="lg:flex lg:justify-center lg:gap-5 md:flex md:justify-center md:gap-5">
-                    <audio ref={audioRef} src="/assets/asa.mp3" />
+                    <audio ref={audRef} src="/assets/asa.mp3" />
                     <div className="">
                       <div
                         className=" h-2 rounded"
@@ -133,8 +132,8 @@ const Tour = () => {
                     </div>
 
                     <div className="mt-[0.256rem] lg:mt-[-1.3rem] md:mt-[-1.3rem]">
-                      <button onClick={togglePlay} className="text-[2.5rem]">
-                        {isPlaying ? (
+                      <button onClick={play} className="text-[2.5rem]">
+                        {isPlay ? (
                           <BsFillPauseCircleFill />
                         ) : (
                           <BsFillPlayCircleFill />
@@ -153,7 +152,7 @@ const Tour = () => {
                   </div>
 
                   <div className="lg:flex lg:justify-center lg:gap-5 md:flex md:justify-center md:gap-5">
-                    <audio ref={audioRef} src="/assets/asa.mp3" />
+                    <audio ref={auditRef} src="/assets/elon.mp3" />
                     <div className="">
                       <div
                         className=" h-2 rounded"
@@ -163,8 +162,8 @@ const Tour = () => {
                     </div>
 
                     <div className="mt-[0.256rem] lg:mt-[-1.3rem] md:mt-[-1.3rem]">
-                      <button onClick={togglePlay} className="text-[2.5rem]">
-                        {isPlaying ? (
+                      <button onClick={Beingplay} className="text-[2.5rem]">
+                        {isBeingPlayed ? (
                           <BsFillPauseCircleFill />
                         ) : (
                           <BsFillPlayCircleFill />
