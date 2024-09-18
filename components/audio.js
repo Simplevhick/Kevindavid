@@ -1,12 +1,12 @@
 exports.songsdata = [
   {
     title: "Frank oscar",
-    url: "/assets/central.mp3",
+    url: "/assets/When.mp3",
     img: "/assets/kev2.jpg",
   },
   {
     title: "Jefferson Jimmy",
-    url: "/assets/When.mp3",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
     img: "/assets/kev3.jpg",
   },
   {
@@ -17,3 +17,4 @@ exports.songsdata = [
 ];
 // https://audiomack.com/embed/kevindavidkaydee/song/when-god-remembers-you
 // "https://open.spotify.com/track/5aX9CJyCqA1LrXH8XnPL2x?si=fa0de2833457428a",
+// https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3
