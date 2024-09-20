@@ -64,7 +64,7 @@ const Player = ({
       }}
       className="absolute w-[90%] max-w-[400px] lg:max-w-[900px] md:max-w-[600px] text-white top-[38rem] left-15 lg:top-[36rem] lg:left-38 md:top-[37rem] md:left-15"
     >
-      <div className="flex bg-red-500 p-4 rounded-xl items-center lg:flex lg:bg-red-500 lg:p-6 lg:items-center md:flex md:bg-red-500 md:p-4 md:items-center">
+      <div className="flex bg-red-500 p-4 rounded-xl items-center lg:flex lg:bg-red-500 lg:p-6 lg:items-center md:flex md:bg-red-500 md:p-4 md:items-center xl:md:flex xl:bg-red-500 xl:p-4 xl:items-center xl:mt-[7rem]">
         <div className="flex items-center text-grey-200 ml-[7px] lg:flex lg:items-center lg:text-grey-200 md:flex md:items-center md:text-grey-200 ">
           <Image
             src={currentSong.img}
