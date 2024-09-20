@@ -71,7 +71,7 @@ const Tour = () => {
             </div>
           </div>
 
-          <div className="absolute p-12 top-[19rem] w-auto rounded-md lg:absolute lg:top-[20rem] lg:w-auto lg:mt-0 lg:p-6 lg:rounded-md md:rounded-md md:absolute md:top-[10rem] md:mt-32 md:w-auto md:m-5 bg-gradient-to-r  from-purple-700 to-red-500">
+          <div className="absolute p-12 top-[19rem] w-auto rounded-md lg:absolute lg:top-[20rem] lg:w-auto lg:mt-0 lg:p-6 lg:rounded-md md:rounded-md md:absolute md:top-[10rem] md:mt-32 md:w-auto md:p-5 bg-gradient-to-r  from-purple-700 to-red-500">
             <div className="text-[1.7rem] whitespace-nowrap lg:px-[2rem] lg:text-2xl md:text-2xl md:px-[2rem]">
               <div>
                 <h3 className="outfit"> List of tracks recorded </h3>
