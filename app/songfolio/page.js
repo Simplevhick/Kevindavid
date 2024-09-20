@@ -117,7 +117,7 @@ const Songfolio = () => {
       </div>
 
       <div className="mb-[3rem] lg:mb-[3rem] md:mb-[3rem] m-auto" id="">
-        <div className="max-w-[1240px] p-7 w-auto rounded-md lg:w-auto lg:mt-0 lg:p-6 lg:rounded-md md:rounded-md md:mt-32 md:w-auto md:m-5 bg-gradient-to-r  from-purple-700 to-red-500">
+        <div className=" p-7 w-auto rounded-md lg:w-auto lg:mt-0 lg:p-6 lg:rounded-md md:rounded-md md:mt-32 md:w-auto md:m-5 bg-gradient-to-r  from-purple-700 to-red-500">
           <div className="text-2xl">
             <div>
               <h3 className="outfit"> List of tracks recorded </h3>

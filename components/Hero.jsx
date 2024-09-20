@@ -51,7 +51,7 @@ const Hero = ({ heading, message, sub }) => {
           }}
           className="p-5 text-white mt-[-10rem]"
         >
-          <h2 className="text-7xl font-bold text-cs sm:text-9xl outfit lg:mt-[-6rem] xl:mt-[6rem]">
+          <h2 className="text-7xl font-bold text-cs sm:text-9xl outfit lg:mt-[-6rem] xl:mt-[-8rem]">
             {heading}
           </h2>
           <div className="absolute ml-[1rem] lg:ml-[1rem] lg:mt-[-1em] md:ml-[1rem]">
