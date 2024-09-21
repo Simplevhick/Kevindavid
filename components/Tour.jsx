@@ -111,7 +111,7 @@ const Tour = () => {
                   </div>
                 </div>
                 <div className="">
-                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[72vw]" />
+                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[76vw]" />
                 </div>
               </div>
 
@@ -131,8 +131,8 @@ const Tour = () => {
                   </div>
 
                   <div className="mt-[0.256rem] lg:mt-[-1.3rem] md:mt-[-1.3rem]">
-                    <button onClick={togglePlay} className="text-[2.5rem]">
-                      {isPlaying ? (
+                    <button onClick={play} className="text-[2.5rem]">
+                      {isPlay ? (
                         <BsFillPauseCircleFill />
                       ) : (
                         <BsFillPlayCircleFill />
@@ -141,7 +141,7 @@ const Tour = () => {
                   </div>
                 </div>
                 <div className="">
-                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[72vw]" />
+                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[76vw]" />
                 </div>
               </div>
 
@@ -161,8 +161,8 @@ const Tour = () => {
                   </div>
 
                   <div className="mt-[0.256rem] lg:mt-[-1.3rem] md:mt-[-1.3rem]">
-                    <button onClick={togglePlay} className="text-[2.5rem]">
-                      {isPlaying ? (
+                    <button onClick={Beingplay} className="text-[2.5rem]">
+                      {isBeingPlayed ? (
                         <BsFillPauseCircleFill />
                       ) : (
                         <BsFillPlayCircleFill />
