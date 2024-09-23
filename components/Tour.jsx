@@ -58,7 +58,7 @@ const Tour = () => {
 
   return (
     <div className="">
-      <div className="mb-[15rem] lg:mb-[12rem] md:mb-[10rem] xl:mb-[5rem]" id="tours">
+      <div className="mb-[15rem] lg:mb-[12rem] md:mb-[10rem] xl:mb-[5rem] 2xl:mb-[9rem]" id="tours">
         <div className="relative text-white bg-[url('/assets/kev5.jpg')] rounded-2xl flex h-[40rem] justify-center w-[100%]  lg:rounded-3xl lg:flex lg:h-[70vh] lg:justify-center lg:w-[100%] md:rounded-3xl md:flex md:h-[70vh] md:justify-center md:w-[100%] bg-fixed bg-center bg-cover bg-no-repeat">
           <div>
             <div className="mt-5 lg:mt-5 md:mt-5">
@@ -111,7 +111,7 @@ const Tour = () => {
                   </div>
                 </div>
                 <div className="">
-                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[78vw]" />
+                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[77vw]" />
                 </div>
               </div>
 
@@ -141,7 +141,7 @@ const Tour = () => {
                   </div>
                 </div>
                 <div className="">
-                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[78vw]" />
+                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[77vw]" />
                 </div>
               </div>
 

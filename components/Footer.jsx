@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <>
+    <div className="mb-0 lg:mb-10 md:mb-9 xl:mb-12 2xl:mb-14">
       <div
         className="ml-auto mr-auto text-white max-w-[1240px] lg:mr-auto lg:ml-auto md:mr-auto md:ml-auto"
         id="footer"
@@ -100,7 +100,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

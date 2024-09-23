@@ -157,7 +157,7 @@ const Songfolio = () => {
                   </div>
                 </div>
                 <div className="">
-                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[78vw]" />
+                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[77vw]" />
                 </div>
               </div>
 
@@ -187,7 +187,7 @@ const Songfolio = () => {
                   </div>
                 </div>
                 <div className="">
-                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[78vw]" />
+                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[77vw]" />
                 </div>
               </div>
 
