@@ -130,12 +130,14 @@ body {
   font-size: 12px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px), (max-device-width:600px) {
+/* @media screen and (max-width: 600px) { */
   .custom-img {
     background-image: url("/assets/kev5.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    background-attachment: scroll;
     background-size: cover;
     display: flex;
     margin-bottom: 7rem;
