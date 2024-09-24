@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <div className="mb-[2rem] lg:mb-[5rem] md:mb-[7rem]">
-      <div className="relative flex items-center justify-center w-full h-screen bg-fixed bg-center bg-cover custom-img2 ">
+      <div className="relative flex items-center justify-center w-full h-screen bg-scroll bg-center bg-cover custom-img2 ">
         <motion.div
           initial={{ opacity: 0, y: -100 }}
           animate={{
