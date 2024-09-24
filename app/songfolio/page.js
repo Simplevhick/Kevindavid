@@ -92,7 +92,7 @@ const Songfolio = () => {
   }, []);
   return (
     <>
-      <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-fixed bg-center bg-cover custom-img2">
+      <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-fixed bg-center bg-cover custom-img2 sm:bg-scroll">
         <motion.div
           initial={{ opacity: 0, y: -100 }}
           animate={{
