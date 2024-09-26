@@ -63,7 +63,7 @@ const Hero = ({ heading, message, sub }) => {
             <h2 className="text-6xl font-bold text-cs lg:text-[7rem] md:text-[7rem] outfit">
               {sub}
             </h2>
-            <div className="mt-[1.5rem] lg:mt-[1rem] md:mt-[1.5rem] xl:mt-[1.5rem]">
+            <div className="mt-[1.5rem] lg:m-[1rem] md:mt-[1.5rem] xl:mt-[1.5rem]">
               <ModalVideo />
             </div>
           </div>
