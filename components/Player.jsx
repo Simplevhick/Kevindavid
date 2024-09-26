@@ -62,9 +62,9 @@ const Player = ({
         bottom: 0,
         transition: { delay: 1.5, duration: 1.2, ease: "easeInOut" },
       }}
-      className="absolute w-[90%] max-w-[400px] lg:max-w-[900px] md:max-w-[600px] text-white top-[38rem] left-15 lg:top-[36rem] lg:left-38 md:top-[37rem] md:left-15"
+      className="absolute w-[90%] max-w-[400px] lg:max-w-[900px] md:max-w-[670px] text-white top-[38rem] left-15 lg:top-[36rem] lg:left-38 md:top-[40rem] md:left-15"
     >
-      <div className="flex bg-red-500 p-4 rounded-xl items-center lg:flex lg:bg-red-500 lg:p-6 lg:items-center md:flex md:bg-red-500 md:p-4 md:items-center xl:md:flex xl:bg-red-500 xl:p-4 xl:items-center xl:mt-[7rem]">
+      <div className="flex bg-red-500 p-4 rounded-xl items-center lg:flex lg:bg-red-500 lg:p-6 lg:items-center md:flex md:bg-red-500 md:p-6 md:items-center xl:md:flex xl:bg-red-500 xl:p-4 xl:items-center xl:mt-[7rem]">
         <div className="flex items-center text-grey-200 ml-[7px] lg:flex lg:items-center lg:text-grey-200 md:flex md:items-center md:text-grey-200 ">
           <Image
             src={currentSong.img}
@@ -81,7 +81,7 @@ const Player = ({
 
 
           <div
-            className="navigation_wrapper min-w-[70%] h-[5px] rounded-[30px] cursor-pointer ml-[20px] hidden lg:block lg:min-w-[60%] lg:h-[5px] lg:rounded-[30px] lg:cursor-pointer lg:ml-[83px] md:block md:min-w-[50%] md:h-[5px] md:rounded-[30px] md:cursor-pointer md:ml-[70px]"
+            className="navigation_wrapper min-w-[70%] h-[5px] rounded-[30px] cursor-pointer ml-[20px] hidden lg:block lg:min-w-[60%] lg:h-[5px] lg:rounded-[30px] lg:cursor-pointer lg:ml-[83px] md:block md:min-w-[50%] md:h-[5px] md:rounded-[30px] md:cursor-pointer md:ml-[90px]"
             onClick={checkWidth}
             ref={clickRef}
           >
@@ -92,7 +92,7 @@ const Player = ({
           </div>
         
 
-        <div className="flex ml-[8rem]  items-center lg:flex lg:ml-5 lg:items-center md:flex md:ml-5 md:items-center">
+        <div className="flex ml-[8rem] items-center lg:flex lg:ml-5 lg:items-center md:flex md:ml-5 md:items-center">
           <BsFillSkipStartCircleFill
             className="text-[2rem] lg:text-[2rem] md:text-[2rem]"
             onClick={skipBack}

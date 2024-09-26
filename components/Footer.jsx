@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
 
           <Link href="mailto:info@kevindavidkaydee.com">
-            <div className="grid place-items-center w-[10rem] h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[8rem] lg:h-[8rem] lg:m-auto lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[10rem]  md:p-3 md:h-[10rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
+            <div className="grid place-items-center w-[10rem] h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[8rem] lg:h-[8rem] lg:m-auto lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[8rem] md:p-3 md:h-[8rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
               <div className="mt-[2rem] text-[1rem] outfit lg:text-[1rem] lg:mt-[1rem] md:text-[0.85rem] md:mt-[1rem] font-normal">
                 SEND ME A 
               </div>

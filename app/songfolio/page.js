@@ -93,7 +93,7 @@ const Songfolio = () => {
   return (
     <>
       <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-scroll bg-center bg-cover custom-img2 sm:bg-scroll">
-      {/* <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-fixed bg-center bg-cover custom-img2"> */}
+        {/* <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-fixed bg-center bg-cover custom-img2"> */}
         <motion.div
           initial={{ opacity: 0, y: -100 }}
           animate={{
@@ -157,9 +157,9 @@ const Songfolio = () => {
                     </button>
                   </div>
                 </div>
-                <div className="">
-                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[77vw]" />
-                </div>
+              </div>
+              <div className="mt-6 max-w-[100%] lg:mt-6 lg:max-w-[100%] lg:ml-[1rem] md:mt-6 md:max-w-[100%] md:ml-[2rem] xl:mt-6 xl:w-[77vw]">
+                <hr className="" />
               </div>
 
               <div className="mt-2 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
@@ -187,9 +187,9 @@ const Songfolio = () => {
                     </button>
                   </div>
                 </div>
-                <div className="">
-                  <hr className="mt-6 w-[90%] lg:mt-6 lg:w-[55rem] lg:ml-[2rem] md:mt-6 md:w-[35rem] md:ml-[4rem] xl:mt-6 xl:w-[77vw]" />
-                </div>
+              </div>
+              <div className="mt-6 max-w-[100%] lg:mt-6 lg:max-w-[100%] lg:ml-[1rem] md:mt-6 md:max-w-[100%] md:ml-[2rem] xl:mt-6 xl:w-[77vw]">
+                <hr className="" />
               </div>
 
               <div className="mt-2 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">

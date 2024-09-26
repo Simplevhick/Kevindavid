@@ -32,20 +32,21 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  display: flex;
-  margin-bottom: 7rem;
+  /* display: flex;
+  margin-bottom: 14vh;
   position: relative;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 100vh; */
 }
+
 .custom-img2 {
   background-image: url("/assets/kev5.jpg");
   -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
   mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
 }
-.custom-img3{
+.custom-img3 {
   background-image: url("/assets/kev5.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -145,13 +146,28 @@ body {
   font-size: 12px;
 }
 
-@media screen and (max-width: 600px), (max-device-width:600px) {
-/* @media screen and (max-width: 600px) { */
+@media screen and (max-width: 768px), (max-device-width: 768px) {
   .custom-img {
     background-image: url("/assets/kev5.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    margin-bottom: 14vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 600px), (max-device-width: 600px) {
+  .custom-img {
+    background-image: url("/assets/kev5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     background-attachment: scroll;
     background-size: cover;
     display: flex;

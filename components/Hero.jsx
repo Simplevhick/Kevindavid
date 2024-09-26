@@ -39,7 +39,7 @@ const Hero = ({ heading, message, sub }) => {
       <motion.section
         initial={{ opacity: 20 }}
         animate={{ opacity: 1, transition: { delay: 1 } }}
-        className="custom-img"
+        className="relative flex items-center justify-center max-w-[100%] h-[100vh] mb-[7rem] bg-scroll bg-center bg-cover custom-img lg:relative lg:flex lg:items-center lg:justify-center lg:w-[100%] lg:h-[100vh] lg:mb-[14vh] lg:bg-fixed lg:bg-center lg:bg-cover md:relative md:flex md:items-center md:justify-center md:w-[100%] md:h-[100vh] md:mb-[14vh] md:bg-fixed md:bg-center md:bg-cover"
         id="hero"
       >
         <motion.div
@@ -49,9 +49,9 @@ const Hero = ({ heading, message, sub }) => {
             y: 0,
             transition: { delay: 1, duration: 1, ease: "easeInOut" },
           }}
-          className="p-5 text-white mt-[-10rem]"
+          className="p-5 text-white mt-[-10rem] lg:p-5 lg:text-white lg:mt-[-20rem] md:p-5 md:text-white md:mt-[-10rem]"
         >
-          <h2 className="text-7xl font-bold text-cs sm:text-9xl outfit lg:mt-[-6rem] xl:mt-[-8rem]">
+          <h2 className="text-7xl font-bold text-cs sm:text-9xl outfit lg:mt-[6rem] xl:mt-[8rem]">
             {heading}
           </h2>
           <div className="absolute ml-[1rem] lg:ml-[1rem] lg:mt-[-1em] md:ml-[1rem]">
@@ -63,7 +63,7 @@ const Hero = ({ heading, message, sub }) => {
             <h2 className="text-6xl font-bold text-cs lg:text-[7rem] md:text-[7rem] outfit">
               {sub}
             </h2>
-            <div className="mt-[1.5rem]">
+            <div className="mt-[1.5rem] lg:mt-[1rem] md:mt-[1.5rem] xl:mt-[1.5rem]">
               <ModalVideo />
             </div>
           </div>
