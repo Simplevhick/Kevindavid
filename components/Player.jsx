@@ -62,7 +62,7 @@ const Player = ({
         bottom: 0,
         transition: { delay: 1.5, duration: 1.2, ease: "easeInOut" },
       }}
-      className="absolute w-[90%] max-w-[400px] lg:max-w-[900px] md:max-w-[670px] text-white top-[38rem] left-15 lg:top-[36rem] lg:left-38 md:top-[40rem] md:left-15"
+      className="absolute w-[90%] max-w-[400px] lg:max-w-[900px] md:max-w-[670px] text-white top-[38rem] left-15 lg:top-[29rem] lg:left-38 md:top-[40rem] md:left-15"
     >
       <div className="flex bg-red-500 p-4 rounded-xl items-center lg:flex lg:bg-red-500 lg:p-6 lg:items-center md:flex md:bg-red-500 md:p-6 md:items-center xl:md:flex xl:bg-red-500 xl:p-4 xl:items-center xl:mt-[7rem]">
         <div className="flex items-center text-grey-200 ml-[7px] lg:flex lg:items-center lg:text-grey-200 md:flex md:items-center md:text-grey-200 ">

@@ -32,6 +32,7 @@ const CursorProvider = ({ children }) => {
   useEffect(() => {
     window.addEventListener("mousemove", handleMouseMove);
     return () => window.removeEventListener("mousemove", handleMouseMove);
+  // eslint-disable-next-line
   }, [cursor]);
 
   const mouseEnterHandler = () => {

@@ -49,6 +49,7 @@ const ProductDetails = () => {
             src={singleProduct.src}
             width={300}
             height={300}
+            alt="pix"
             className="w-[260px] h-[360px] rounded-md lg:w-[340px] lg:h-[430px] lg:rounded-md md:w-[310px] md:h-[390px] md:rounded-md"
           />
           <div className="absolute w-[50vw] flex mt-[20rem] justify-center h-[5rem] bg-gradient-to-r  from-purple-700 to-red-500 rounded lg:absolute lg:w-[19vw] lg:flex lg:mt-[24rem] lg:justify-center lg:h-[5.4rem] lg:rounded md:absolute md:w-[19vw] md:flex md:m-[21.5rem] md:justify-center md:h-[5rem] md:rounded">
