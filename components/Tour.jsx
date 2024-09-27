@@ -57,13 +57,13 @@ const Tour = () => {
   };
 
   return (
-    <div className="mb-[17rem] lg:mb-[20%] md:mb-[30%] xl:mb-[20%]">
+    <div className="relative mb-[17rem] lg:mb-[35vh] md:mb-[30%] xl:mb-[10rem]">
     {/* <div className="mb-[17rem] lg:mb-[20%] md:mb-[30%] xl:mb-[4%] 2xl:mb-[20vh]"> */}
     <div
         className=""
         id="tours"
       >
-        <div className="relative text-white bg-[url('/assets/kev5.jpg')] rounded-2xl flex h-[40rem] justify-center w-[100%]  lg:rounded-3xl lg:flex lg:h-[70vh] lg:justify-center lg:w-[100%] md:rounded-3xl md:flex md:h-[70vh] md:justify-center md:w-[100%] bg-scroll bg-center bg-cover bg-no-repeat">
+        <div className="text-white bg-[url('/assets/kev5.jpg')] rounded-2xl flex h-[40rem] justify-center w-[100%]  lg:rounded-3xl lg:flex lg:h-[70vh] lg:justify-center lg:w-[100%] md:rounded-3xl md:flex md:h-[70vh] md:justify-center md:w-[100%] bg-scroll bg-center bg-cover bg-no-repeat">
           {/* <div className="relative text-white bg-[url('/assets/kev5.jpg')] rounded-2xl flex h-[40rem] justify-center w-[100%]  lg:rounded-3xl lg:flex lg:h-[70vh] lg:justify-center lg:w-[100%] md:rounded-3xl md:flex md:h-[70vh] md:justify-center md:w-[100%] bg-fixed bg-center bg-cover bg-no-repeat"> */}
           <div>
             <div className="mt-5 lg:mt-5 md:mt-5">
