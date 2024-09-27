@@ -57,7 +57,7 @@ const Tour = () => {
   };
 
   return (
-    <div className="mb-[17rem] lg:mb-[20%] md:mb-[30%] xl:mb-[20%] 2xl:mb-[20vh]">
+    <div className="mb-[17rem] lg:mb-[15rem] md:mb-[30%]">
     {/* <div className="mb-[17rem] lg:mb-[20%] md:mb-[30%] xl:mb-[4%] 2xl:mb-[20vh]"> */}
     <div
         className=""
@@ -116,7 +116,7 @@ const Tour = () => {
                   </div>
                 </div>
               </div>
-              <div className="mt-6 max-w-[100%] lg:mt-6 lg:max-w-[100%] lg:ml-[1rem] md:mt-6 md:max-w-[100%] md:ml-[2rem] xl:mt-6 xl:w-[77vw]">
+              <div className="mt-6 max-w-[100%] lg:mt-6 lg:max-w-[100%] lg:ml-[2rem] md:mt-6 md:max-w-[100%] md:ml-[2rem] xl:mt-6 xl:w-[77vw]">
                 <hr className="" />
               </div>
 
@@ -146,7 +146,7 @@ const Tour = () => {
                   </div>
                 </div>
               </div>
-              <div className="mt-6 max-w-[100%] lg:mt-6 lg:max-w-[100%] lg:ml-[1rem] md:mt-6 md:max-w-[100%] md:ml-[2rem] xl:mt-6 xl:w-[77vw]">
+              <div className="mt-6 max-w-[100%] lg:mt-6 lg:max-w-[100%] lg:ml-[2rem] md:mt-6 md:max-w-[100%] md:ml-[2rem] xl:mt-6 xl:w-[77vw]">
                 <hr className="" />
               </div>
 
