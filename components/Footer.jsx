@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="max-w-[1240px] flex flex-col-reverse mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:p-8 lg:mt-[4%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[8%] md:ml-[0.5rem]">
+        <div className="max-w-[1240px] flex flex-col-reverse mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:m-8 lg:mt-[4%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[8%] md:ml-[0.5rem]">
           <div className="p-2 lg:p-2 md:p-[0.5rem] lg:flex-1 md:flex-1">
             <Link href="mailto:info@kevindavidkaydee.com">
               <h3 className="ml-2s text-[2.5rem] outfit font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
@@ -66,7 +66,7 @@ const Footer = () => {
               <div className="mt-[2rem] text-[1rem] outfit lg:text-[1rem] lg:mt-[1rem] md:text-[0.85rem] md:mt-[1rem] font-normal">
                 SEND ME A 
               </div>
-              <div className="mt-[-5rem] lg:mt-[-3rem] md:mt-[-3rem]">MESSAGE</div>
+              <div className="mt-[-5rem] outfit lg:mt-[-3rem] md:mt-[-3rem]">MESSAGE</div>
             </div>
           </Link>
         </div>
