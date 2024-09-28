@@ -12,7 +12,7 @@ const Blogs = () => {
         </h1>
       </div>
 
-      <div className="relative grid grid-cols-2 gap-1 place-items-center ml-1 mt-3 lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:place-items-center lg:mt-3 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-3 md:place-items-center md:mt-3">
+      <div className="relative grid grid-cols-2 gap-1 place-items-center ml-1 mt-3 lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:place-items-center lg:mt-1 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-3 md:place-items-center md:mt-1">
         {productData.map((productData) => (
           <div
             key={productData.id}
