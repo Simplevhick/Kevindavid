@@ -39,7 +39,7 @@ const Hero = ({ heading, message, sub }) => {
       <motion.section
         initial={{ opacity: 20 }}
         animate={{ opacity: 1, transition: { delay: 1 } }}
-        className="relative flex items-center justify-center max-w-[100%] h-[100vh] mb-[7rem] bg-scroll bg-center bg-cover custom-img lg:relative lg:flex lg:items-center lg:justify-center lg:w-[100%] lg:h-[45rem] lg:mb-[7rem] lg:bg-fixed lg:bg-center lg:bg-cover md:relative md:flex md:items-center md:justify-center md:w-[100%] md:h-[100vh] md:mb-[14vh] md:bg-fixed md:bg-center md:bg-cover"
+        className="relative flex items-center justify-center max-w-[100%] h-[100vh] mb-[7rem] bg-scroll bg-center bg-cover custom-img lg:relative lg:flex lg:items-center lg:justify-center lg:w-[100%] lg:h-[50rem] lg:mb-[7rem] lg:bg-fixed lg:bg-center lg:bg-cover md:relative md:flex md:items-center md:justify-center md:w-[100%] md:h-[100vh] md:mb-[14vh] md:bg-fixed md:bg-center md:bg-cover"
         // className="relative flex items-center justify-center max-w-[100%] h-[100vh] mb-[7rem] bg-scroll bg-center bg-cover custom-img lg:relative lg:flex lg:items-center lg:justify-center lg:w-[100%] lg:h-[100vh] lg:mb-[14vh] lg:bg-fixed lg:bg-center lg:bg-cover md:relative md:flex md:items-center md:justify-center md:w-[100%] md:h-[100vh] md:mb-[14vh] md:bg-fixed md:bg-center md:bg-cover"
         id="hero"
       >
