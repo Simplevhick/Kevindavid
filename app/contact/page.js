@@ -34,8 +34,8 @@ const Contact = () => {
                   <p className="outfit">Phone:</p>
                 </div>
                 <div className="opacity-30 whitespace-nowrap">
-                  <p className="outfit">+98 (0) 101 0000 888</p>
-                  <p className="outfit">+98 (0) 101 0000 888</p>
+                  <p className="outfit">+234 (0) 803 5908 779</p>
+                  <p className="outfit">+234 (0) 803 5908 779</p>
                 </div>
               </div>
               <div>
@@ -44,8 +44,8 @@ const Contact = () => {
                     <p className="outfit">Email:</p>
                   </div>
                   <div className="opacity-30">
-                    <p className="outfit">info@youremail.com</p>
-                    <p className="outfit">info@youremail.com</p>
+                    <p className="outfit">info@kevindavidkaydee.com</p>
+                    <p className="outfit">info@kevindavidkaydee.com</p>
                   </div>
                 </div>
               </div>

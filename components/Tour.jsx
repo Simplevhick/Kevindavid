@@ -57,13 +57,13 @@ const Tour = () => {
   };
 
   return (
-    <div className="relative mb-[17rem] lg:mb-[18rem] md:mb-[18rem] ">
+    <div className="relative mb-[15rem] lg:mb-[18rem] md:mb-[16rem] ">
     {/* <div className="mb-[17rem] lg:mb-[20%] md:mb-[30%] xl:mb-[4%] 2xl:mb-[20vh]"> */}
     <div
         className=""
         id="tours"
       >
-        <div className="text-white bg-[url('/assets/kev5.jpg')] rounded-2xl flex h-[40rem] justify-center w-[100%]  lg:rounded-3xl lg:flex lg:h-[30rem] lg:justify-center lg:w-[100%] md:rounded-3xl md:flex md:h-[30rem] md:justify-center md:w-[100%] lg:bg-scroll bg-scroll bg-center bg-cover bg-no-repeat">
+        <div className="text-white bg-[url('/assets/kev5.jpg')] rounded-2xl flex h-[40rem] justify-center w-[100%]  lg:rounded-3xl lg:flex lg:h-[30rem] lg:justify-center lg:w-[100%] md:rounded-3xl md:flex md:h-[30rem] md:justify-center md:w-[100%] lg:bg-scroll bg-scroll lg:bg-center bg:center bg-cover bg-no-repeat">
           {/* <div className="relative text-white bg-[url('/assets/kev5.jpg')] rounded-2xl flex h-[40rem] justify-center w-[100%]  lg:rounded-3xl lg:flex lg:h-[70vh] lg:justify-center lg:w-[100%] md:rounded-3xl md:flex md:h-[70vh] md:justify-center md:w-[100%] bg-fixed bg-center bg-cover bg-no-repeat"> */}
           <div>
             <div className="mt-5 lg:mt-5 md:mt-5">
@@ -82,16 +82,15 @@ const Tour = () => {
               <h3 className="outfit"> List of tracks recorded </h3>
             </div>
             <div className="text-xl">
-              <p className="outfit text-gray-400 text-1xl">
-                {" "}
-                listening to our song{" "}
-              </p>
+              {/* <p className="outfit text-gray-400 text-1xl">
+                listening to our song
+              </p> */}
             </div>
           </div>
           <div className="px-[1rem] text-white lg:px-[4rem] lg:text-white md:px-[3rem] md:text-white">
             <div className="flex flex-col space-y-10 lg:flex lg:flex-col lg:space-y-10 md:flex md:flex-col md:space-y-10">
               <div className="mt-5 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
-                <div className="text-[1rem]">
+                <div className="text-[1rem] lg:text-[1.1rem] md:text-[1rem]">
                   <h3 className="outfit"> List of tracks recorded</h3>
                 </div>
 
@@ -105,7 +104,7 @@ const Tour = () => {
                     <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:block lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:block md:w-[43vw] md:h-2 md:bg-gray-200 md:rounded" />
                   </div>
 
-                  <div className="mt-[0.256rem] lg:mt-[-1.3rem] md:mt-[-1.3rem]">
+                  <div className="mt-[0.256rem] lg:mt-[-11.5px] md:mt-[-11.5px]">
                     <button onClick={togglePlay} className="text-[2.5rem]">
                       {isPlaying ? (
                         <BsFillPauseCircleFill />
@@ -116,12 +115,12 @@ const Tour = () => {
                   </div>
                 </div>
               </div>
-              <div className="mt-6 max-w-[100%] lg:mt-6 lg:max-w-[100%] lg:ml-[2rem] md:mt-6 md:max-w-[100%] md:ml-[2rem] xl:mt-6 xl:max-w-[100%]">
+              <div className="mt-6 max-w-[100%] lg:mt-3 lg:max-w-[100%] lg:ml-[2rem] md:mt-6 md:max-w-[100%] md:ml-[2rem] xl:mt-6 xl:max-w-[100%]">
                 <hr className="" />
               </div>
 
               <div className="mt-2 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
-                <div className="text-[1rem]">
+                <div className="text-[1rem] lg:text-[1.1rem] md:text-[1rem]">
                   <h3 className="outfit">Love no be scam</h3>
                 </div>
 
@@ -135,7 +134,7 @@ const Tour = () => {
                     <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:block lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:block md:w-[43vw] md:h-2 md:bg-gray-200 md:rounded" />
                   </div>
 
-                  <div className="mt-[0.256rem] lg:mt-[-1.3rem] md:mt-[-1.3rem]">
+                  <div className="mt-[0.256rem] lg:mt-[-11.5px] md:mt-[-11.5px]">
                     <button onClick={play} className="text-[2.5rem]">
                       {isPlay ? (
                         <BsFillPauseCircleFill />
@@ -151,7 +150,7 @@ const Tour = () => {
               </div>
 
               <div className="mt-2 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
-                <div className="text-[1rem]">
+                <div className="text-[1rem] lg:text-[1.1rem] md:text-[1rem]">
                   <h3 className="outfit"> Recorded</h3>
                 </div>
 
@@ -165,7 +164,7 @@ const Tour = () => {
                     <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:block lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:block md:w-[43vw] md:h-2 md:bg-gray-200 md:rounded" />
                   </div>
 
-                  <div className="mt-[0.256rem] lg:mt-[-1.3rem] md:mt-[-1.3rem]">
+                  <div className="mt-[0.256rem] lg:mt-[-11.5px] md:mt-[-11.5px]">
                     <button onClick={Beingplay} className="text-[2.5rem]">
                       {isBeingPlayed ? (
                         <BsFillPauseCircleFill />

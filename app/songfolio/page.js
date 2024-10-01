@@ -92,7 +92,7 @@ const Songfolio = () => {
   }, []);
   return (
     <>
-      <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-scroll bg-center bg-cover custom-img2 sm:bg-scroll">
+      <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-scroll bg-center bg-cover custom-img4 sm:bg-scroll">
         {/* <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-fixed bg-center bg-cover custom-img2"> */}
         <motion.div
           initial={{ opacity: 0, y: -100 }}
@@ -124,16 +124,15 @@ const Songfolio = () => {
               <h3 className="outfit"> List of tracks recorded </h3>
             </div>
             <div className="text-xl">
-              <p className="outfit text-gray-400 text-1xl">
-                {" "}
-                listening to our song{" "}
-              </p>
+              {/* <p className="outfit text-gray-400 text-1xl">
+                listening to our song
+              </p> */}
             </div>
           </div>
           <div className="px-[1rem] text-white lg:px-[8rem] lg:text-white md:px-[3rem] md:text-white">
             <div className="flex flex-col space-y-10 lg:flex lg:flex-col lg:space-y-10 md:flex md:flex-col md:space-y-10">
               <div className="mt-5 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
-                <div className="text-[1rem]">
+                <div className="text-[1rem] lg:text-[1.1rem] md:text-[1.1rem]">
                   <h3 className="outfit"> List of tracks recorded</h3>
                 </div>
 
@@ -147,7 +146,7 @@ const Songfolio = () => {
                     <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:block lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:block md:w-[43vw] md:h-2 md:bg-gray-200 md:rounded" />
                   </div>
 
-                  <div className="mt-[0.256rem] lg:mt-[-1.3rem] md:mt-[-1.3rem]">
+                  <div className="mt-[0.256rem] lg:mt-[-11.5px] md:mt-[-1.3rem]">
                     <button onClick={togglePlay} className="text-[2.5rem]">
                       {isPlaying ? (
                         <BsFillPauseCircleFill />
@@ -163,7 +162,7 @@ const Songfolio = () => {
               </div>
 
               <div className="mt-2 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
-                <div className="text-[1rem]">
+                <div className="text-[1rem] lg:text-[1.1rem] md:text-[1.1rem]">
                   <h3 className="outfit">Love no be scam</h3>
                 </div>
 
@@ -177,7 +176,7 @@ const Songfolio = () => {
                     <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:block lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:block md:w-[43vw] md:h-2 md:bg-gray-200 md:rounded" />
                   </div>
 
-                  <div className="mt-[0.256rem] lg:mt-[-1.3rem] md:mt-[-1.3rem]">
+                  <div className="mt-[0.256rem] lg:mt-[-11.5px] md:mt-[-1.3rem]">
                     <button onClick={play} className="text-[2.5rem]">
                       {isPlay ? (
                         <BsFillPauseCircleFill />
@@ -193,7 +192,7 @@ const Songfolio = () => {
               </div>
 
               <div className="mt-2 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
-                <div className="text-[1rem]">
+                <div className="text-[1rem] lg:text-[1.1rem] md:text-[1.1rem]">
                   <h3 className="outfit"> Recorded</h3>
                 </div>
 
@@ -207,7 +206,7 @@ const Songfolio = () => {
                     <div className="w-[43vw] hidden h-2 bg-gray-200 rounded lg:block lg:w-[43vw] lg:h-2 lg:bg-gray-200 lg:rounded md:block md:w-[43vw] md:h-2 md:bg-gray-200 md:rounded" />
                   </div>
 
-                  <div className="mt-[0.256rem] lg:mt-[-1.3rem] md:mt-[-1.3rem]">
+                  <div className="mt-[0.256rem] lg:mt-[-11.5px] md:mt-[-1.3rem]">
                     <button onClick={Beingplay} className="text-[2.5rem]">
                       {isBeingPlayed ? (
                         <BsFillPauseCircleFill />

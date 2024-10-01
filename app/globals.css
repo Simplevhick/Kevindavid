@@ -46,6 +46,12 @@ body {
   -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
   mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
 }
+.custom-img4 {
+  background-image: url("/assets/kev5.jpg");
+  -webkit-mask-image: linear-gradient(#ffffff, rgba(255, 255, 255, 0));
+  mask-image: linear-gradient(#ffffff, rgba(255, 255, 255, 0));
+}
+
 .custom-img3 {
   background-image: url("/assets/kev5.jpg");
   background-repeat: no-repeat;

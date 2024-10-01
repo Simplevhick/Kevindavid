@@ -39,23 +39,23 @@ const Navbar = () => {
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4 outfit">
-            <Link href="/" className="hover:text-red-400 hover:ease-in-out hover:text-lg">Home</Link>
+          <li className="p-4 lg:p-3 md:p-3 outfit">
+            <Link href="/" className="hover:text-red-400 hover:ease-in-out hover:text-lg">HOME</Link>
           </li>
-          <li className="p-4 outfit">
-            <Link href="/#blog" className="hover:text-red-400 hover:ease-in-out hover:text-lg">Blog</Link>
+          <li className="p-4 lg:p-3 md:p-3 outfit">
+            <Link href="/#blog" className="hover:text-red-400 hover:ease-in-out hover:text-lg">BLOG</Link>
           </li>
-          <li className="p-4 outfit">
-            <Link href="/#tours" className="hover:text-red-400 hover:ease-in-out hover:text-lg">Tours</Link>
+          <li className="p-4 lg:p-3 md:p-3 outfit">
+            <Link href="/#tours" className="hover:text-red-400 hover:ease-in-out hover:text-lg">TOURS</Link>
           </li>
-          <li className="p-4 outfit">
-            <a href="/about" className="hover:text-red-400 hover:ease-in-out hover:text-lg">About</a>
+          <li className="p-4 lg:p-3 md:p-3 outfit">
+            <a href="/about" className="hover:text-red-400 hover:ease-in-out hover:text-lg">ABOUT</a>
           </li>
-          <li className="p-4 outfit">
-            <a href="/songfolio" className="hover:text-red-400 hover:ease-in-out hover:text-lg">SongFolio</a>
+          <li className="p-4 lg:p-3 md:p-3 outfit">
+            <a href="/songfolio" className="hover:text-red-400 hover:ease-in-out hover:text-lg">SONGFOLIO</a>
           </li>
-          <li className="p-4 outfit">
-            <Link href="/contact" className="hover:text-red-400 hover:ease-in-out hover:text-lg">Contact</Link>
+          <li className="p-4 lg:p-3 md:p-3 outfit">
+            <Link href="/contact" className="hover:text-red-400 hover:ease-in-out hover:text-lg">CONTACT</Link>
           </li>
         </ul>
 

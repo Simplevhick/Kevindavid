@@ -48,13 +48,12 @@ const About = () => {
               materials that communicate clearly acheive marketing goals, and
               look fantastic.
               <div className="p-1 mb-1 bg-black rounded-lg">
-                <div className="py-2">
+                {/* <div className="py-2">
                   <button
                     onClick={() => setAccordionOpen(!accordionOpen)}
                     className="flex justify-between w-full"
                   >
                     <span className="text-lg outfit">This is the title</span>
-                    {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
                     <svg
                       className="fill-fuchsia-300 shrink-0 ml-8"
                       width="16"
@@ -92,16 +91,15 @@ const About = () => {
                       This is the Answer
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
-              <div className="p-1 bg-black rounded-lg">
+              {/* <div className="p-1 bg-black rounded-lg">
                 <div className="py-2">
                   <button
                     onClick={() => setAccordionOpenTwo(!accordionOpenTwo)}
                     className="flex justify-between w-full"
                   >
                     <span className="text-lg outfit">This is the title 2</span>
-                    {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
                     <svg
                       className="fill-fuchsia-300 shrink-0 ml-8"
                       width="16"
@@ -140,7 +138,7 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2">

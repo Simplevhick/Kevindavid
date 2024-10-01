@@ -31,7 +31,7 @@ const Footer = () => {
                   Anthony, Lagos Nigeria
                 </p>
               </div>
-              <h3 className="text-[1rem] font-bold outfit">+234 9023 2032 54</h3>
+              <h3 className="text-[1rem] font-bold outfit">+234 8035 908 779</h3>
             </div>
             <div className="hidden lg:w-[13rem] lg:block lg:h-[0.15rem] lg:bg-white lg:rounded lg:mt-[1.5rem] md:w-[9rem] md:block md:h-[0.15rem] md:bg-white md:rounded md:mt-[1.5rem]" />
 
@@ -44,7 +44,7 @@ const Footer = () => {
                   Send your resume
                 </p>
               </div>
-              <h3 className="text-[1rem] outfit font-bold">info@kevindavidkaydee.com</h3>
+              <h3 className="text-[1rem] outfit font-bold"></h3>
             </div>
           </div>
         </div>
