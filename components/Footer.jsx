@@ -4,6 +4,8 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="mb-7 lg:mb-10 md:mb-9 xl:mb-12 2xl:mb-14">
       <div
@@ -31,7 +33,9 @@ const Footer = () => {
                   Anthony, Lagos Nigeria
                 </p>
               </div>
-              <h3 className="text-[1rem] font-bold outfit">+234 8035 908 779</h3>
+              <h3 className="text-[1rem] font-bold outfit">
+                +234 8035 908 779
+              </h3>
             </div>
             <div className="hidden lg:w-[13rem] lg:block lg:h-[0.15rem] lg:bg-white lg:rounded lg:mt-[1.5rem] md:w-[9rem] md:block md:h-[0.15rem] md:bg-white md:rounded md:mt-[1.5rem]" />
 
@@ -64,9 +68,11 @@ const Footer = () => {
           <Link href="mailto:info@kevindavidkaydee.com">
             <div className="grid place-items-center w-[10rem] h-[10rem] bg-black-500 rounded-[50%] border border-white lg:w-[8rem] lg:h-[8rem] lg:m-auto lg:bg-black-500 lg:rounded-[50%] lg:border lg:border-white md:w-[8rem] md:p-3 md:h-[8rem] md:bg-black-500 md:rounded-[50%] md:border md:border-white">
               <div className="mt-[2rem] text-[1rem] outfit lg:text-[1rem] lg:mt-[1rem] md:text-[0.85rem] md:mt-[1rem] font-normal">
-                SEND ME A 
+                SEND ME A
               </div>
-              <div className="mt-[-5rem] outfit lg:mt-[-3rem] md:mt-[-3rem]">MESSAGE</div>
+              <div className="mt-[-5rem] outfit lg:mt-[-3rem] md:mt-[-3rem]">
+                MESSAGE
+              </div>
             </div>
           </Link>
         </div>
@@ -89,15 +95,16 @@ const Footer = () => {
               <p className="text-3xl">✌️</p>
               <div className="p-2">
                 <span className="outfit">
-                info@kevindavidkaydee.com Looking for collabration for your next post?
+                  info@kevindavidkaydee.com Looking for collabration for your
+                  next post?
                 </span>
                 <p className="outfit">Do not hesitate to contact us</p>
               </div>
             </div>
-            <div className="">
-              
-            </div>
           </div>
+        </div>
+        <div className="flex items-center p-[20px, 0] ml-[24px]">
+          <p>© {2024} KevindavidKaydee. All rights reserved.</p>
         </div>
       </div>
     </div>
@@ -105,3 +112,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// style={{ textAlign: 'start', padding: '10px 0', marginLeft: '24px' }}
