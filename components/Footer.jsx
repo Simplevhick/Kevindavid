@@ -2,6 +2,10 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaYoutube } from 'react-icons/fa';
+import { FaTiktok } from 'react-icons/fa';
+
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -79,13 +83,19 @@ const Footer = () => {
 
         <div className="m-4 justify-around items-center lg:flex lg:m-4 lg:justify-around lg:items-center md:flex md:m-4 md:justify-around md:items-center">
           <div className="flex justify-start ml-3 gap-3 lg:flex lg:gap-5 md:flex md:gap-5">
-            <Link href="https://github.com">
+            <Link href="https://github.com/Simplevhick/Kevindavid" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-2xl" />
             </Link>
-            <Link href="https://instagram.com">
+            <Link href="https://instagram.com/kevindavidkaydee/" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-2xl" />
             </Link>
-            <Link href="https://twitter.com">
+            <Link href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw" target="_blank" rel="noopener noreferrer">
+              <FaYoutube className="text-2xl" />
+            </Link>
+            <Link href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw" target="_blank" rel="noopener noreferrer">
+              <FaTiktok className="text-2xl" />
+            </Link>
+            <Link href="https://x.com/kevindavidkdee" target="_blank" rel="noopener noreferrer">
               <FaXTwitter className="text-2xl" />
             </Link>
           </div>
