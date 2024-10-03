@@ -2,10 +2,6 @@
 
 import Hero from "@/components/Hero";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
-import { FiDribbble } from "react-icons/fi";
-import { FaInstagram } from "react-icons/fa6";
-import { FaXTwitter } from "react-icons/fa6";
 import { useState, useRef, useEffect } from "react";
 import { BsFillPlayCircleFill, BsFillPauseCircleFill } from "react-icons/bs";
 import { motion } from "framer-motion";
@@ -91,8 +87,8 @@ const Songfolio = () => {
     };
   }, []);
   return (
-    <>
-      <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-scroll bg-center bg-cover custom-img4 sm:bg-scroll">
+    <div className="songfolio-bg mb-[1rem] lg:mb-[4rem] md:mb-[7rem]">
+      <div className="relative bg-white flex items-center justify-center w-full h-screen  bg-scroll bg-center bg-cover custom-img4 sm:bg-scroll songfolio-bg">
         {/* <div className="relative flex items-center justify-center w-full h-screen mb-[7rem] lg:mb-[7rem] md:mb-[7rem] bg-fixed bg-center bg-cover custom-img2"> */}
         <motion.div
           initial={{ opacity: 0, y: -100 }}
@@ -120,9 +116,9 @@ const Songfolio = () => {
       <div className="mb-[3rem] lg:mb-[3rem] md:mb-[3rem] m-auto" id="">
         <div className=" p-7 w-auto rounded-md lg:w-auto lg:mt-0 lg:p-6 lg:rounded-md md:rounded-md md:mt-32 md:w-auto md:m-5 bg-gradient-to-r  from-purple-700 to-red-500">
           <div className="text-2xl">
-            <div>
+            {/* <div>
               <h3 className="outfit"> List of tracks recorded </h3>
-            </div>
+            </div> */}
             <div className="text-xl">
               {/* <p className="outfit text-gray-400 text-1xl">
                 listening to our song
@@ -137,7 +133,7 @@ const Songfolio = () => {
                 </div>
 
                 <div className="lg:flex lg:justify-center lg:gap-5 md:flex md:justify-center md:gap-5">
-                  <audio ref={audioRef} src="/assets/asa.mp3" />
+                  <audio src="https://audiomack.com/kevindavidkaydee/song/when-god-remembers-you" type="audio/mpeg" ref={audioRef} />
                   <div className="">
                     <div
                       className=" h-2 rounded"
@@ -221,8 +217,8 @@ const Songfolio = () => {
           </div>
         </div>
       </div>
-    </>
-  );
+    </div>
+  ); 
 };
 
 export default Songfolio;

@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
-import { FiFacebook } from "react-icons/fi";
+import { FaTiktok } from 'react-icons/fa';
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
-import { BsLinkedin } from "react-icons/bs";
+import { FaYoutube } from 'react-icons/fa';
+
 
 const Contact = () => {
   return (
@@ -15,17 +16,32 @@ const Contact = () => {
               <p className="outfit">Got An idea Or A Partnership In Mind?</p>
             </div>
             <div className="text-white flex flex-col items-center gap-[1rem] absolute top-[10rem] left-[23rem] lg:flex lg:text-white lg:flex-col lg:items-center lg:lg:gap-3 lg:absolute lg:top-12 lg:left-[-2rem] md:text-white md:flex md:flex-col md:items-center md:gap-3 md:absolute md:top-[4.5rem] md:left-[-7rem]">
-              <a href="https://linkdin.com">
+              <a href="https://x.com/kevindavidkdee">
                 <FaXTwitter />
               </a>
-              <a href="https://github.com">
-                <FaInstagram />
-              </a>
-              <a href="https://dribble.com">
-                <FiFacebook />
-              </a>
-              <a href="https://instagram.com">
-                <BsLinkedin />
+              <Link
+                href="https://instagram.com/kevindavidkaydee/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram  />
+              </Link>
+              <Link
+                href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube  />
+              </Link>
+              <Link
+                href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTiktok />
+              </Link>
+              <a href="https://github.com/Simplevhick/Kevindavid">
+                <FaGithub />
               </a>
             </div>
             <div className="lg:flex lg:items-end lg:justify-end lg:gap-16 md:flex md:items-end md:justify-end md:gap-16">

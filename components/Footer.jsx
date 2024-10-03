@@ -122,5 +122,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// style={{ textAlign: 'start', padding: '10px 0', marginLeft: '24px' }}

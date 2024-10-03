@@ -41,7 +41,7 @@ const About = () => {
         <div className="flex flex-col space-y-10 lg:flex lg:flex-col lg:space-y-10 md:flex md:flex-col md:space-y-10">
           <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2">
             <h2 className="outfit text-[1.3rem]">About Me</h2>
-            <div className="break-words outfit leading-7">
+            <div className="break-words outfit leading-7 text-gray-400">
               My name is Kevin David Kaydee, I am a freelance branding & digital
               designer based by the valley in New York. I currently work at
               Liquid.I create brand identities, digital experieces, and print
@@ -141,34 +141,34 @@ const About = () => {
               </div> */}
             </div>
           </div>
-          <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2">
+          {/* <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2">
             <h2 className="outfit text-[1.3rem]">Experience</h2>
-            <div className="break-words outfit">
+            <div className="break-words outfit text-gray-400">
               <div className="p-1 lg:p-0 md:p-0">
-                <div className="border-none outfit border-red-400 text-lg h-[2.5rem] bg-black hover:bg-fuchsia-600 hover:flex hover:items-center hover:justify-center hover:rounded-md">
+                <div className="border-none outfit border-red-400 text-lg h-[2.5rem] bg-black hover:bg-fuchsia-600 hover:flex hover:items-center hover:justify-center hover:rounded-md hover:text-white">
                   2020 • CEO - LiquidThemes
                 </div>
               </div>
               <div className="p-1 lg:p-0 lg:mt-1 md:p-0 md:mt-1">
-                <div className="border-none outfit border-red-400 text-lg h-[2.5rem] bg-black hover:bg-fuchsia-600 hover:flex hover:items-center hover:justify-center hover:rounded-md">
+                <div className="border-none outfit border-red-400 text-lg h-[2.5rem] bg-black hover:bg-fuchsia-600 hover:flex hover:items-center hover:justify-center hover:rounded-md hover:text-white">
                   2020 • CEO - LiquidThemes
                 </div>
               </div>
               <div className="p-1 lg:p-0 lg:mt-1 md:p-0 md:mt-1">
-                <div className="border-none outfit border-red-400 text-lg h-[2.5rem] bg-black hover:bg-fuchsia-600 hover:flex hover:items-center hover:justify-center hover:rounded-md">
+                <div className="border-none outfit border-red-400 text-lg h-[2.5rem] bg-black hover:bg-fuchsia-600 hover:flex hover:items-center hover:justify-center hover:rounded-md hover:text-white">
                   2020 • CEO - LiquidThemes
                 </div>
               </div>
               <div className="p-1 lg:p-0 lg:mt-1 md:p-0 md:mt-1">
-                <div className="border-none outfit border-red-400 text-lg h-[2.5rem] bg-black hover:bg-fuchsia-600 hover:flex hover:items-center hover:justify-center hover:rounded-md">
+                <div className="border-none outfit border-red-400 text-lg h-[2.5rem] bg-black hover:bg-fuchsia-600 hover:flex hover:items-center hover:justify-center hover:rounded-md hover:text-white">
                   2020 • CEO - LiquidThemes
                 </div>
               </div>
             </div>
-          </div>
-          <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2">
+          </div> */}
+          {/* <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2">
             <h2 className="outfit text-[1.3rem]">Skills</h2>
-            <div className="break-words outfit">
+            <div className="break-words outfit text-gray-400">
               <div className="flex gap-10">
                 <div>
                   <p className="p-1 lg:p-0  md:p-0 outfit"> Art Direction</p>
@@ -212,10 +212,10 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2">
             <h2 className="outfit text-[1.3rem]">Awards</h2>
-            <div className="break-words outfit">
+            <div className="break-words outfit text-gray-400">
               <div className="flex gap-10">
                 <div>
                   <p className="p-1 lg:p-0 md:p-0 outfit"> 3x </p>
