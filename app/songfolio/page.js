@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 
 const Songfolio = () => {
   const [isPlaying, setIsPlaying] = useState(false);
+  const iframeRef = useRef(null);
   const [progress, setProgress] = useState(0);
   const [isPlay, setIsPlay] = useState(false);
   const [progression, setProgression] = useState(0);
@@ -17,6 +18,7 @@ const Songfolio = () => {
   const audioRef = useRef(null);
   const audRef = useRef(null);
   const auditRef = useRef(null);
+
 
   const togglePlay = () => {
     if (isPlaying) {
@@ -129,11 +131,12 @@ const Songfolio = () => {
             <div className="flex flex-col space-y-10 lg:flex lg:flex-col lg:space-y-10 md:flex md:flex-col md:space-y-10">
               <div className="mt-5 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
                 <div className="text-[1rem] lg:text-[1.1rem] md:text-[1.1rem]">
-                  <h3 className="outfit"> List of tracks recorded</h3>
+                  <h3 className="outfit"> Come and Stay</h3>
                 </div>
 
                 <div className="lg:flex lg:justify-center lg:gap-5 md:flex md:justify-center md:gap-5">
-                  <audio src="https://audiomack.com/kevindavidkaydee/song/when-god-remembers-you" type="audio/mpeg" ref={audioRef} />
+                  <audio src="./assets/Come and stay.mp3" type="audio/mpeg" ref={audioRef} />
+
                   <div className="">
                     <div
                       className=" h-2 rounded"
@@ -159,11 +162,11 @@ const Songfolio = () => {
 
               <div className="mt-2 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
                 <div className="text-[1rem] lg:text-[1.1rem] md:text-[1.1rem]">
-                  <h3 className="outfit">Love no be scam</h3>
+                  <h3 className="outfit">When God remebers you</h3>
                 </div>
 
                 <div className="lg:flex lg:justify-center lg:gap-5 md:flex md:justify-center md:gap-5">
-                  <audio ref={audRef} src="/assets/asa.mp3" />
+                  <audio ref={audRef} src="/assets/when.mp3" />
                   <div className="">
                     <div
                       className=" h-2 rounded"
@@ -218,7 +221,7 @@ const Songfolio = () => {
         </div>
       </div>
     </div>
-  ); 
+  );
 };
 
 export default Songfolio;

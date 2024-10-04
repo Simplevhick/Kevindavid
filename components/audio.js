@@ -5,8 +5,8 @@ exports.songsdata = [
     img: "/assets/kev2.jpg",
   },
   {
-    title: "Jefferson Jimmy",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+    title: "Come and Stay",
+    url: "/assets/Come and Stay.mp3",
     img: "/assets/kev3.jpg",
   },
   {

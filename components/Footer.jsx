@@ -92,7 +92,7 @@ const Footer = () => {
             <Link href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw" target="_blank" rel="noopener noreferrer">
               <FaYoutube className="text-2xl" />
             </Link>
-            <Link href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.tiktok.com/@iamkevindavidkaydee" target="_blank" rel="noopener noreferrer">
               <FaTiktok className="text-2xl" />
             </Link>
             <Link href="https://x.com/kevindavidkdee" target="_blank" rel="noopener noreferrer">
