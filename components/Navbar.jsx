@@ -42,12 +42,12 @@ const Navbar = () => {
           <li className="p-4 lg:p-3 md:p-3 outfit">
             <Link href="/" className="hover:text-red-400 hover:ease-in-out hover:text-lg">HOME</Link>
           </li>
-          <li className="p-4 lg:p-3 md:p-3 outfit">
+          {/* <li className="p-4 lg:p-3 md:p-3 outfit">
             <Link href="/#blog" className="hover:text-red-400 hover:ease-in-out hover:text-lg">BLOG</Link>
           </li>
           <li className="p-4 lg:p-3 md:p-3 outfit">
             <Link href="/#tours" className="hover:text-red-400 hover:ease-in-out hover:text-lg">TOURS</Link>
-          </li>
+          </li> */}
           <li className="p-4 lg:p-3 md:p-3 outfit">
             <a href="/about" className="hover:text-red-400 hover:ease-in-out hover:text-lg">ABOUT</a>
           </li>
@@ -83,7 +83,7 @@ const Navbar = () => {
             >
               <Link href="/" className="">Home</Link>
             </li>
-            <li
+            {/* <li
               onClick={handleNav}
               className="p-4 text-4xl outfit hover:text-gray-500"
             >
@@ -97,7 +97,7 @@ const Navbar = () => {
               className="p-4 text-4xl outfit hover:text-gray-500"
             >
               <Link href="/#tours" className="">Tours</Link>
-            </li>
+            </li> */}
             <li
               onClick={handleNav}
               className="p-4 text-4xl outfit hover:text-gray-500"
