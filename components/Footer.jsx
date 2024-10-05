@@ -81,7 +81,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="m-4 justify-around items-center lg:flex lg:m-4 lg:justify-around lg:items-center md:flex md:m-4 md:justify-around md:items-center">
+        <div className="m-4 justify-around items-center lg:flex lg:m-4 lg:justify-between lg:items-center md:flex md:m-4 md:justify-around md:items-center">
           <div className="flex justify-start ml-3 gap-3 lg:flex lg:gap-5 md:flex md:gap-5">
             <Link href="https://github.com/Simplevhick/Kevindavid" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-2xl" />
