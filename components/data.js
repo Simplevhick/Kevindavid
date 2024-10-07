@@ -11,8 +11,8 @@ const productData = [
     genres: "Electro Pop",
     People: "Kevin Kaydee",
     history:
-      "A song that reminds me of my wife and my daughter in the US. I wrote this song because, i was a broke man then and then told my self when i get that special son=meone i'll get married to her as soon as possible",
-      song: "/assets/central.mp3",
+      "A love song i wrote years ago, hope you love it",
+      song: "/assets/Come and stay.mp3",
     title: "kevin kaydee"
   },
   {
@@ -27,8 +27,8 @@ const productData = [
     genres: "Electro Pop",
     People: "Kevin Kaydee",
     history:
-      "A song that reminds me of my wife and my daughter in the US. I wrote this song because, i was a broke man then and then told my self when i get that special son=meone i'll get married to her as soon as possible",
-      song: "/assets/central.mp3",
+      "A song thats tells you about Gods Timing. When its your time you definitely will shine.",
+      song: "/assets/when.mp3",
       title: "kevin kaydee"
   },
   {
@@ -43,8 +43,8 @@ const productData = [
     genres: "Electro Pop",
     People: "Kevin Kaydee",
     history:
-      "A song that reminds me of my wife and my daughter in the US. I wrote this song because, i was a broke man then and then told my self when i get that special son=meone i'll get married to her as soon as possible",
-      song: "/assets/central.mp3",
+      "A song thats tells you about Gods Timing. When its your time you definitely will shine.",
+      song: "/assets/when.mp3",
       title: "kevin kaydee"
   },
   {
@@ -59,8 +59,8 @@ const productData = [
     genres: "Electro Pop",
     People: "Kevin Kaydee",
     history:
-      "A song that reminds me of my wife and my daughter in the US. I wrote this song because, i was a broke man then and then told my self when i get that special son=meone i'll get married to her as soon as possible",
-      song: "/assets/asa.mp3",
+      "A love song i wrote years ago, hope you love it",
+      song: "/assets/Come and stay.mp3",
       title: "kevin kaydee"
   },
 ];

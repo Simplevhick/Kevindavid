@@ -192,11 +192,11 @@ const Songfolio = () => {
 
               <div className="mt-2 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
                 <div className="text-[1rem] lg:text-[1.1rem] md:text-[1.1rem]">
-                  <h3 className="outfit"> Recorded</h3>
+                  <h3 className="outfit">When God remebers you</h3>
                 </div>
 
                 <div className="lg:flex lg:justify-center lg:gap-5 md:flex md:justify-center md:gap-5">
-                  <audio ref={auditRef} src="/assets/asa.mp3" />
+                  <audio ref={auditRef} src="/assets/when.mp3" />
                   <div className="">
                     <div
                       className=" h-2 rounded"

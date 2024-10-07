@@ -54,7 +54,7 @@ const ProductDetails = () => {
           />
           <div className="absolute w-[50vw] flex mt-[20rem] justify-center h-[5rem] bg-gradient-to-r  from-purple-700 to-red-500 rounded lg:absolute lg:w-[19vw] lg:flex lg:mt-[24rem] lg:justify-center lg:h-[5.4rem] lg:rounded md:absolute md:w-[19vw] md:flex md:m-[21.5rem] md:justify-center md:h-[5rem] md:rounded">
             <div className="">
-              <audio ref={audRef} src="/assets/central.mp3" />
+              <audio ref={audRef} src={singleProduct.song} />
               <div className="">
                 <div
                   className=" h-2 rounded lg:h-2 lg:rounded md:h-2 md:rounded"
@@ -157,8 +157,8 @@ const ProductDetails = () => {
 
               <div className="flex">
                 <Link href="">
-                  <div class="flex  mt-3 w-48 h-14 bg-black text-white rounded-xl">
-                    <div class="mr-3">
+                  <div className="flex  mt-3 w-48 h-14 bg-black text-white rounded-xl">
+                    <div className="mr-3">
                       <svg viewBox="0 0 384 512" width="25">
                         <path
                           fill="currentColor"
@@ -167,8 +167,8 @@ const ProductDetails = () => {
                       </svg>
                     </div>
                     <div>
-                      <div class="text-[0.72rem]">Download on the</div>
-                      <div class="text-[1.2rem] font-semibold font-sans -mt-1">
+                      <div className="text-[0.72rem]">Download on the</div>
+                      <div className="text-[1.2rem] font-semibold font-sans -mt-1">
                         App Store
                       </div>
                     </div>
@@ -176,8 +176,8 @@ const ProductDetails = () => {
                 </Link>
 
                 <Link href="">
-                  <div class="flex mt-3 w-48 h-14 bg-black text-white rounded-lg">
-                    <div class="mr-3">
+                  <div className="flex mt-3 w-48 h-14 bg-black text-white rounded-lg">
+                    <div className="mr-3">
                       <svg viewBox="30 336.7 120.9 129.2" width="25">
                         <path
                           fill="#FFD400"
@@ -198,8 +198,8 @@ const ProductDetails = () => {
                       </svg>
                     </div>
                     <div>
-                      <div class="text-[0.72rem]">GET IT ON</div>
-                      <div class="text-[1.2rem] font-semibold font-sans -mt-1">
+                      <div className="text-[0.72rem]">GET IT ON</div>
+                      <div className="text-[1.2rem] font-semibold font-sans -mt-1">
                         Google Play
                       </div>
                     </div>

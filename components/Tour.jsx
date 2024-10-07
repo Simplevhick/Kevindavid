@@ -68,10 +68,10 @@ const Tour = () => {
           <div>
             <div className="mt-5 lg:mt-5 md:mt-5">
               <h3 className="text-7xl font-bold text-cs sm:text-9xl outfit">
-                TOUR
+                MUSIC
               </h3>
-              <h3 className="text-7xl font-bold sm:text-9xl ml-3 lg:ml-5 md:ml-5 outfit">
-                DATE
+              <h3 className="text-7xl font-bold sm:text-9xl ml-1 lg:ml-1 md:ml-1 outfit">
+                VAULT
               </h3>
             </div>
           </div>
@@ -151,11 +151,11 @@ const Tour = () => {
 
               <div className="mt-2 lg:grid lg:grid-cols-2 lg:mt-5 md:grid md:grid-cols-2 md:mt-5">
                 <div className="text-[1rem] lg:text-[1.1rem] md:text-[1rem]">
-                  <h3 className="outfit"> Recorded</h3>
+                  <h3 className="outfit"> when God remembers you </h3>
                 </div>
 
                 <div className="lg:flex lg:justify-center lg:gap-5 md:flex md:justify-center md:gap-5">
-                  <audio ref={auditRef} src="/assets/asa.mp3" />
+                  <audio ref={auditRef} src="/assets/when.mp3" />
                   <div className="">
                     <div
                       className=" h-2 rounded"
