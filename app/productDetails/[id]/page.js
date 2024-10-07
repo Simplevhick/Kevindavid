@@ -4,11 +4,11 @@ import { useState, useRef, useEffect } from "react";
 import { useParams } from "next/navigation";
 import productData from "@/components/data";
 import Image from "next/image";
-import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { FiDribbble } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa6";
+import { FaYoutube } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
+import { FaTiktok } from 'react-icons/fa';
 import { BsFillPlayCircleFill, BsFillPauseCircleFill } from "react-icons/bs";
 import Link from "next/link";
 
@@ -91,7 +91,7 @@ const ProductDetails = () => {
             <h1 className="text-2xl font-bold mt-[3.4rem] lg:text-2xl lg:font-bold md:text-2xl outfit md:font-bold">
               About Album
             </h1>
-            <p className="text-sm w-full opacity-30 mt-3 lg:text-sm lg:w-[32rem] lg:opacity-45 lg:mt-3 outfit md:text-sm md:w-[21rem] md:opacity-30 md:mt-1">
+            <p className="text-sm w-full opacity-65 mt-3 lg:text-sm lg:w-[32rem] lg:opacity-65 lg:mt-3 outfit md:text-sm md:w-[21rem] md:opacity-65 md:mt-1">
               {singleProduct.history}
             </p>
           </div>
@@ -99,23 +99,23 @@ const ProductDetails = () => {
             <div>
               <div className="outfit">
                 {" "}
-                Artist: <span className="ml-2 outfit">
+                Artist: <span className="ml-2 outfit opacity-65 lg:opacity-65 md:opacity-65">
                   {singleProduct.artistMan}
                 </span>{" "}
               </div>
               <div className="mt-1 outfit">
                 {" "}
-                Label: <span className="ml-2 outfit">{singleProduct.label}</span>{" "}
+                Label: <span className="ml-2 outfit opacity-65 md:opacity-65 lg:opacity-65">{singleProduct.label}</span>{" "}
               </div>
               <div className="mt-1 outfit">
                 Release Date:{" "}
-                <span className="ml-2 outfit">{singleProduct.releaseDate}</span>{" "}
+                <span className="ml-2 outfit opacity-65 lg:opacity-65 md:opacity-65">{singleProduct.releaseDate}</span>{" "}
               </div>
               <div className="mt-1 outfit">
-                Genres: <span className="ml-2 outfit">{singleProduct.genres}</span>
+                Genres: <span className="ml-2 outfit opacity-65 lg:opacity-65 md:opacity-65">{singleProduct.genres}</span>
               </div>
               <div className="mt-1 outfit">
-                People: <span className="ml-2 outfit"> {singleProduct.People} </span>
+                People: <span className="ml-2 outfit opacity-65 lg:opacity-65 md:opacity-65"> {singleProduct.People} </span>
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@ const ProductDetails = () => {
             <div className="text-white flex gap-3 lg:flex lg:gap-6 md:flex md:gap-3">
               <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white hover:bg-gradient-to-r  from-purple-700 to-red-500 hover:text-sm hover:ease-in-out">
                 <a href="https://linkdin.com">
-                  <BsLinkedin className="mt-2 ml-[0.43rem]" />
+                  <FaYoutube className="mt-2 ml-[0.43rem]" />
                 </a>
               </div>
               <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white hover:bg-gradient-to-r  from-purple-700 to-red-500 hover:text-sm hover:ease-in-out">
@@ -134,8 +134,8 @@ const ProductDetails = () => {
                 </a>
               </div>
               <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white hover:bg-gradient-to-r  from-purple-700 to-red-500 hover:text-sm hover:ease-in-out">
-                <a href="https://dribble.com">
-                  <FiDribbble className="mt-2 ml-[0.43rem]" />
+                <a href="https://Tiktok.com">
+                  <FaTiktok className="mt-2 ml-[0.43rem]" />
                 </a>
               </div>
               <div className="w-[2rem] h-[2rem] mt-3 rounded-[50%] border border-white hover:bg-gradient-to-r  from-purple-700 to-red-500 hover:text-sm hover:ease-in-out">
