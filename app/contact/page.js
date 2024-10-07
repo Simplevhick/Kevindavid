@@ -10,12 +10,12 @@ const Contact = () => {
   return (
     <div className="">
       <div className="">
-        <div className="relative text-white mt-[5rem] p-4 lg:m-10 lg:mt-[7rem] lg:flex lg:justify-center lg:gap-[12rem] md:m-32 md:flex md:justify-center md:items-center md:gap-[4rem]">
+        <div className="relative text-white mt-[5rem] p-4 lg:m-10 lg:mt-[7rem] lg:flex lg:justify-center lg:gap-[12rem] md:p-[2rem] md:flex md:justify-center md:items-center md:gap-[4rem]">
           <div className="">
             <div className="text-[1.7rem] w-[12rem] lg:text-[1.7rem] lg:w-[13rem] md:text-[1.7rem] md:w-[13rem]">
               <p className="outfit">Got An idea Or A Partnership In Mind?</p>
             </div>
-            <div className="text-white flex flex-col items-center gap-[1rem] absolute top-[10rem] left-[23rem] lg:flex lg:text-white lg:flex-col lg:items-center lg:lg:gap-3 lg:absolute lg:top-12 lg:left-[-2rem] md:text-white md:flex md:flex-col md:items-center md:gap-3 md:absolute md:top-[4.5rem] md:left-[-7rem]">
+            <div className="text-white flex flex-col items-center gap-[1rem] absolute top-[10rem] left-[23rem] lg:flex lg:text-white lg:flex-col lg:items-center lg:gap-3 lg:absolute lg:top-16 lg:left-[-2rem] md:text-white md:flex md:flex-col md:items-center md:gap-3 md:absolute md:top-[4.5rem] md:left-[0.234rem]">
               <a href="https://x.com/kevindavidkdee">
                 <FaXTwitter />
               </a>
