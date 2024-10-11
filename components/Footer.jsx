@@ -11,7 +11,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="mb-7 lg:mb-10 md:mb-9 xl:mb-12 2xl:mb-14">
+    <div className="mb-7 lg:mb-10 md:mb-9">
       <div
         className="ml-auto mr-auto text-white max-w-[1240px] lg:mr-auto lg:ml-auto md:mr-auto md:ml-auto"
         id="footer"
@@ -57,7 +57,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="max-w-[1240px] flex flex-col-reverse mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:m-8 lg:mt-[4%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[8%] md:ml-[0.5rem]">
+        <div className="max-w-[1240px] flex flex-col-reverse mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:m-auto lg:flex-wrap lg:mt-[4%] lg:ml-[1em] md:flex md:flex-row md:items-center md:m-3 md:mt-[8%] md:ml-[0.5rem]">
+        {/* <div className="max-w-[1240px] flex flex-col-reverse mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:m-8 lg:mt-[4%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[8%] md:ml-[0.5rem]"> */}
           <div className="p-2 lg:p-2 md:p-[0.5rem] lg:flex-1 md:flex-1">
             <Link href="mailto:info@kevindavidkaydee.com">
               <h3 className="ml-2s text-[2.5rem] outfit font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
@@ -81,7 +82,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="m-4 justify-around items-center lg:flex lg:m-4 lg:justify-between lg:items-center md:flex md:m-4 md:justify-between md:items-center">
+        <div className="m-4 justify-around items-center lg:flex lg:m-4 lg:flex-wrap lg:justify-between lg:items-center md:flex md:flex-wrap md:m-4 md:justify-between md:items-center">
           <div className="flex justify-start ml-3 gap-3 lg:flex lg:gap-5 md:flex md:gap-5">
             <Link href="https://github.com/Simplevhick/Kevindavid" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-2xl" />
@@ -101,7 +102,7 @@ const Footer = () => {
           </div>
 
           <div className="">
-            <div className="flex items-center">
+            <div className="flex items-center flex-row lg:flex lg:items-center lg:flex-row lg:flex-wrap md:flex md:items-center md:flex-row md:flex-wrap">
               <p className="text-3xl">✌️</p>
               <div className="p-2">
                 <span className="outfit">
