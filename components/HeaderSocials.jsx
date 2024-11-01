@@ -6,7 +6,7 @@ import { FaTiktok } from 'react-icons/fa';
 
 const HeaderSocials = () => {
   return (
-    <div className='text-white flex-col items-center gap-6 absolute top-80 left-20 bottom-12 hidden lg:flex'>
+    <div className='text-white flex-col items-center gap-6 absolute top-80 left-20 bottom-12 hidden lg:flex md:flex'>
         <a href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
         <a href="https://github.com/Simplevhick/Kevindavid" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
         <a href="https://www.tiktok.com/@iamkevindavidkaydee" target="_blank" rel="noopener noreferrer"><FaTiktok /></a>

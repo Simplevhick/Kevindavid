@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CursorProvider from "@/components/CursorContext";
-import Transition from "@/components/Transition";
+// import Transition from "@/components/Transition";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         </head>
         <body className={inter.className}>
           <CursorProvider>
-            <Transition />
+            {/* <Transition /> */}
             <Navbar />
             {children}
             <Footer />
