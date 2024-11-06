@@ -62,7 +62,7 @@ const Player = ({
         bottom: 0,
         transition: { delay: 1.5, duration: 1.2, ease: "easeInOut" },
       }}
-      className="absolute w-[75%] text-white top-[80%] md:top-[80%] lg:top-[85%]"
+      className="absolute w-[85%] text-white top-[80%] md:top-[80%] lg:top-[85%]"
     >
       <div className="p-4 lg:p-6 md:p-6  flex bg-red-500 rounded-xl items-center justify-between flex-1">
         <div className="flex items-center text-gray-200">
