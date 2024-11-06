@@ -2,10 +2,8 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaYoutube } from 'react-icons/fa';
-import { FaTiktok } from 'react-icons/fa';
-
-
+import { FaYoutube } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,12 +11,12 @@ const Footer = () => {
   return (
     <div className="mb-7 lg:mb-10 md:mb-9">
       <div
-        className="ml-auto mr-auto text-white max-w-[1240px] lg:mr-auto lg:ml-auto md:mr-auto md:ml-auto"
+        className="ml-auto mr-auto text-white max-w-[1240px] lg:mr-auto lg:ml-auto lg:max-w-[1240px] md:mr-auto md:ml-auto md:max-w-[1240px]"
         id="footer"
       >
         <div className="">
-          <div className="ml-3 lg:flex lg:justify-around lg:ml-3 md:flex md:justify-around md:ml-3">
-            <div className="p-3 lg:p-3 md:p-3">
+          <div className="ml-1 lg:flex lg:justify-around lg:ml-3 md:flex md:justify-around md:ml-3">
+            <div className="p-2 lg:p-3 md:p-3">
               <div>
                 <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
                   Looking for collabration?
@@ -28,7 +26,7 @@ const Footer = () => {
             </div>
             <div className="hidden lg:w-[13rem] lg:block lg:h-[0.15rem] lg:bg-white lg:rounded lg:mt-[1.5rem] md:w-[9rem] md:block md:h-[0.15rem] md:bg-white md:rounded md:mt-[1.5rem]" />
 
-            <div className="p-3 lg:p-3 md:p-3">
+            <div className="p-2 lg:p-3 md:p-3">
               <div className="">
                 <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
                   3, ogunshina ogundele way,
@@ -43,7 +41,7 @@ const Footer = () => {
             </div>
             <div className="hidden lg:w-[13rem] lg:block lg:h-[0.15rem] lg:bg-white lg:rounded lg:mt-[1.5rem] md:w-[9rem] md:block md:h-[0.15rem] md:bg-white md:rounded md:mt-[1.5rem]" />
 
-            <div className="p-3 lg:p-3 md:p-3">
+            <div className="p-2 lg:p-3 md:p-3">
               <div>
                 <p className="text-gray-200 outfit opacity-55 text-md lg:text-gray-200 lg:opacity-55 lg:text-sm md:text-gray-200 md:opacity-55 md:text-sm">
                   Looking for a job?
@@ -57,17 +55,19 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="max-w-[1240px] flex flex-col-reverse mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:m-auto lg:flex-wrap lg:mt-[4%] lg:ml-[1em] md:flex md:flex-row md:items-center md:m-3 md:mt-[8%] md:ml-[0.5rem]">
-        {/* <div className="max-w-[1240px] flex flex-col-reverse mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:m-8 lg:mt-[4%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[8%] md:ml-[0.5rem]"> */}
-          <div className="p-2 lg:p-2 md:p-[0.5rem] lg:flex-1 md:flex-1">
+        <div className=" flex flex-col-reverse mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:m-auto lg:flex-wrap lg:mt-[4%] lg:ml-[1em] md:flex md:flex-row md:items-center md:m-3 md:mt-[8%] md:ml-[0.5rem]">
+          {/* <div className="max-w-[1240px] flex flex-col-reverse mt-[12%] ml-[1em] lg:max-w-[1240px] lg:flex lg:flex-row lg:items-center lg:m-8 lg:mt-[4%] lg:ml-[1em] md:max-w-[1240px] md:flex md:flex-row md:items-center md:m-3 md:mt-[8%] md:ml-[0.5rem]"> */}
+          <div className="p-[0.4] lg:p-2 md:p-[0.5rem] lg:flex-1 md:flex-1">
             <Link href="mailto:info@kevindavidkaydee.com">
-              <h3 className="ml-2s text-[2.5rem] outfit font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
+              <h3 className="ml-0 text-[2.5rem] outfit font-semibold lg:ml-1 lg:text-7xl lg:font-semibold md:text-5xl md:ml-1 md:font-semibold">
                 LETS TALK
               </h3>
             </Link>
-            <h3 className="text-[1.5rem] text-gray-500 outfit font-bold text-cs lg:text-7xl lg:text-gray-500 lg:ml-1 lg:font-bold lg:text-cs md:text-5xl md:ml-1 md:text-gray-500 md:font-bold md:text-cs">
-              info@kevindavidkaydee.com
-            </h3>
+            <div className="break-after-column">
+              <h3 className="ml-0 text-[1.5rem] text-gray-500 outfit font-bold text-cs lg:text-7xl lg:text-gray-500 lg:ml-1 lg:font-bold lg:text-cs md:text-5xl md:ml-1 md:text-gray-500 md:font-bold md:text-cs">
+                info@kevindavidkaydee.com
+              </h3>
+            </div>
           </div>
 
           <Link href="mailto:info@kevindavidkaydee.com">
@@ -84,19 +84,39 @@ const Footer = () => {
 
         <div className="m-4 justify-around items-center lg:flex lg:m-4 lg:flex-wrap lg:justify-between lg:items-center md:flex md:flex-wrap md:m-4 md:justify-between md:items-center">
           <div className="flex justify-start ml-3 gap-3 lg:flex lg:gap-5 md:flex md:gap-5">
-            <Link href="https://github.com/Simplevhick/Kevindavid" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://github.com/Simplevhick/Kevindavid"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="text-2xl" />
             </Link>
-            <Link href="https://instagram.com/kevindavidkaydee/" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://instagram.com/kevindavidkaydee/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaInstagram className="text-2xl" />
             </Link>
-            <Link href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaYoutube className="text-2xl" />
             </Link>
-            <Link href="https://www.tiktok.com/@iamkevindavidkaydee" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.tiktok.com/@iamkevindavidkaydee"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaTiktok className="text-2xl" />
             </Link>
-            <Link href="https://x.com/kevindavidkdee" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://x.com/kevindavidkdee"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaXTwitter className="text-2xl" />
             </Link>
           </div>

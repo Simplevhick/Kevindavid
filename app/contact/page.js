@@ -8,60 +8,7 @@ import { FaYoutube } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="text-white relative">
-      <div className="m-[1rem] mt-[5rem] lg:flex lg:m-[9rem] md:flex md:m-[8rem]">
-        <div className="lg:flex-1 md:flex-1">  
-          <div className="text-[2rem] w-[17rem] lg:text-[2rem] lg:w-[17rem] md:text-[1.8rem] md:w-[15rem]">
-            <p className="outfit">Got An Idea Or A Partnership In Mind?</p>
-          </div>
-          <div className=" gap-16 lg:flex lg:gap-16 md:gap-7">
-            <div className="">
-              <div className="">
-                <p className="outfit">Phone:</p>
-              </div>
-              <div className="opacity-30 whitespace-nowrap">
-                <p className="outfit">+234 (0) 803 5908 779</p>
-                <p className="outfit">+234 (0) 803 5908 779</p>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <p className="outfit">Email:</p>
-              </div>
-              <div className="opacity-30">
-                <p className="outfit">info@kevindavidkaydee.com</p>
-                <p className="outfit">info@kevindavidkaydee.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className=" lg:flex md:flex">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="outfit w-full border-r-none border-l-none border-t-none border-r-none  border-b-2 border-b-gray-700 bg-transparent outline-none text-[1rem] ml-0 p-1 mt-2 lg:text-[1.1rem] lg:ml-3 lg:p-2 md:text-[1.1rem] md:ml-2"
-            />
-            <input
-              type="text"
-              placeholder="Phone number"
-              className="outfit w-full border-r-none border-l-none border-t-none border-r-none  border-b-2 border-b-gray-700 bg-transparent outline-none text-[1rem] ml-0 p-1 mt-2 lg:text-[1.1rem] lg:ml-3 lg:p-2 md:text-[1.1rem] md:ml-2"
-            />
-          </div>
-          <div className="mt-3">
-            <input
-              type="text"
-              placeholder=" Your Email"
-              className="outfit w-full border-r-none border-l-none border-t-none border-r-none  border-b-2 border-b-gray-700 bg-transparent outline-none text-[1rem] ml-0 p-1  lg:text-[1.1rem] lg:ml-3 lg:p-2 lg:mt-4 md:text-[1.1rem] md:ml-1 md:mt-4"
-            />
-            <textarea
-              id=""
-              placeholder="Your message"
-              className="outfit w-full border-r-none border-l-none border-t-none border-r-none  border-b-2 border-b-gray-700 bg-transparent outline-none text-[1rem] ml-0 p-1 mt-2 lg:text-[1.1rem] lg:ml-3 lg:p-2 lg:mt-3 md:text-[1.1rem] md:ml-1 md:mt-3 md:p-2"
-            />
-          </div>
-        </div>
-        <div className="absolute top-[20%] left-[90%]  gap-3 p-3 flex flex-col lg:top-8 lg:left-20 lg:gap-3 lg:p-3 lg:flex lg:flex-col md:top-8 md:left-10 md:gap-3 md:p-3 md:flex md:flex-col">
+      <div className="absolute gap-2 flex flex-col left-[90%] top-40 lg:absolute lg:left-3 lg:top-[3rem] lg:gap-2 lg:flex lg:flex-col md:absolute md:left-3 md:top-[3rem] md:gap-2 md:flex md:flex-col">
           <a href="https://x.com/kevindavidkdee">
             <FaXTwitter />
           </a>
@@ -69,6 +16,7 @@ const Contact = () => {
             href="https://instagram.com/kevindavidkaydee/"
             target="_blank"
             rel="noopener noreferrer"
+            className=""
           >
             <FaInstagram />
           </Link>
@@ -76,6 +24,7 @@ const Contact = () => {
             href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw"
             target="_blank"
             rel="noopener noreferrer"
+            className=""
           >
             <FaYoutube />
           </Link>
@@ -90,6 +39,83 @@ const Contact = () => {
             <FaGithub />
           </a>
         </div>
+      <div className="flex-none mt-[6rem] m-2 lg:m-14 lg:mt-32 lg:flex lg:items-center lg:justify-around md:m-14 md:mt-[7rem] md:gap-10 md:flex md:items-center md:justify-around">
+        <div className="">  
+          <div className="text-4xl lg:text-4xl md:text-4xl">
+            <p className="outfit">Got An Idea Or A </p>
+            <p className="outfit">Partnership In</p>
+            <p>Mind?</p>
+          </div>
+          <div className="flex-none mt-5 lg:flex lg:gap-12 lg:mt-7 md:flex md:gap-12 md:mt-7">
+            <div className="">
+              <div className="">
+                <p className="outfit">Phone:</p>
+              </div>
+              <div className="whitespace-nowrap">
+                <p className="outfit">+234 (0) 803 5908 779</p>
+              </div>
+            </div>
+
+            <div className="mt-4 lg:mt-0 md:mt-0">
+              <div>
+                <p className="outfit">Email:</p>
+              </div>
+              <div className="opacity-30">
+                <p className="outfit">info@kevindavidkaydee.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mt-3 lg:mt-0 md:mt-0">
+          <div className="">
+            <input
+              type="text"
+              placeholder="Your Name"
+              className="outfit w-[90%] border-r-none border-l-none border-t-none border-r-none  border-b-2 border-b-gray-700 bg-transparent outline-none text-[1rem] p-4 ml-0 lg:w-full  lg:text-[1.1rem] lg:p-4 lg:ml-2 md:w-full md:text-[1.1rem] md:p-4 md:ml-2"
+            />
+          </div>
+            <input
+              type="text"
+              placeholder=" Your Email"
+              className="outfit w-[90%] border-r-none border-l-none border-t-none border-r-none  border-b-2 border-b-gray-700 bg-transparent outline-none text-[1rem] p-4 ml-0 lg:w-full lg:text-[1.1rem] lg:p-4 lg:ml-2 md:w-full md:text-[1.1rem] md:p-4 md:ml-2"
+            />
+            <textarea
+              id=""
+              placeholder="Your Message"
+              className="outfit w-[90%] border-r-none border-l-none border-t-none border-r-none  border-b-2 border-b-gray-700 bg-transparent outline-none text-[1rem] p-3 ml-0 lg:w-full lg:text-[1rem] lg:p-3 lg:ml-2 md:w-full md:text-[1rem] md:p-3 md:ml-2"
+            />
+        </div>
+        {/* <div className="absolute gap-2 flex flex-col lg:absolute lg:left-3 lg:top-[3rem] lg:gap-2 lg:flex lg:flex-col md:absolute md:left-3 md:top-[3rem] md:gap-2 md:flex md:flex-col">
+          <a href="https://x.com/kevindavidkdee">
+            <FaXTwitter />
+          </a>
+          <Link
+            href="https://instagram.com/kevindavidkaydee/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=""
+          >
+            <FaInstagram />
+          </Link>
+          <Link
+            href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=""
+          >
+            <FaYoutube />
+          </Link>
+          <Link
+            href="https://www.youtube.com/channel/UCugP9o0GFBvoSg3xj0VJXqw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTiktok />
+          </Link>
+          <a href="https://github.com/Simplevhick/Kevindavid">
+            <FaGithub />
+          </a>
+        </div> */}
       </div>
     </div>
   );

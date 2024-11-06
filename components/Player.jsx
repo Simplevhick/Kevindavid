@@ -62,7 +62,7 @@ const Player = ({
         bottom: 0,
         transition: { delay: 1.5, duration: 1.2, ease: "easeInOut" },
       }}
-      className="absolute w-[90%] text-white top-[80%] md:top-[80%] lg:top-[85%]"
+      className="absolute w-[75%] text-white top-[80%] md:top-[80%] lg:top-[85%]"
     >
       <div className="p-4 lg:p-6 md:p-6  flex bg-red-500 rounded-xl items-center justify-between flex-1">
         <div className="flex items-center text-gray-200">
@@ -80,7 +80,7 @@ const Player = ({
 
 
           <div
-            className="navigation_wrapper w-[70%] h-[5px] rounded-[30px] cursor-pointer hidden ml-[20px] lg:block lg:m-5 md:block md:m-5"
+            className="navigation_wrapper w-[70%] h-[5px] rounded-[30px] cursor-pointer hidden ml-[20px] lg:block lg:m-14 md:block md:m-5"
             onClick={checkWidth}
             ref={clickRef}
           >
@@ -91,7 +91,7 @@ const Player = ({
           </div>
         
 
-        <div className="flex items-center ">
+        <div className="flex items-center">
           <BsFillSkipStartCircleFill
             className="text-[2rem] lg:text-[2rem] md:text-[2rem]"
             onClick={skipBack}
